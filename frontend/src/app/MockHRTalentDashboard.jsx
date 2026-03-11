@@ -7,14 +7,14 @@ import EmployeesView from "../features/employees/EmployeesView.jsx";
 import JobPostsOnly from "../features/recruitment/JobPostsOnly.jsx";
 import UpskillingView from "../features/upskilling/UpskillingView.jsx";
 import { mockJobs } from "../mocks/jobs.js";
-import { mockEmployees } from "../mocks/employees.js";
+import { ibmEmployees } from "../data/ibmEmployees.js";
 
 export default function MockHRTalentDashboard() {
   const [active, setActive] = useState("dashboard");
   const [search, setSearch] = useState("");
 
   const jobs = mockJobs;
-  const employees = mockEmployees;
+  const employees = ibmEmployees;
 
   const titles = {
     dashboard: {
