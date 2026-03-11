@@ -1,0 +1,1471 @@
+EmployeeNumber,Age,Department,JobRole,MonthlyIncome,attrition_verdict,attrition_probability,risk_tier,primary_reason,reason_prob_burnout,reason_prob_compensation,reason_prob_stagnation,reason_prob_career_growth
+1,41,Sales,Sales Executive,5993,Yes,0.9833,Critical,Burnout,0.8922,0.1078,0.0,0.0
+2,49,Research & Development,Research Scientist,5130,No,0.0697,Low,N/A,0.0053,0.9607,0.0,0.0341
+4,37,Research & Development,Laboratory Technician,2090,Yes,0.7609,Critical,Compensation,0.0655,0.9345,0.0,0.0
+5,33,Research & Development,Research Scientist,2909,No,0.3823,Medium,N/A,0.047,0.9236,0.0,0.0294
+7,27,Research & Development,Laboratory Technician,3468,No,0.0812,Low,N/A,0.0171,0.9731,0.0,0.0098
+8,32,Research & Development,Laboratory Technician,3068,No,0.0186,Low,N/A,0.0833,0.8969,0.0,0.0198
+10,59,Research & Development,Laboratory Technician,2670,No,0.0486,Low,N/A,0.8528,0.1472,0.0,0.0
+11,30,Research & Development,Laboratory Technician,2693,No,0.1209,Low,N/A,0.04,0.96,0.0,0.0
+12,38,Research & Development,Manufacturing Director,9526,No,0.0172,Low,N/A,0.0383,0.922,0.0,0.0396
+13,36,Research & Development,Healthcare Representative,5237,No,0.0185,Low,N/A,0.0695,0.9157,0.0,0.0148
+14,35,Research & Development,Laboratory Technician,2426,No,0.0097,Low,N/A,0.0136,0.9815,0.0,0.0049
+15,29,Research & Development,Laboratory Technician,4193,No,0.0224,Low,N/A,0.0325,0.9625,0.0,0.0049
+16,31,Research & Development,Research Scientist,2911,No,0.0317,Low,N/A,0.1022,0.893,0.0,0.0049
+18,34,Research & Development,Laboratory Technician,2661,No,0.0408,Low,N/A,0.0239,0.9761,0.0,0.0
+19,28,Research & Development,Laboratory Technician,2028,Yes,0.9962,Critical,Compensation,0.0351,0.9649,0.0,0.0
+20,29,Research & Development,Manufacturing Director,9980,No,0.0172,Low,N/A,0.0721,0.7347,0.0,0.1933
+21,32,Research & Development,Research Scientist,3298,No,0.0062,Low,N/A,0.7599,0.2352,0.0,0.0049
+22,22,Research & Development,Laboratory Technician,2935,No,0.2318,Low,N/A,0.7809,0.2191,0.0,0.0
+23,53,Sales,Manager,15427,No,0.0308,Low,N/A,0.0478,0.9027,0.0,0.0495
+24,38,Research & Development,Research Scientist,3944,No,0.009,Low,N/A,0.0735,0.9265,0.0,0.0
+26,24,Research & Development,Manufacturing Director,4011,No,0.0017,Low,N/A,0.051,0.9393,0.0,0.0098
+27,36,Sales,Sales Representative,3407,Yes,0.9453,Critical,Compensation,0.009,0.991,0.0,0.0
+28,34,Research & Development,Research Director,11994,No,0.046,Low,N/A,0.0417,0.8643,0.0,0.094
+30,21,Research & Development,Research Scientist,1232,No,0.199,Low,N/A,0.019,0.981,0.0,0.0
+31,34,Research & Development,Research Scientist,2960,Yes,0.7161,Critical,Compensation,0.0144,0.9856,0.0,0.0
+32,53,Research & Development,Manager,19094,No,0.0233,Low,N/A,0.07,0.8956,0.0,0.0344
+33,32,Research & Development,Research Scientist,3919,Yes,0.9984,Critical,Compensation,0.0403,0.9007,0.0,0.0591
+35,42,Sales,Sales Executive,6825,No,0.0343,Low,N/A,0.0137,0.9523,0.0,0.0341
+36,44,Research & Development,Healthcare Representative,10248,No,0.0201,Low,N/A,0.0524,0.8885,0.0,0.0592
+38,46,Sales,Manager,18947,No,0.0419,Low,N/A,0.1391,0.846,0.0,0.0149
+39,33,Research & Development,Laboratory Technician,2496,No,0.0793,Low,N/A,0.0131,0.9869,0.0,0.0
+40,44,Research & Development,Healthcare Representative,6465,No,0.0011,Low,N/A,0.0434,0.9468,0.0,0.0099
+41,30,Research & Development,Laboratory Technician,2206,No,0.0072,Low,N/A,0.0081,0.9771,0.0,0.0148
+42,39,Sales,Sales Representative,2086,Yes,0.899,Critical,Compensation,0.0127,0.9823,0.0,0.0049
+45,24,Research & Development,Research Scientist,2293,Yes,0.9568,Critical,Burnout,0.878,0.122,0.0,0.0
+46,43,Research & Development,Research Scientist,2645,No,0.0018,Low,N/A,0.063,0.937,0.0,0.0
+47,50,Sales,Sales Representative,2683,Yes,0.9192,Critical,Compensation,0.057,0.943,0.0,0.0
+49,35,Sales,Sales Representative,2014,No,0.0707,Low,N/A,0.0058,0.9942,0.0,0.0
+51,36,Research & Development,Research Scientist,3419,No,0.0565,Low,N/A,0.0569,0.9431,0.0,0.0
+52,33,Sales,Sales Executive,5376,No,0.0104,Low,N/A,0.0165,0.9835,0.0,0.0
+53,35,Research & Development,Laboratory Technician,1951,No,0.1017,Low,N/A,0.0131,0.9869,0.0,0.0
+54,27,Research & Development,Laboratory Technician,2341,No,0.1028,Low,N/A,0.0278,0.9722,0.0,0.0
+55,26,Research & Development,Laboratory Technician,2293,Yes,0.9974,Critical,Compensation,0.0453,0.9547,0.0,0.0
+56,27,Sales,Sales Executive,8726,No,0.0203,Low,N/A,0.0224,0.948,0.0,0.0296
+57,30,Research & Development,Laboratory Technician,4011,No,0.0065,Low,N/A,0.0121,0.9339,0.0,0.0539
+58,41,Research & Development,Research Director,19545,No,0.0702,Low,N/A,0.0428,0.913,0.0,0.0442
+60,34,Sales,Sales Executive,4568,No,0.1058,Low,N/A,0.0353,0.9249,0.0,0.0398
+61,37,Research & Development,Research Scientist,3022,No,0.2671,Low,N/A,0.0331,0.9669,0.0,0.0
+62,46,Sales,Sales Executive,5772,No,0.1233,Low,N/A,0.0439,0.9462,0.0,0.0099
+63,35,Research & Development,Laboratory Technician,2269,No,0.0049,Low,N/A,0.027,0.973,0.0,0.0
+64,48,Research & Development,Laboratory Technician,5381,Yes,0.97,Critical,Compensation,0.0646,0.9206,0.0,0.0148
+65,28,Research & Development,Laboratory Technician,3441,Yes,0.9862,Critical,Burnout,0.9064,0.0936,0.0,0.0
+68,44,Sales,Sales Executive,5454,No,0.0206,Low,N/A,0.8922,0.1078,0.0,0.0
+70,35,Research & Development,Healthcare Representative,9884,No,0.0509,Low,N/A,0.0433,0.9417,0.0,0.015
+72,26,Sales,Sales Executive,4157,No,0.1512,Low,N/A,0.8562,0.1438,0.0,0.0
+73,33,Research & Development,Research Director,13458,No,0.052,Low,N/A,0.0701,0.836,0.0,0.0938
+74,35,Sales,Sales Executive,9069,No,0.1206,Low,N/A,0.0788,0.8571,0.0,0.064
+75,35,Research & Development,Laboratory Technician,4014,No,0.1347,Low,N/A,0.0675,0.9325,0.0,0.0
+76,31,Research & Development,Laboratory Technician,5915,No,0.0047,Low,N/A,0.0963,0.8894,0.0,0.0143
+77,37,Research & Development,Manufacturing Director,5993,No,0.0011,Low,N/A,0.025,0.965,0.0,0.01
+78,32,Research & Development,Manufacturing Director,6162,No,0.0128,Low,N/A,0.0486,0.8772,0.0,0.0742
+79,38,Research & Development,Laboratory Technician,2406,No,0.0197,Low,N/A,0.0272,0.953,0.0,0.0198
+80,50,Research & Development,Research Director,18740,No,0.0693,Low,N/A,0.7465,0.2535,0.0,0.0
+81,59,Sales,Sales Executive,7637,No,0.1284,Low,N/A,0.0897,0.8515,0.0,0.0588
+83,36,Research & Development,Healthcare Representative,10096,No,0.0014,Low,N/A,0.0294,0.9261,0.0,0.0445
+84,55,Research & Development,Manager,14756,No,0.0021,Low,N/A,0.0355,0.9645,0.0,0.0
+85,36,Research & Development,Manufacturing Director,6499,No,0.4168,Medium,N/A,0.0048,0.9952,0.0,0.0
+86,45,Research & Development,Research Scientist,9724,No,0.0576,Low,N/A,0.0427,0.9175,0.0,0.0398
+88,35,Research & Development,Research Scientist,2194,No,0.0224,Low,N/A,0.0597,0.9256,0.0,0.0147
+90,36,Research & Development,Research Scientist,3388,Yes,0.6451,High,Burnout,0.8533,0.1467,0.0,0.0
+91,59,Sales,Sales Executive,5473,No,0.1777,Low,N/A,0.0624,0.9181,0.0,0.0196
+94,29,Research & Development,Research Scientist,2703,No,0.006,Low,N/A,0.0179,0.9771,0.0,0.0049
+95,31,Research & Development,Research Scientist,2501,No,0.1338,Low,N/A,0.0127,0.9774,0.0,0.0099
+96,32,Research & Development,Research Scientist,6220,No,0.0107,Low,N/A,0.0135,0.9518,0.0,0.0347
+97,36,Research & Development,Laboratory Technician,3038,No,0.0063,Low,N/A,0.014,0.986,0.0,0.0
+98,31,Research & Development,Manufacturing Director,4424,No,0.0065,Low,N/A,0.0095,0.976,0.0,0.0146
+100,35,Sales,Sales Executive,4312,No,0.0229,Low,N/A,0.0173,0.9186,0.0,0.0642
+101,45,Research & Development,Research Director,13245,No,0.0026,Low,N/A,0.0698,0.9252,0.0,0.005
+102,37,Research & Development,Research Director,13664,No,0.0132,Low,N/A,0.0308,0.9594,0.0,0.0098
+103,46,Human Resources,Human Resources,5021,No,0.0222,Low,N/A,0.0592,0.9408,0.0,0.0
+104,30,Research & Development,Laboratory Technician,5126,No,0.0197,Low,N/A,0.7568,0.2138,0.0,0.0294
+105,35,Research & Development,Research Scientist,2859,No,0.0118,Low,N/A,0.005,0.995,0.0,0.0
+106,55,Sales,Sales Executive,10239,No,0.0743,Low,N/A,0.0444,0.8763,0.0,0.0793
+107,38,Research & Development,Research Scientist,5329,No,0.004,Low,N/A,0.0482,0.9372,0.0,0.0146
+110,34,Research & Development,Manufacturing Director,4325,No,0.0913,Low,N/A,0.0123,0.9877,0.0,0.0
+112,56,Research & Development,Manufacturing Director,7260,No,0.0662,Low,N/A,0.0677,0.9323,0.0,0.0
+113,23,Sales,Sales Representative,2322,No,0.1077,Low,N/A,0.0045,0.9955,0.0,0.0
+116,51,Research & Development,Laboratory Technician,2075,No,0.0015,Low,N/A,0.0215,0.9736,0.0,0.0049
+117,30,Research & Development,Healthcare Representative,4152,No,0.0084,Low,N/A,0.0124,0.8935,0.0,0.0941
+118,46,Sales,Sales Executive,9619,Yes,0.9619,Critical,Compensation,0.009,0.9168,0.0,0.0741
+119,40,Research & Development,Healthcare Representative,13503,No,0.0028,Low,N/A,0.0856,0.8155,0.0,0.0989
+120,51,Sales,Sales Executive,5441,No,0.1897,Low,N/A,0.8146,0.1756,0.0,0.0097
+121,30,Sales,Sales Executive,5209,No,0.0223,Low,N/A,0.6575,0.3077,0.0,0.0348
+124,46,Research & Development,Healthcare Representative,10673,No,0.0093,Low,N/A,0.6403,0.2116,0.0,0.1481
+125,32,Sales,Sales Executive,5010,No,0.144,Low,N/A,0.0068,0.9634,0.0,0.0298
+126,54,Research & Development,Research Director,13549,No,0.0033,Low,N/A,0.1002,0.8552,0.0,0.0446
+128,24,Sales,Sales Executive,4999,No,0.0211,Low,N/A,0.039,0.961,0.0,0.0
+129,28,Sales,Sales Executive,4221,No,0.0065,Low,N/A,0.0291,0.9709,0.0,0.0
+131,58,Sales,Sales Executive,13872,No,0.011,Low,N/A,0.1379,0.8473,0.0,0.0147
+132,44,Research & Development,Laboratory Technician,2042,No,0.0073,Low,N/A,0.028,0.972,0.0,0.0
+133,37,Human Resources,Human Resources,2073,Yes,0.9422,Critical,Compensation,0.0631,0.9369,0.0,0.0
+134,32,Research & Development,Research Scientist,2956,No,0.0296,Low,N/A,0.0063,0.9789,0.0,0.0147
+137,20,Research & Development,Laboratory Technician,2926,Yes,0.9704,Critical,Compensation,0.0396,0.9604,0.0,0.0
+138,34,Research & Development,Research Scientist,4809,No,0.0043,Low,N/A,0.0,0.995,0.0,0.005
+139,37,Research & Development,Healthcare Representative,5163,No,0.0019,Low,N/A,0.0135,0.9865,0.0,0.0
+140,59,Human Resources,Manager,18844,No,0.0005,Low,N/A,0.0424,0.9427,0.0,0.0148
+141,50,Research & Development,Research Director,18172,No,0.0496,Low,N/A,0.6968,0.2591,0.0,0.0441
+142,25,Sales,Sales Executive,5744,Yes,0.9435,Critical,Compensation,0.0296,0.9655,0.0,0.0049
+143,25,Research & Development,Research Scientist,2889,No,0.0172,Low,N/A,0.0227,0.9724,0.0,0.0049
+144,22,Research & Development,Laboratory Technician,2871,Yes,0.5301,High,Compensation,0.0171,0.9829,0.0,0.0
+145,51,Research & Development,Healthcare Representative,7484,No,0.0919,Low,N/A,0.0855,0.8307,0.0,0.0838
+147,34,Research & Development,Laboratory Technician,6074,Yes,0.9864,Critical,Compensation,0.0357,0.9547,0.0,0.0096
+148,54,Human Resources,Manager,17328,No,0.01,Low,N/A,0.0537,0.9363,0.0,0.01
+150,24,Research & Development,Laboratory Technician,2774,No,0.0444,Low,N/A,0.0149,0.9851,0.0,0.0
+151,34,Research & Development,Research Scientist,4505,No,0.041,Low,N/A,0.0223,0.9777,0.0,0.0
+152,37,Sales,Sales Executive,7428,No,0.0263,Low,N/A,0.0079,0.9921,0.0,0.0
+153,34,Research & Development,Manager,11631,No,0.0069,Low,N/A,0.0536,0.8133,0.0,0.1331
+154,36,Sales,Sales Executive,9738,No,0.0389,Low,N/A,0.0135,0.8525,0.0,0.134
+155,36,Research & Development,Laboratory Technician,2835,No,0.048,Low,N/A,0.0206,0.9794,0.0,0.0
+158,43,Sales,Manager,16959,No,0.0045,Low,N/A,0.087,0.8786,0.0,0.0343
+159,30,Research & Development,Research Scientist,2613,No,0.0957,Low,N/A,0.1038,0.8766,0.0,0.0196
+160,33,Sales,Sales Executive,6146,No,0.0167,Low,N/A,0.0259,0.9396,0.0,0.0345
+161,56,Research & Development,Research Scientist,4963,No,0.0607,Low,N/A,0.0835,0.9116,0.0,0.005
+162,51,Research & Development,Research Director,19537,No,0.0229,Low,N/A,0.0589,0.7728,0.0,0.1683
+163,31,Sales,Sales Executive,6172,Yes,0.9871,Critical,Burnout,0.9156,0.0747,0.0,0.0097
+164,26,Research & Development,Research Scientist,2368,No,0.2226,Low,N/A,0.039,0.961,0.0,0.0
+165,58,Research & Development,Healthcare Representative,10312,No,0.009,Low,N/A,0.0781,0.8877,0.0,0.0342
+167,19,Sales,Sales Representative,1675,Yes,0.9962,Critical,Burnout,0.7835,0.2165,0.0,0.0
+169,22,Research & Development,Laboratory Technician,2523,No,0.0235,Low,N/A,0.0181,0.9819,0.0,0.0
+170,49,Research & Development,Manufacturing Director,6567,No,0.0163,Low,N/A,0.0822,0.913,0.0,0.0048
+171,43,Research & Development,Research Scientist,4739,No,0.0477,Low,N/A,0.004,0.996,0.0,0.0
+174,50,Sales,Sales Executive,9208,No,0.0282,Low,N/A,0.0224,0.9527,0.0,0.0249
+175,31,Sales,Sales Executive,4559,Yes,0.7033,Critical,Compensation,0.0424,0.9527,0.0,0.0049
+176,41,Sales,Sales Executive,8189,No,0.0314,Low,N/A,0.0477,0.9426,0.0,0.0098
+177,26,Human Resources,Human Resources,2942,No,0.0778,Low,N/A,0.0246,0.9462,0.0,0.0292
+178,36,Research & Development,Manufacturing Director,4941,No,0.0502,Low,N/A,0.0255,0.9695,0.0,0.0049
+179,51,Research & Development,Manufacturing Director,10650,No,0.0584,Low,N/A,0.0318,0.9582,0.0,0.01
+182,39,Sales,Sales Executive,5902,No,0.0016,Low,N/A,0.0087,0.9568,0.0,0.0345
+183,25,Sales,Sales Executive,8639,No,0.1131,Low,N/A,0.0208,0.9792,0.0,0.0
+184,30,Human Resources,Human Resources,6347,No,0.0257,Low,N/A,0.7358,0.2495,0.0,0.0146
+190,32,Research & Development,Laboratory Technician,4200,Yes,0.9862,Critical,Compensation,0.0081,0.9919,0.0,0.0
+192,45,Research & Development,Research Scientist,3452,No,0.0182,Low,N/A,0.0564,0.9436,0.0,0.0
+193,38,Research & Development,Research Scientist,4317,No,0.009,Low,N/A,0.0671,0.9329,0.0,0.0
+194,30,Research & Development,Research Scientist,2632,No,0.1459,Low,N/A,0.0595,0.9405,0.0,0.0
+195,32,Sales,Sales Executive,4668,No,0.0113,Low,N/A,0.0141,0.9564,0.0,0.0295
+197,30,Research & Development,Research Scientist,3204,No,0.0194,Low,N/A,0.0111,0.9889,0.0,0.0
+198,30,Research & Development,Laboratory Technician,2720,No,0.0152,Low,N/A,0.027,0.973,0.0,0.0
+199,41,Research & Development,Manager,17181,No,0.0532,Low,N/A,0.105,0.8555,0.0,0.0395
+200,41,Research & Development,Laboratory Technician,2238,No,0.0152,Low,N/A,0.0322,0.9629,0.0,0.0049
+201,19,Research & Development,Laboratory Technician,1483,Yes,0.5514,High,Compensation,0.0,1.0,0.0,0.0
+202,40,Research & Development,Research Scientist,5605,No,0.0027,Low,N/A,0.0255,0.9599,0.0,0.0146
+204,35,Sales,Sales Executive,7295,No,0.0131,Low,N/A,0.0119,0.9538,0.0,0.0343
+205,53,Sales,Sales Representative,2306,No,0.141,Low,N/A,0.8339,0.1614,0.0,0.0047
+206,45,Research & Development,Laboratory Technician,2348,No,0.0399,Low,N/A,0.0875,0.9028,0.0,0.0097
+207,32,Sales,Sales Executive,8998,No,0.1148,Low,N/A,0.0029,0.9526,0.0,0.0445
+208,29,Research & Development,Manufacturing Director,4319,No,0.0018,Low,N/A,0.0253,0.9498,0.0,0.0249
+211,51,Research & Development,Manufacturing Director,6132,No,0.0157,Low,N/A,0.0269,0.9681,0.0,0.005
+214,58,Research & Development,Research Scientist,3346,No,0.0732,Low,N/A,0.8965,0.1035,0.0,0.0
+215,40,Sales,Sales Executive,10855,No,0.0758,Low,N/A,0.123,0.8475,0.0,0.0296
+216,34,Sales,Sales Representative,2231,No,0.0207,Low,N/A,0.0085,0.9915,0.0,0.0
+217,22,Research & Development,Research Scientist,2323,No,0.0065,Low,N/A,0.0292,0.9708,0.0,0.0
+218,27,Research & Development,Research Scientist,2024,No,0.0655,Low,N/A,0.0666,0.9284,0.0,0.0049
+221,28,Research & Development,Research Scientist,2713,No,0.0402,Low,N/A,0.0793,0.9207,0.0,0.0
+223,57,Research & Development,Healthcare Representative,9439,No,0.0162,Low,N/A,0.8338,0.1612,0.0,0.005
+224,27,Research & Development,Research Scientist,2566,No,0.0609,Low,N/A,0.8264,0.1736,0.0,0.0
+226,50,Research & Development,Manager,19926,No,0.0259,Low,N/A,0.0298,0.9256,0.0,0.0446
+227,41,Research & Development,Research Scientist,2451,No,0.0082,Low,N/A,0.0228,0.9576,0.0,0.0195
+228,30,Sales,Sales Executive,9419,No,0.1231,Low,N/A,0.0046,0.8263,0.0,0.1691
+230,38,Sales,Sales Executive,8686,No,0.0448,Low,N/A,0.023,0.9226,0.0,0.0544
+231,32,Research & Development,Research Scientist,3038,No,0.0545,Low,N/A,0.0081,0.9919,0.0,0.0
+233,27,Research & Development,Research Scientist,3058,No,0.0884,Low,N/A,0.8598,0.1402,0.0,0.0
+235,19,Sales,Sales Representative,2325,Yes,0.9891,Critical,Compensation,0.0235,0.9765,0.0,0.0
+238,36,Research & Development,Laboratory Technician,2088,No,0.1312,Low,N/A,0.0361,0.9095,0.0,0.0544
+239,30,Research & Development,Laboratory Technician,3072,No,0.0028,Low,N/A,0.0227,0.8635,0.0,0.1138
+240,45,Sales,Sales Executive,5006,No,0.1022,Low,N/A,0.0416,0.9485,0.0,0.0099
+241,56,Research & Development,Research Scientist,4257,No,0.0126,Low,N/A,0.0673,0.9277,0.0,0.005
+242,33,Research & Development,Research Scientist,2500,No,0.0071,Low,N/A,0.0189,0.9811,0.0,0.0
+243,19,Research & Development,Laboratory Technician,1102,Yes,0.9612,Critical,Compensation,0.0323,0.9677,0.0,0.0
+244,46,Sales,Sales Executive,10453,No,0.0559,Low,N/A,0.0541,0.7581,0.0,0.1878
+245,38,Research & Development,Laboratory Technician,2288,No,0.0598,Low,N/A,0.0118,0.9882,0.0,0.0
+246,31,Research & Development,Research Scientist,3929,No,0.0841,Low,N/A,0.0796,0.9204,0.0,0.0
+247,34,Research & Development,Research Scientist,2311,No,0.0088,Low,N/A,0.007,0.993,0.0,0.0
+248,41,Sales,Sales Representative,3140,Yes,0.7655,Critical,Burnout,0.7793,0.2157,0.0,0.0049
+249,50,Research & Development,Laboratory Technician,3690,No,0.0563,Low,N/A,0.0817,0.9085,0.0,0.0098
+250,53,Research & Development,Manufacturing Director,4450,No,0.0032,Low,N/A,0.0264,0.9736,0.0,0.0
+252,33,Research & Development,Research Scientist,2756,No,0.0024,Low,N/A,0.0139,0.9567,0.0,0.0293
+253,40,Research & Development,Manager,19033,No,0.0137,Low,N/A,0.0385,0.9269,0.0,0.0345
+254,55,Research & Development,Research Director,18722,No,0.0125,Low,N/A,0.0808,0.8898,0.0,0.0293
+256,34,Research & Development,Manufacturing Director,9547,No,0.0114,Low,N/A,0.0663,0.8444,0.0,0.0893
+258,51,Research & Development,Healthcare Representative,13734,No,0.0012,Low,N/A,0.0383,0.8825,0.0,0.0792
+259,52,Research & Development,Manager,19999,No,0.0041,Low,N/A,0.0572,0.7104,0.0,0.2323
+260,27,Research & Development,Research Scientist,2279,No,0.0592,Low,N/A,0.0351,0.9554,0.0,0.0096
+261,35,Research & Development,Manufacturing Director,5916,Yes,0.9956,Critical,Compensation,0.0424,0.9576,0.0,0.0
+262,43,Research & Development,Research Scientist,2089,No,0.0009,Low,N/A,0.0349,0.9651,0.0,0.0
+264,45,Research & Development,Manager,16792,No,0.0333,Low,N/A,0.0227,0.9232,0.0,0.054
+267,37,Research & Development,Research Scientist,3564,No,0.0189,Low,N/A,0.7912,0.204,0.0,0.0047
+269,35,Research & Development,Laboratory Technician,4425,No,0.2097,Low,N/A,0.0113,0.9787,0.0,0.01
+270,42,Research & Development,Manufacturing Director,5265,No,0.0006,Low,N/A,0.014,0.9761,0.0,0.0099
+271,38,Research & Development,Manufacturing Director,6553,No,0.0072,Low,N/A,0.0124,0.9876,0.0,0.0
+273,38,Research & Development,Manufacturing Director,6261,No,0.0153,Low,N/A,0.0661,0.929,0.0,0.0049
+274,27,Research & Development,Manufacturing Director,4298,No,0.0743,Low,N/A,0.0352,0.9648,0.0,0.0
+275,49,Research & Development,Manufacturing Director,6804,No,0.0114,Low,N/A,0.057,0.9284,0.0,0.0146
+277,34,Research & Development,Research Scientist,3815,No,0.0344,Low,N/A,0.039,0.961,0.0,0.0
+281,40,Research & Development,Laboratory Technician,2741,No,0.0618,Low,N/A,0.0541,0.941,0.0,0.005
+282,38,Research & Development,Healthcare Representative,6673,Yes,0.964,Critical,Compensation,0.0587,0.9413,0.0,0.0
+283,29,Sales,Sales Executive,7639,Yes,0.9003,Critical,Compensation,0.0554,0.9298,0.0,0.0149
+284,22,Research & Development,Research Scientist,2328,No,0.1643,Low,N/A,0.7258,0.2742,0.0,0.0
+286,36,Research & Development,Laboratory Technician,2153,No,0.0237,Low,N/A,0.0272,0.9728,0.0,0.0
+287,40,Research & Development,Healthcare Representative,4876,No,0.0024,Low,N/A,0.079,0.9161,0.0,0.0049
+288,46,Research & Development,Healthcare Representative,9396,No,0.0011,Low,N/A,0.035,0.9301,0.0,0.0348
+291,32,Sales,Sales Executive,10400,Yes,0.9511,Critical,Compensation,0.0417,0.8939,0.0,0.0643
+292,30,Research & Development,Manufacturing Director,8474,No,0.0384,Low,N/A,0.0302,0.8908,0.0,0.079
+293,27,Sales,Sales Executive,9981,No,0.0359,Low,N/A,0.0318,0.8446,0.0,0.1236
+296,51,Research & Development,Research Director,12490,No,0.1062,Low,N/A,0.1262,0.7506,0.0,0.1232
+297,30,Research & Development,Research Scientist,2657,Yes,0.9498,Critical,Compensation,0.0258,0.9692,0.0,0.005
+298,41,Sales,Manager,13591,No,0.0024,Low,N/A,0.0772,0.908,0.0,0.0148
+299,30,Sales,Sales Executive,6696,Yes,0.9847,Critical,Compensation,0.0174,0.9776,0.0,0.0049
+300,29,Research & Development,Research Scientist,2058,No,0.0314,Low,N/A,0.0521,0.943,0.0,0.0049
+302,45,Sales,Sales Executive,8865,No,0.0443,Low,N/A,0.0405,0.9102,0.0,0.0493
+303,54,Sales,Sales Executive,5940,No,0.0201,Low,N/A,0.0163,0.9737,0.0,0.0099
+304,36,Research & Development,Laboratory Technician,5914,No,0.0095,Low,N/A,0.0029,0.9776,0.0,0.0195
+305,33,Research & Development,Research Scientist,2622,No,0.0496,Low,N/A,0.005,0.995,0.0,0.0
+306,37,Research & Development,Research Director,12185,No,0.005,Low,N/A,0.0584,0.9019,0.0,0.0397
+307,38,Sales,Sales Executive,10609,No,0.011,Low,N/A,0.0738,0.7431,0.0,0.1831
+308,31,Research & Development,Manufacturing Director,4345,No,0.0055,Low,N/A,0.0224,0.9678,0.0,0.0098
+309,59,Research & Development,Research Scientist,2177,No,0.0148,Low,N/A,0.0342,0.946,0.0,0.0198
+311,37,Sales,Sales Representative,2793,No,0.0168,Low,N/A,0.017,0.9235,0.0,0.0594
+312,29,Sales,Sales Executive,7918,No,0.0115,Low,N/A,0.0273,0.8544,0.0,0.1183
+314,35,Sales,Sales Executive,8789,No,0.0308,Low,N/A,0.0259,0.9443,0.0,0.0298
+315,29,Research & Development,Research Scientist,2389,Yes,0.837,Critical,Burnout,0.8716,0.1284,0.0,0.0
+316,52,Research & Development,Laboratory Technician,3212,No,0.0322,Low,N/A,0.0939,0.9061,0.0,0.0
+319,42,Research & Development,Manager,19232,No,0.0189,Low,N/A,0.0344,0.9066,0.0,0.0591
+321,59,Human Resources,Human Resources,2267,No,0.05,Low,N/A,0.0798,0.9202,0.0,0.0
+323,50,Sales,Manager,19517,No,0.001,Low,N/A,0.0825,0.9027,0.0,0.0148
+325,33,Research & Development,Laboratory Technician,2436,Yes,0.9872,Critical,Burnout,0.9447,0.0553,0.0,0.0
+327,43,Sales,Manager,16064,No,0.0041,Low,N/A,0.0691,0.9112,0.0,0.0197
+328,33,Research & Development,Laboratory Technician,2707,Yes,0.9561,Critical,Compensation,0.0153,0.965,0.0,0.0197
+329,52,Sales,Manager,19068,No,0.0904,Low,N/A,0.0894,0.8415,0.0,0.0691
+330,32,Sales,Sales Representative,3931,No,0.1205,Low,N/A,0.0064,0.9887,0.0,0.005
+331,32,Research & Development,Laboratory Technician,3730,No,0.2014,Low,N/A,0.8473,0.1477,0.0,0.0049
+332,39,Research & Development,Laboratory Technician,2232,No,0.0029,Low,N/A,0.0236,0.9764,0.0,0.0
+333,32,Sales,Sales Executive,4465,No,0.0115,Low,N/A,0.0227,0.9773,0.0,0.0
+334,41,Research & Development,Research Scientist,3072,No,0.4737,Medium,N/A,0.0748,0.9252,0.0,0.0
+335,40,Research & Development,Research Scientist,3319,No,0.0134,Low,N/A,0.0037,0.9716,0.0,0.0247
+336,45,Research & Development,Manager,19202,No,0.0036,Low,N/A,0.029,0.9217,0.0,0.0493
+337,31,Research & Development,Research Director,13675,No,0.0388,Low,N/A,0.0334,0.9466,0.0,0.02
+338,33,Research & Development,Research Scientist,2911,No,0.0206,Low,N/A,0.075,0.925,0.0,0.0
+339,34,Research & Development,Manufacturing Director,5957,No,0.0094,Low,N/A,0.0202,0.9454,0.0,0.0344
+340,37,Research & Development,Research Scientist,3920,No,0.0192,Low,N/A,0.0566,0.9434,0.0,0.0
+341,45,Research & Development,Manufacturing Director,6434,No,0.0017,Low,N/A,0.0081,0.9919,0.0,0.0
+342,37,Research & Development,Manufacturing Director,10048,Yes,0.9509,Critical,Compensation,0.0171,0.9435,0.0,0.0394
+343,39,Research & Development,Healthcare Representative,10938,No,0.0045,Low,N/A,0.0398,0.891,0.0,0.0692
+346,29,Research & Development,Research Scientist,2340,No,0.0165,Low,N/A,0.0179,0.9821,0.0,0.0
+347,42,Research & Development,Research Scientist,6545,No,0.1381,Low,N/A,0.026,0.974,0.0,0.0
+349,29,Sales,Sales Executive,6931,No,0.0032,Low,N/A,0.0165,0.9835,0.0,0.0
+350,25,Research & Development,Manufacturing Director,4898,No,0.0066,Low,N/A,0.019,0.9712,0.0,0.0098
+351,42,Research & Development,Laboratory Technician,2593,No,0.0195,Low,N/A,0.073,0.8478,0.0,0.0792
+352,40,Research & Development,Research Director,19436,No,0.002,Low,N/A,0.032,0.8448,0.0,0.1233
+353,51,Research & Development,Research Scientist,2723,No,0.0384,Low,N/A,0.0861,0.9139,0.0,0.0
+355,31,Research & Development,Laboratory Technician,3479,Yes,0.9619,Critical,Compensation,0.0213,0.9787,0.0,0.0
+359,32,Research & Development,Laboratory Technician,2794,No,0.0738,Low,N/A,0.0559,0.9441,0.0,0.0
+361,38,Sales,Sales Executive,5249,No,0.0134,Low,N/A,0.0141,0.8972,0.0,0.0887
+362,32,Research & Development,Laboratory Technician,2176,No,0.013,Low,N/A,0.0182,0.9669,0.0,0.0149
+363,46,Sales,Manager,16872,No,0.1634,Low,N/A,0.7492,0.2359,0.0,0.015
+364,28,Research & Development,Laboratory Technician,3485,Yes,0.9742,Critical,Compensation,0.0471,0.948,0.0,0.0049
+366,29,Sales,Sales Executive,6644,No,0.1529,Low,N/A,0.0264,0.9736,0.0,0.0
+367,31,Research & Development,Healthcare Representative,5582,No,0.0077,Low,N/A,0.0159,0.9741,0.0,0.0099
+369,25,Research & Development,Healthcare Representative,4000,No,0.0011,Low,N/A,0.0157,0.9745,0.0,0.0098
+372,45,Research & Development,Healthcare Representative,13496,No,0.0049,Low,N/A,0.0899,0.9002,0.0,0.0099
+373,36,Research & Development,Laboratory Technician,3210,No,0.0013,Low,N/A,0.0117,0.8895,0.0,0.0987
+374,55,Research & Development,Manager,19045,No,0.0196,Low,N/A,0.1136,0.8472,0.0,0.0392
+376,47,Research & Development,Manager,11849,Yes,0.9578,Critical,Burnout,0.8827,0.0824,0.0,0.0349
+377,28,Research & Development,Research Scientist,2070,No,0.0037,Low,N/A,0.0537,0.9463,0.0,0.0
+378,37,Sales,Sales Executive,6502,No,0.0014,Low,N/A,0.0289,0.9711,0.0,0.0
+379,21,Research & Development,Research Scientist,3230,Yes,0.5707,High,Compensation,0.005,0.995,0.0,0.0
+380,37,Research & Development,Research Director,13603,No,0.0003,Low,N/A,0.0938,0.8817,0.0,0.0245
+381,35,Research & Development,Manager,11996,No,0.0139,Low,N/A,0.0945,0.7767,0.0,0.1288
+382,38,Sales,Sales Executive,5605,No,0.0072,Low,N/A,0.0594,0.906,0.0,0.0347
+384,26,Research & Development,Manufacturing Director,6397,No,0.0024,Low,N/A,0.0373,0.9478,0.0,0.0149
+385,50,Research & Development,Research Director,19144,No,0.0141,Low,N/A,0.0868,0.8586,0.0,0.0546
+386,53,Research & Development,Research Director,17584,No,0.0101,Low,N/A,0.7146,0.2557,0.0,0.0297
+387,42,Sales,Sales Executive,4907,No,0.0061,Low,N/A,0.0224,0.8739,0.0,0.1037
+388,29,Sales,Sales Executive,4554,No,0.0248,Low,N/A,0.0653,0.895,0.0,0.0397
+389,55,Research & Development,Laboratory Technician,5415,No,0.0343,Low,N/A,0.0424,0.9381,0.0,0.0195
+390,26,Research & Development,Healthcare Representative,4741,No,0.1567,Low,N/A,0.0353,0.9647,0.0,0.0
+391,37,Research & Development,Research Scientist,2115,No,0.0004,Low,N/A,0.0348,0.9257,0.0,0.0394
+392,44,Research & Development,Laboratory Technician,3161,Yes,0.9714,Critical,Burnout,0.9765,0.0235,0.0,0.0
+393,38,Research & Development,Healthcare Representative,5745,No,0.0002,Low,N/A,0.0115,0.9885,0.0,0.0
+394,26,Research & Development,Laboratory Technician,2373,Yes,0.9827,Critical,Compensation,0.04,0.96,0.0,0.0
+395,28,Research & Development,Research Scientist,3310,No,0.0011,Low,N/A,0.0218,0.9782,0.0,0.0
+396,49,Research & Development,Research Director,18665,No,0.0234,Low,N/A,0.0693,0.901,0.0,0.0298
+397,36,Research & Development,Research Scientist,4485,No,0.1015,Low,N/A,0.0177,0.9129,0.0,0.0694
+399,31,Sales,Sales Representative,2789,Yes,0.5377,High,Compensation,0.0348,0.9603,0.0,0.0049
+401,26,Sales,Sales Executive,5828,Yes,0.7732,Critical,Compensation,0.0378,0.8929,0.0,0.0693
+403,37,Research & Development,Research Scientist,2326,No,0.1565,Low,N/A,0.8646,0.1354,0.0,0.0
+404,42,Sales,Sales Executive,13525,No,0.0564,Low,N/A,0.0516,0.9336,0.0,0.0148
+405,18,Research & Development,Laboratory Technician,1420,Yes,0.9852,Critical,Compensation,0.0163,0.9837,0.0,0.0
+406,35,Sales,Sales Executive,8020,No,0.1119,Low,N/A,0.0732,0.8971,0.0,0.0297
+407,36,Research & Development,Laboratory Technician,3688,No,0.003,Low,N/A,0.0218,0.9782,0.0,0.0
+408,51,Research & Development,Manufacturing Director,5482,No,0.0112,Low,N/A,0.0111,0.9839,0.0,0.0049
+410,41,Sales,Manager,16015,No,0.004,Low,N/A,0.0493,0.9112,0.0,0.0395
+411,18,Sales,Sales Representative,1200,Yes,0.9858,Critical,Compensation,0.0134,0.9866,0.0,0.0
+412,28,Research & Development,Healthcare Representative,5661,No,0.027,Low,N/A,0.0045,0.9857,0.0,0.0098
+416,31,Sales,Sales Executive,6929,No,0.0274,Low,N/A,0.0678,0.9025,0.0,0.0297
+417,39,Research & Development,Healthcare Representative,9613,No,0.0006,Low,N/A,0.0657,0.7713,0.0,0.163
+419,36,Research & Development,Laboratory Technician,5674,No,0.0061,Low,N/A,0.0294,0.9511,0.0,0.0196
+420,32,Sales,Sales Executive,5484,No,0.042,Low,N/A,0.055,0.9254,0.0,0.0196
+421,38,Research & Development,Research Director,12061,No,0.0553,Low,N/A,0.0369,0.9285,0.0,0.0346
+422,58,Research & Development,Healthcare Representative,5660,No,0.001,Low,N/A,0.0703,0.9199,0.0,0.0098
+423,31,Research & Development,Research Scientist,4821,No,0.0036,Low,N/A,0.0483,0.9517,0.0,0.0
+424,31,Human Resources,Human Resources,6410,Yes,0.5955,High,Compensation,0.0074,0.9828,0.0,0.0098
+425,45,Research & Development,Laboratory Technician,5210,No,0.0091,Low,N/A,0.0459,0.9097,0.0,0.0443
+426,31,Research & Development,Research Scientist,2695,No,0.034,Low,N/A,0.9212,0.0788,0.0,0.0
+428,33,Research & Development,Manager,11878,No,0.0978,Low,N/A,0.0666,0.8689,0.0,0.0645
+429,39,Research & Development,Manager,17068,No,0.0022,Low,N/A,0.0955,0.8604,0.0,0.0441
+430,43,Research & Development,Laboratory Technician,2455,No,0.0059,Low,N/A,0.01,0.9408,0.0,0.0492
+431,49,Research & Development,Healthcare Representative,13964,No,0.0349,Low,N/A,0.0716,0.8989,0.0,0.0295
+433,52,Research & Development,Research Scientist,4941,Yes,0.9469,Critical,Compensation,0.0579,0.9224,0.0,0.0197
+434,27,Research & Development,Research Scientist,2478,Yes,0.9349,Critical,Burnout,0.8365,0.1635,0.0,0.0
+436,32,Sales,Sales Executive,5228,No,0.0346,Low,N/A,0.0393,0.9313,0.0,0.0293
+437,27,Sales,Sales Executive,4478,No,0.202,Low,N/A,0.0279,0.9721,0.0,0.0
+438,31,Sales,Sales Executive,7547,No,0.0063,Low,N/A,0.0087,0.9621,0.0,0.0292
+439,32,Research & Development,Research Scientist,5055,No,0.0229,Low,N/A,0.0886,0.8966,0.0,0.0148
+440,28,Research & Development,Research Scientist,3464,Yes,0.9925,Critical,Burnout,0.8995,0.1005,0.0,0.0
+441,30,Research & Development,Research Scientist,5775,No,0.0018,Low,N/A,0.009,0.9616,0.0,0.0294
+442,31,Research & Development,Manufacturing Director,8943,No,0.0853,Low,N/A,0.044,0.8517,0.0,0.1043
+444,39,Research & Development,Manager,19272,No,0.0375,Low,N/A,0.0178,0.9525,0.0,0.0297
+445,39,Sales,Sales Executive,5238,Yes,0.9505,Critical,Burnout,0.9218,0.0782,0.0,0.0
+446,33,Sales,Sales Executive,4682,No,0.0717,Low,N/A,0.052,0.9333,0.0,0.0147
+447,47,Research & Development,Research Director,18300,No,0.0044,Low,N/A,0.0177,0.9773,0.0,0.005
+448,43,Research & Development,Laboratory Technician,5257,No,0.1283,Low,N/A,0.0226,0.9679,0.0,0.0095
+449,27,Sales,Sales Executive,6349,No,0.0151,Low,N/A,0.0482,0.942,0.0,0.0098
+450,54,Research & Development,Research Scientist,4869,No,0.0232,Low,N/A,0.0858,0.9142,0.0,0.0
+451,43,Research & Development,Healthcare Representative,9985,No,0.0336,Low,N/A,0.0851,0.8999,0.0,0.015
+452,45,Research & Development,Research Scientist,3697,No,0.0027,Low,N/A,0.0402,0.94,0.0,0.0198
+453,40,Sales,Sales Executive,7457,No,0.0426,Low,N/A,0.8672,0.1328,0.0,0.0
+454,29,Research & Development,Laboratory Technician,2119,Yes,0.9764,Critical,Burnout,0.8199,0.1752,0.0,0.0049
+455,29,Research & Development,Laboratory Technician,3983,No,0.0754,Low,N/A,0.0133,0.9867,0.0,0.0
+456,30,Sales,Sales Executive,6118,No,0.0008,Low,N/A,0.0103,0.9652,0.0,0.0245
+458,27,Sales,Sales Executive,6214,No,0.0162,Low,N/A,0.0272,0.9483,0.0,0.0244
+460,37,Research & Development,Manufacturing Director,6347,No,0.0031,Low,N/A,0.0732,0.9268,0.0,0.0
+461,38,Research & Development,Research Director,11510,No,0.0023,Low,N/A,0.0752,0.9001,0.0,0.0247
+462,31,Research & Development,Manufacturing Director,7143,No,0.0299,Low,N/A,0.7849,0.2151,0.0,0.0
+463,29,Sales,Sales Executive,8268,No,0.1433,Low,N/A,0.0366,0.9538,0.0,0.0096
+464,35,Research & Development,Manufacturing Director,8095,No,0.0007,Low,N/A,0.0281,0.9175,0.0,0.0543
+465,23,Research & Development,Research Scientist,2904,No,0.009,Low,N/A,0.0693,0.9307,0.0,0.0
+466,41,Research & Development,Manufacturing Director,6032,No,0.0385,Low,N/A,0.0295,0.9705,0.0,0.0
+467,47,Sales,Sales Representative,2976,No,0.3677,Medium,N/A,0.0176,0.9775,0.0,0.005
+468,42,Research & Development,Research Director,15992,No,0.0066,Low,N/A,0.0392,0.9458,0.0,0.015
+469,29,Sales,Sales Executive,4649,No,0.0022,Low,N/A,0.0693,0.9307,0.0,0.0
+470,42,Human Resources,Human Resources,2696,No,0.0733,Low,N/A,0.0433,0.9468,0.0,0.0099
+471,32,Research & Development,Laboratory Technician,2370,No,0.0277,Low,N/A,0.0222,0.9431,0.0,0.0347
+473,48,Sales,Manager,12504,No,0.0378,Low,N/A,0.1208,0.8744,0.0,0.0049
+474,37,Research & Development,Research Scientist,5974,No,0.0125,Low,N/A,0.0323,0.9529,0.0,0.0147
+475,30,Sales,Sales Executive,4736,No,0.1239,Low,N/A,0.0623,0.9377,0.0,0.0
+476,26,Sales,Sales Executive,5296,No,0.0145,Low,N/A,0.02,0.8661,0.0,0.1139
+477,42,Research & Development,Healthcare Representative,6781,No,0.0021,Low,N/A,0.0266,0.9437,0.0,0.0297
+478,21,Sales,Sales Representative,2174,Yes,0.992,Critical,Compensation,0.0346,0.9605,0.0,0.0049
+479,36,Sales,Sales Executive,6653,No,0.0004,Low,N/A,0.0231,0.9571,0.0,0.0199
+481,36,Sales,Sales Executive,9699,No,0.0503,Low,N/A,0.0372,0.854,0.0,0.1088
+482,57,Research & Development,Healthcare Representative,6755,No,0.0011,Low,N/A,0.027,0.973,0.0,0.0
+483,40,Research & Development,Laboratory Technician,2213,No,0.0129,Low,N/A,0.0473,0.9381,0.0,0.0146
+484,21,Sales,Sales Representative,2610,No,0.0314,Low,N/A,0.0613,0.9387,0.0,0.0
+485,33,Sales,Sales Representative,2851,Yes,0.981,Critical,Compensation,0.0338,0.9662,0.0,0.0
+486,37,Research & Development,Laboratory Technician,3452,No,0.0307,Low,N/A,0.004,0.996,0.0,0.0
+487,46,Research & Development,Manufacturing Director,5258,No,0.0211,Low,N/A,0.0089,0.9862,0.0,0.005
+488,41,Sales,Sales Executive,9355,Yes,0.9541,Critical,Career Growth,0.0136,0.391,0.0,0.5954
+491,50,Research & Development,Healthcare Representative,10496,No,0.0156,Low,N/A,0.0221,0.9729,0.0,0.005
+492,40,Sales,Sales Executive,6380,Yes,0.9522,Critical,Compensation,0.0115,0.9836,0.0,0.0049
+493,31,Research & Development,Research Scientist,2657,No,0.1021,Low,N/A,0.0305,0.9695,0.0,0.0
+494,21,Sales,Sales Representative,2716,Yes,0.9638,Critical,Compensation,0.0,1.0,0.0,0.0
+495,29,Research & Development,Research Scientist,2201,No,0.0084,Low,N/A,0.0196,0.9804,0.0,0.0
+496,35,Research & Development,Healthcare Representative,6540,No,0.0219,Low,N/A,0.014,0.986,0.0,0.0
+497,27,Research & Development,Laboratory Technician,3816,No,0.0196,Low,N/A,0.0227,0.9773,0.0,0.0
+498,28,Sales,Sales Executive,5253,No,0.0152,Low,N/A,0.0282,0.9568,0.0,0.0149
+499,49,Research & Development,Healthcare Representative,10965,No,0.0051,Low,N/A,0.0259,0.9643,0.0,0.0098
+500,51,Sales,Sales Executive,4936,No,0.1157,Low,N/A,0.0667,0.9188,0.0,0.0146
+501,36,Research & Development,Research Scientist,2543,No,0.0037,Low,N/A,0.0171,0.9829,0.0,0.0
+502,34,Sales,Sales Executive,5304,Yes,0.9718,Critical,Burnout,0.9361,0.0639,0.0,0.0
+505,55,Research & Development,Manager,16659,No,0.0081,Low,N/A,0.067,0.928,0.0,0.005
+507,24,Sales,Sales Executive,4260,No,0.0111,Low,N/A,0.0418,0.9582,0.0,0.0
+508,30,Sales,Sales Representative,2476,No,0.0935,Low,N/A,0.0085,0.9915,0.0,0.0
+510,26,Research & Development,Research Scientist,3102,No,0.2845,Low,N/A,0.0215,0.9785,0.0,0.0
+511,22,Research & Development,Research Scientist,2244,No,0.0397,Low,N/A,0.004,0.9911,0.0,0.0049
+513,36,Sales,Sales Executive,7596,No,0.0494,Low,N/A,0.009,0.9165,0.0,0.0744
+514,30,Research & Development,Research Scientist,2285,Yes,0.9825,Critical,Compensation,0.0373,0.9627,0.0,0.0
+515,37,Research & Development,Laboratory Technician,3034,No,0.0325,Low,N/A,0.0677,0.9177,0.0,0.0146
+516,40,Sales,Sales Executive,5715,No,0.0063,Low,N/A,0.0029,0.9772,0.0,0.0198
+517,42,Research & Development,Laboratory Technician,2576,No,0.0047,Low,N/A,0.0318,0.9485,0.0,0.0198
+518,37,Research & Development,Manufacturing Director,4197,No,0.2648,Low,N/A,0.8968,0.1032,0.0,0.0
+520,43,Research & Development,Research Director,14336,No,0.0114,Low,N/A,0.0511,0.8749,0.0,0.074
+521,40,Research & Development,Laboratory Technician,3448,No,0.0067,Low,N/A,0.0308,0.9692,0.0,0.0
+522,54,Research & Development,Research Director,19406,No,0.0302,Low,N/A,0.073,0.8921,0.0,0.0348
+523,34,Sales,Sales Executive,6538,No,0.0018,Low,N/A,0.0278,0.9722,0.0,0.0
+524,31,Research & Development,Manufacturing Director,4306,No,0.0128,Low,N/A,0.0408,0.9149,0.0,0.0443
+525,43,Research & Development,Laboratory Technician,2258,No,0.0084,Low,N/A,0.0186,0.9814,0.0,0.0
+526,43,Research & Development,Healthcare Representative,4522,No,0.0022,Low,N/A,0.037,0.963,0.0,0.0
+527,25,Sales,Sales Executive,4487,Yes,0.6979,High,Compensation,0.0398,0.9554,0.0,0.0049
+529,37,Research & Development,Research Scientist,4449,No,0.0188,Low,N/A,0.0492,0.936,0.0,0.0148
+530,31,Research & Development,Laboratory Technician,2218,No,0.0048,Low,N/A,0.0264,0.9736,0.0,0.0
+531,39,Research & Development,Manager,19197,No,0.0317,Low,N/A,0.0516,0.9043,0.0,0.0442
+532,56,Sales,Sales Executive,13212,No,0.0825,Low,N/A,0.1323,0.7739,0.0,0.0938
+533,30,Sales,Sales Executive,6577,No,0.0269,Low,N/A,0.0126,0.9874,0.0,0.0
+534,41,Sales,Sales Executive,8392,No,0.038,Low,N/A,0.0463,0.8993,0.0,0.0544
+536,28,Research & Development,Laboratory Technician,4558,No,0.0072,Low,N/A,0.009,0.9712,0.0,0.0198
+538,25,Research & Development,Laboratory Technician,4031,Yes,0.9287,Critical,Compensation,0.0,0.9901,0.0,0.0099
+543,52,Research & Development,Manufacturing Director,7969,No,0.0223,Low,N/A,0.0209,0.9642,0.0,0.0149
+544,45,Research & Development,Research Scientist,2654,No,0.004,Low,N/A,0.109,0.891,0.0,0.0
+546,52,Research & Development,Manager,16555,No,0.0066,Low,N/A,0.0693,0.9207,0.0,0.01
+547,42,Research & Development,Research Scientist,4556,No,0.0346,Low,N/A,0.0165,0.9835,0.0,0.0
+548,30,Research & Development,Manufacturing Director,6091,No,0.0051,Low,N/A,0.0124,0.9876,0.0,0.0
+549,60,Research & Development,Manager,19566,No,0.076,Low,N/A,0.1185,0.704,0.0,0.1775
+550,46,Research & Development,Manufacturing Director,4810,No,0.002,Low,N/A,0.0477,0.9277,0.0,0.0246
+551,42,Research & Development,Healthcare Representative,4523,No,0.0032,Low,N/A,0.0202,0.9699,0.0,0.0099
+554,24,Sales,Sales Representative,3202,Yes,0.9833,Critical,Compensation,0.0323,0.9677,0.0,0.0
+555,34,Sales,Sales Representative,2351,Yes,0.9664,Critical,Compensation,0.0439,0.9561,0.0,0.0
+556,38,Research & Development,Laboratory Technician,1702,No,0.2472,Low,N/A,0.0844,0.9156,0.0,0.0
+558,40,Sales,Manager,18041,No,0.0011,Low,N/A,0.057,0.8987,0.0,0.0443
+560,26,Research & Development,Research Scientist,2886,No,0.0142,Low,N/A,0.0495,0.9505,0.0,0.0
+562,30,Research & Development,Laboratory Technician,2097,No,0.0359,Low,N/A,0.0596,0.9404,0.0,0.0
+564,29,Research & Development,Research Director,11935,No,0.0164,Low,N/A,0.0339,0.8867,0.0,0.0794
+565,29,Research & Development,Research Scientist,2546,Yes,0.9398,Critical,Compensation,0.0092,0.9908,0.0,0.0
+566,19,Human Resources,Human Resources,2564,Yes,0.9861,Critical,Compensation,0.0085,0.9915,0.0,0.0
+567,30,Sales,Sales Executive,8412,No,0.0406,Low,N/A,0.0399,0.8957,0.0,0.0644
+568,57,Sales,Manager,14118,No,0.0273,Low,N/A,0.0886,0.9114,0.0,0.0
+569,50,Research & Development,Manager,17046,No,0.0027,Low,N/A,0.0749,0.8658,0.0,0.0593
+571,30,Research & Development,Laboratory Technician,2564,No,0.0089,Low,N/A,0.0521,0.928,0.0,0.0199
+573,60,Sales,Sales Executive,10266,No,0.1699,Low,N/A,0.0494,0.7233,0.0,0.2273
+574,47,Research & Development,Manufacturing Director,5070,No,0.0187,Low,N/A,0.0268,0.9732,0.0,0.0
+575,46,Research & Development,Research Director,17861,No,0.0584,Low,N/A,0.0895,0.9055,0.0,0.005
+577,35,Research & Development,Laboratory Technician,4230,No,0.0766,Low,N/A,0.0143,0.9857,0.0,0.0
+578,54,Research & Development,Laboratory Technician,3780,No,0.0468,Low,N/A,0.0128,0.9822,0.0,0.005
+579,34,Research & Development,Research Scientist,2768,No,0.0035,Low,N/A,0.0173,0.9777,0.0,0.005
+580,46,Sales,Sales Executive,9071,No,0.0141,Low,N/A,0.072,0.9083,0.0,0.0197
+581,31,Research & Development,Manufacturing Director,10648,No,0.0016,Low,N/A,0.0568,0.8249,0.0,0.1183
+582,33,Research & Development,Manager,13610,Yes,0.9694,Critical,Compensation,0.0459,0.9343,0.0,0.0198
+584,33,Research & Development,Laboratory Technician,3408,Yes,0.9593,Critical,Compensation,0.0164,0.9836,0.0,0.0
+585,30,Sales,Sales Representative,2983,No,0.2481,Low,N/A,0.005,0.995,0.0,0.0
+586,35,Research & Development,Healthcare Representative,7632,No,0.0886,Low,N/A,0.0442,0.951,0.0,0.0049
+587,31,Research & Development,Healthcare Representative,9824,Yes,0.99,Critical,Compensation,0.009,0.9811,0.0,0.0098
+590,34,Human Resources,Human Resources,9950,Yes,0.9725,Critical,Compensation,0.035,0.965,0.0,0.0
+591,42,Research & Development,Laboratory Technician,2093,No,0.0583,Low,N/A,0.0109,0.9792,0.0,0.0099
+592,36,Sales,Sales Executive,9980,No,0.1385,Low,N/A,0.0905,0.7952,0.0,0.1143
+593,22,Research & Development,Laboratory Technician,3894,Yes,0.9678,Critical,Compensation,0.0053,0.9947,0.0,0.0
+595,48,Sales,Sales Executive,4051,No,0.0097,Low,N/A,0.0365,0.8893,0.0,0.0742
+597,55,Sales,Manager,16835,No,0.0896,Low,N/A,0.0911,0.8102,0.0,0.0987
+599,41,Sales,Sales Executive,6230,No,0.0022,Low,N/A,0.0252,0.9649,0.0,0.0099
+600,35,Sales,Sales Executive,4717,No,0.0193,Low,N/A,0.022,0.8545,0.0,0.1235
+601,40,Research & Development,Manufacturing Director,13237,No,0.0346,Low,N/A,0.04,0.9402,0.0,0.0198
+602,39,Research & Development,Laboratory Technician,3755,No,0.2818,Low,N/A,0.01,0.985,0.0,0.005
+604,31,Sales,Sales Executive,6582,No,0.0574,Low,N/A,0.0602,0.9398,0.0,0.0
+605,42,Research & Development,Manufacturing Director,7406,No,0.0281,Low,N/A,0.6917,0.2493,0.0,0.059
+606,45,Sales,Sales Executive,4805,No,0.0231,Low,N/A,0.0121,0.9335,0.0,0.0544
+608,26,Human Resources,Human Resources,2741,Yes,0.9862,Critical,Burnout,0.9202,0.075,0.0,0.0047
+611,29,Research & Development,Manufacturing Director,4262,No,0.0185,Low,N/A,0.017,0.983,0.0,0.0
+612,33,Research & Development,Research Director,16184,No,0.0005,Low,N/A,0.0358,0.9196,0.0,0.0445
+613,31,Sales,Manager,11557,No,0.01,Low,N/A,0.0801,0.895,0.0,0.0248
+614,18,Sales,Sales Representative,1878,Yes,0.9982,Critical,Compensation,0.0213,0.9787,0.0,0.0
+615,40,Sales,Sales Executive,10932,No,0.0651,Low,N/A,0.0477,0.9423,0.0,0.01
+616,41,Research & Development,Healthcare Representative,6811,No,0.012,Low,N/A,0.0522,0.9083,0.0,0.0395
+618,26,Sales,Sales Executive,4306,No,0.165,Low,N/A,0.0084,0.9867,0.0,0.0049
+620,35,Sales,Sales Executive,4859,No,0.0153,Low,N/A,0.0119,0.9783,0.0,0.0098
+621,34,Sales,Sales Executive,5337,No,0.0106,Low,N/A,0.0155,0.945,0.0,0.0395
+622,26,Research & Development,Laboratory Technician,2340,Yes,0.9998,Critical,Burnout,0.901,0.099,0.0,0.0
+623,37,Research & Development,Manufacturing Director,7491,No,0.0075,Low,N/A,0.0286,0.9567,0.0,0.0147
+624,46,Research & Development,Healthcare Representative,10527,No,0.2006,Low,N/A,0.0785,0.9018,0.0,0.0198
+625,41,Sales,Manager,16595,No,0.016,Low,N/A,0.0515,0.8592,0.0,0.0892
+626,37,Sales,Sales Executive,8834,No,0.0044,Low,N/A,0.0388,0.7827,0.0,0.1785
+630,52,Research & Development,Research Scientist,5577,No,0.0035,Low,N/A,0.0573,0.9181,0.0,0.0246
+631,32,Sales,Sales Executive,4707,Yes,0.9245,Critical,Compensation,0.0172,0.9828,0.0,0.0
+632,24,Sales,Sales Representative,2400,No,0.051,Low,N/A,0.0,1.0,0.0,0.0
+634,38,Research & Development,Healthcare Representative,9824,No,0.0037,Low,N/A,0.0232,0.9274,0.0,0.0494
+635,37,Research & Development,Manufacturing Director,6447,No,0.0171,Low,N/A,0.0832,0.9118,0.0,0.0049
+638,49,Research & Development,Research Director,19502,No,0.0015,Low,N/A,0.0953,0.8159,0.0,0.0889
+639,24,Research & Development,Research Scientist,2725,No,0.0883,Low,N/A,0.0526,0.9474,0.0,0.0
+641,26,Sales,Sales Executive,6272,No,0.0112,Low,N/A,0.0286,0.9567,0.0,0.0148
+643,24,Research & Development,Laboratory Technician,2127,No,0.2878,Low,N/A,0.0203,0.9748,0.0,0.0049
+644,50,Human Resources,Manager,18200,No,0.1438,Low,N/A,0.0389,0.8425,0.0,0.1186
+645,25,Sales,Sales Representative,2096,No,0.1739,Low,N/A,0.0148,0.9852,0.0,0.0
+647,24,Research & Development,Laboratory Technician,2886,Yes,0.9757,Critical,Compensation,0.0243,0.9757,0.0,0.0
+648,30,Sales,Sales Representative,2033,Yes,0.9961,Critical,Compensation,0.004,0.996,0.0,0.0
+649,34,Research & Development,Research Scientist,3622,No,0.0041,Low,N/A,0.0952,0.8949,0.0,0.0098
+650,31,Sales,Sales Executive,4233,Yes,0.9659,Critical,Compensation,0.0376,0.9624,0.0,0.0
+652,35,Research & Development,Laboratory Technician,3681,No,0.2269,Low,N/A,0.012,0.988,0.0,0.0
+653,31,Sales,Sales Executive,5460,No,0.0095,Low,N/A,0.0447,0.8863,0.0,0.069
+655,27,Research & Development,Research Scientist,2187,No,0.0049,Low,N/A,0.0526,0.9426,0.0,0.0049
+656,37,Sales,Sales Executive,9602,No,0.1055,Low,N/A,0.8013,0.1688,0.0,0.0299
+657,20,Research & Development,Research Scientist,2836,No,0.048,Low,N/A,0.0154,0.9748,0.0,0.0098
+659,42,Research & Development,Healthcare Representative,4089,No,0.0028,Low,N/A,0.021,0.9493,0.0,0.0297
+661,43,Research & Development,Research Director,16627,No,0.0015,Low,N/A,0.8532,0.1468,0.0,0.0
+662,38,Research & Development,Research Scientist,2619,No,0.0484,Low,N/A,0.0871,0.8982,0.0,0.0147
+663,43,Research & Development,Laboratory Technician,5679,No,0.0052,Low,N/A,0.038,0.9474,0.0,0.0146
+664,48,Research & Development,Manager,15402,No,0.006,Low,N/A,0.1121,0.8631,0.0,0.0248
+665,44,Human Resources,Human Resources,5985,No,0.0287,Low,N/A,0.0279,0.9721,0.0,0.0
+666,34,Sales,Sales Representative,2579,No,0.043,Low,N/A,0.0385,0.9615,0.0,0.0
+667,27,Sales,Sales Representative,3041,Yes,0.9187,Critical,Compensation,0.0215,0.9736,0.0,0.0049
+669,21,Sales,Sales Representative,3447,Yes,0.5226,High,Compensation,0.0239,0.9761,0.0,0.0
+671,44,Research & Development,Manager,19513,No,0.0023,Low,N/A,0.0574,0.9426,0.0,0.0
+675,22,Research & Development,Research Scientist,2773,No,0.0076,Low,N/A,0.0271,0.9729,0.0,0.0
+677,33,Sales,Sales Executive,7104,No,0.0079,Low,N/A,0.019,0.981,0.0,0.0
+679,32,Research & Development,Research Scientist,6322,No,0.0793,Low,N/A,0.8655,0.1345,0.0,0.0
+680,30,Research & Development,Research Scientist,2083,No,0.0335,Low,N/A,0.0085,0.9915,0.0,0.0
+682,53,Sales,Sales Executive,8381,No,0.0411,Low,N/A,0.0399,0.8713,0.0,0.0888
+683,34,Research & Development,Research Scientist,2691,No,0.0045,Low,N/A,0.0852,0.7471,0.0,0.1677
+684,45,Sales,Sales Executive,4286,Yes,0.9604,Critical,Compensation,0.012,0.9733,0.0,0.0148
+686,26,Research & Development,Laboratory Technician,2659,No,0.1407,Low,N/A,0.0515,0.9485,0.0,0.0
+689,37,Research & Development,Manufacturing Director,9434,No,0.0444,Low,N/A,0.0345,0.8559,0.0,0.1096
+690,29,Sales,Sales Executive,5561,No,0.0157,Low,N/A,0.0448,0.9453,0.0,0.01
+691,35,Research & Development,Research Scientist,6646,No,0.0121,Low,N/A,0.0085,0.9568,0.0,0.0347
+692,33,Research & Development,Healthcare Representative,7725,No,0.0041,Low,N/A,0.0768,0.9085,0.0,0.0146
+698,54,Human Resources,Human Resources,10725,No,0.0524,Low,N/A,0.0488,0.9215,0.0,0.0296
+699,36,Research & Development,Manufacturing Director,8847,No,0.1141,Low,N/A,0.0393,0.9457,0.0,0.015
+700,27,Research & Development,Research Scientist,2045,No,0.0363,Low,N/A,0.0221,0.9779,0.0,0.0
+701,20,Research & Development,Research Scientist,1009,Yes,0.9566,Critical,Compensation,0.0341,0.9659,0.0,0.0
+702,33,Research & Development,Research Scientist,3348,Yes,0.9708,Critical,Compensation,0.0446,0.8565,0.0,0.0988
+704,35,Research & Development,Laboratory Technician,1281,No,0.0985,Low,N/A,0.0089,0.9911,0.0,0.0
+705,23,Research & Development,Research Scientist,2819,No,0.024,Low,N/A,0.004,0.996,0.0,0.0
+707,25,Sales,Sales Executive,4851,No,0.0049,Low,N/A,0.009,0.991,0.0,0.0
+709,38,Sales,Sales Executive,4028,No,0.0027,Low,N/A,0.005,0.9852,0.0,0.0098
+710,29,Research & Development,Research Scientist,2720,No,0.0076,Low,N/A,0.0354,0.8659,0.0,0.0987
+712,48,Sales,Sales Executive,8120,No,0.0083,Low,N/A,0.0213,0.9688,0.0,0.0099
+714,27,Sales,Sales Executive,4647,No,0.0018,Low,N/A,0.0534,0.9466,0.0,0.0
+715,37,Research & Development,Research Scientist,4680,No,0.012,Low,N/A,0.007,0.993,0.0,0.0
+716,50,Research & Development,Laboratory Technician,3221,No,0.0106,Low,N/A,0.0852,0.905,0.0,0.0099
+717,34,Research & Development,Healthcare Representative,8621,No,0.0461,Low,N/A,0.0159,0.8752,0.0,0.1089
+720,24,Sales,Sales Executive,4577,Yes,0.6568,High,Compensation,0.0228,0.9772,0.0,0.0
+721,39,Research & Development,Healthcare Representative,4553,No,0.0018,Low,N/A,0.0187,0.8921,0.0,0.0892
+722,32,Sales,Sales Executive,5396,No,0.0095,Low,N/A,0.0433,0.9321,0.0,0.0246
+723,50,Sales,Sales Executive,6796,Yes,0.934,Critical,Compensation,0.0252,0.9699,0.0,0.0049
+724,38,Research & Development,Healthcare Representative,7625,No,0.0002,Low,N/A,0.0854,0.8402,0.0,0.0744
+725,27,Research & Development,Manufacturing Director,7412,No,0.0558,Low,N/A,0.0306,0.9351,0.0,0.0343
+727,32,Research & Development,Research Director,11159,No,0.027,Low,N/A,0.0604,0.7366,0.0,0.203
+728,47,Sales,Sales Executive,4960,No,0.0264,Low,N/A,0.0074,0.9532,0.0,0.0393
+729,40,Sales,Sales Executive,10475,No,0.032,Low,N/A,0.0848,0.8956,0.0,0.0196
+730,53,Research & Development,Research Director,14814,No,0.001,Low,N/A,0.0192,0.976,0.0,0.0049
+731,41,Human Resources,Manager,19141,No,0.036,Low,N/A,0.0968,0.8983,0.0,0.0048
+732,60,Sales,Sales Executive,5405,No,0.1074,Low,N/A,0.014,0.9712,0.0,0.0148
+733,27,Research & Development,Manufacturing Director,8793,No,0.0393,Low,N/A,0.078,0.8525,0.0,0.0696
+734,41,Human Resources,Manager,19189,No,0.0066,Low,N/A,0.047,0.9085,0.0,0.0445
+738,50,Sales,Sales Representative,3875,No,0.0074,Low,N/A,0.0148,0.9753,0.0,0.0099
+741,28,Research & Development,Research Scientist,2216,Yes,0.9957,Critical,Compensation,0.0708,0.89,0.0,0.0393
+742,36,Research & Development,Research Director,11713,No,0.0153,Low,N/A,0.0324,0.9331,0.0,0.0345
+743,38,Research & Development,Manufacturing Director,7861,No,0.0123,Low,N/A,0.0236,0.9419,0.0,0.0345
+744,44,Research & Development,Laboratory Technician,3708,No,0.3423,Medium,N/A,0.023,0.9623,0.0,0.0148
+746,47,Sales,Sales Executive,13770,No,0.0307,Low,N/A,0.7014,0.2986,0.0,0.0
+747,30,Sales,Sales Executive,5304,No,0.0428,Low,N/A,0.097,0.8639,0.0,0.0391
+749,29,Sales,Sales Representative,2642,No,0.3347,Medium,N/A,0.0118,0.9882,0.0,0.0
+752,42,Research & Development,Research Scientist,2759,No,0.2096,Low,N/A,0.0722,0.9228,0.0,0.005
+754,43,Sales,Sales Executive,6804,No,0.0032,Low,N/A,0.0288,0.9564,0.0,0.0148
+757,34,Research & Development,Healthcare Representative,6142,No,0.0309,Low,N/A,0.0,1.0,0.0,0.0
+758,23,Research & Development,Laboratory Technician,2500,No,0.0402,Low,N/A,0.005,0.9901,0.0,0.0049
+760,39,Human Resources,Human Resources,6389,No,0.0223,Low,N/A,0.0725,0.9077,0.0,0.0198
+762,56,Research & Development,Healthcare Representative,11103,No,0.057,Low,N/A,0.0729,0.9223,0.0,0.0048
+763,40,Research & Development,Research Scientist,2342,No,0.0205,Low,N/A,0.8102,0.1898,0.0,0.0
+764,27,Research & Development,Healthcare Representative,6811,No,0.056,Low,N/A,0.0375,0.9575,0.0,0.005
+766,29,Sales,Sales Representative,2297,No,0.0073,Low,N/A,0.0089,0.9862,0.0,0.0049
+769,53,Research & Development,Laboratory Technician,2450,No,0.0004,Low,N/A,0.0238,0.9663,0.0,0.0099
+771,35,Research & Development,Healthcare Representative,5093,No,0.0467,Low,N/A,0.0324,0.9627,0.0,0.005
+772,32,Research & Development,Laboratory Technician,5309,No,0.0816,Low,N/A,0.0211,0.9448,0.0,0.0342
+773,38,Research & Development,Research Scientist,3057,Yes,0.5212,High,Burnout,0.933,0.067,0.0,0.0
+775,34,Research & Development,Manufacturing Director,5121,No,0.0718,Low,N/A,0.0388,0.9612,0.0,0.0
+776,52,Sales,Manager,16856,No,0.0381,Low,N/A,0.0668,0.8837,0.0,0.0495
+780,33,Research & Development,Research Scientist,2686,No,0.0412,Low,N/A,0.7395,0.2308,0.0,0.0296
+781,25,Sales,Sales Executive,6180,No,0.0152,Low,N/A,0.0684,0.9316,0.0,0.0
+783,45,Sales,Sales Representative,6632,No,0.1493,Low,N/A,0.0135,0.9421,0.0,0.0444
+784,23,Research & Development,Research Scientist,3505,No,0.0374,Low,N/A,0.0034,0.9966,0.0,0.0
+785,47,Sales,Sales Executive,6397,Yes,0.9698,Critical,Compensation,0.0336,0.9664,0.0,0.0
+786,34,Sales,Sales Executive,6274,No,0.0008,Low,N/A,0.0247,0.9654,0.0,0.01
+787,55,Research & Development,Manager,19859,Yes,0.9448,Critical,Compensation,0.046,0.954,0.0,0.0
+789,36,Sales,Sales Executive,7587,No,0.0889,Low,N/A,0.0298,0.9504,0.0,0.0198
+791,52,Research & Development,Research Scientist,4258,No,0.0045,Low,N/A,0.0258,0.9742,0.0,0.0
+792,26,Research & Development,Laboratory Technician,4364,No,0.1523,Low,N/A,0.0346,0.9654,0.0,0.0
+793,29,Research & Development,Healthcare Representative,4335,No,0.1231,Low,N/A,0.049,0.9462,0.0,0.0049
+796,26,Sales,Sales Executive,5326,Yes,0.9742,Critical,Compensation,0.0345,0.9655,0.0,0.0
+797,34,Research & Development,Research Scientist,3280,No,0.0011,Low,N/A,0.0208,0.9792,0.0,0.0
+799,54,Research & Development,Manufacturing Director,5485,No,0.006,Low,N/A,0.0646,0.9305,0.0,0.0049
+800,27,Sales,Sales Executive,4342,No,0.0416,Low,N/A,0.0219,0.9781,0.0,0.0
+802,37,Research & Development,Research Scientist,2782,No,0.138,Low,N/A,0.8473,0.1527,0.0,0.0
+803,38,Research & Development,Manufacturing Director,5980,No,0.0829,Low,N/A,0.0766,0.879,0.0,0.0444
+804,34,Research & Development,Research Scientist,4381,No,0.1042,Low,N/A,0.0195,0.9756,0.0,0.0049
+805,35,Sales,Sales Representative,2572,No,0.0155,Low,N/A,0.0832,0.9168,0.0,0.0
+806,30,Research & Development,Laboratory Technician,3833,No,0.0044,Low,N/A,0.0114,0.9886,0.0,0.0
+807,40,Research & Development,Healthcare Representative,4244,No,0.0021,Low,N/A,0.0212,0.9395,0.0,0.0393
+808,34,Sales,Sales Executive,6500,No,0.0759,Low,N/A,0.0034,0.9966,0.0,0.0
+809,42,Research & Development,Manager,18430,No,0.0065,Low,N/A,0.1018,0.7892,0.0,0.109
+811,23,Research & Development,Laboratory Technician,1601,Yes,0.993,Critical,Compensation,0.029,0.971,0.0,0.0
+812,24,Research & Development,Laboratory Technician,2694,No,0.0578,Low,N/A,0.022,0.9731,0.0,0.0049
+813,52,Research & Development,Laboratory Technician,3149,No,0.0056,Low,N/A,0.0153,0.9847,0.0,0.0
+815,50,Research & Development,Research Director,17639,No,0.014,Low,N/A,0.0253,0.9697,0.0,0.005
+816,29,Research & Development,Laboratory Technician,2319,Yes,0.9909,Critical,Compensation,0.0375,0.9527,0.0,0.0098
+817,33,Research & Development,Research Director,11691,No,0.0328,Low,N/A,0.0291,0.9267,0.0,0.0442
+819,33,Sales,Sales Executive,5324,Yes,0.9952,Critical,Compensation,0.0029,0.9971,0.0,0.0
+820,47,Research & Development,Manager,16752,No,0.0038,Low,N/A,0.7068,0.2835,0.0,0.0097
+823,36,Research & Development,Manufacturing Director,5228,No,0.0156,Low,N/A,0.0081,0.9721,0.0,0.0198
+824,29,Research & Development,Research Scientist,2700,No,0.0116,Low,N/A,0.0331,0.9522,0.0,0.0147
+825,58,Research & Development,Research Director,19246,Yes,0.9401,Critical,Compensation,0.1069,0.8635,0.0,0.0295
+826,35,Research & Development,Research Scientist,2506,No,0.0031,Low,N/A,0.0175,0.9825,0.0,0.0
+827,42,Research & Development,Manufacturing Director,6062,No,0.0027,Low,N/A,0.0671,0.9033,0.0,0.0296
+828,28,Research & Development,Research Scientist,4382,Yes,0.9411,Critical,Compensation,0.0764,0.9236,0.0,0.0
+829,36,Human Resources,Human Resources,2143,No,0.0692,Low,N/A,0.0197,0.9803,0.0,0.0
+830,32,Research & Development,Manufacturing Director,6162,No,0.0066,Low,N/A,0.0062,0.9394,0.0,0.0544
+832,40,Research & Development,Laboratory Technician,5094,No,0.2422,Low,N/A,0.0079,0.9822,0.0,0.0098
+833,30,Research & Development,Manufacturing Director,6877,Yes,0.5859,High,Burnout,0.8105,0.1795,0.0,0.0099
+834,45,Research & Development,Research Scientist,2274,No,0.3081,Medium,N/A,0.0107,0.9844,0.0,0.005
+836,42,Research & Development,Manufacturing Director,4434,No,0.0542,Low,N/A,0.0745,0.8716,0.0,0.054
+837,38,Research & Development,Healthcare Representative,6288,No,0.0481,Low,N/A,0.0332,0.9668,0.0,0.0
+838,34,Research & Development,Research Scientist,2553,No,0.0099,Low,N/A,0.0131,0.9869,0.0,0.0
+840,49,Sales,Sales Executive,7654,Yes,0.9668,Critical,Compensation,0.0259,0.9247,0.0,0.0493
+842,55,Sales,Sales Executive,5160,Yes,0.9415,Critical,Compensation,0.0405,0.9249,0.0,0.0346
+843,43,Research & Development,Research Director,17159,No,0.0228,Low,N/A,0.0444,0.9407,0.0,0.0149
+844,27,Research & Development,Research Director,12808,No,0.0053,Low,N/A,0.042,0.9183,0.0,0.0397
+845,35,Research & Development,Manufacturing Director,10221,No,0.0321,Low,N/A,0.018,0.9625,0.0,0.0195
+846,28,Sales,Sales Executive,4779,No,0.1644,Low,N/A,0.0616,0.8445,0.0,0.0939
+847,34,Human Resources,Human Resources,3737,No,0.0193,Low,N/A,0.0923,0.9077,0.0,0.0
+848,26,Research & Development,Research Scientist,2366,Yes,0.9815,Critical,Compensation,0.0278,0.9673,0.0,0.0049
+850,27,Research & Development,Research Scientist,1706,No,0.0724,Low,N/A,0.0484,0.9516,0.0,0.0
+851,51,Sales,Manager,16307,No,0.0122,Low,N/A,0.1414,0.8437,0.0,0.0149
+852,44,Research & Development,Healthcare Representative,5933,No,0.0269,Low,N/A,0.065,0.9301,0.0,0.0049
+854,25,Research & Development,Research Scientist,3424,No,0.3412,Medium,N/A,0.0427,0.9573,0.0,0.0
+855,33,Sales,Sales Executive,4037,No,0.0009,Low,N/A,0.0156,0.8359,0.0,0.1485
+856,35,Research & Development,Research Scientist,2559,No,0.0789,Low,N/A,0.065,0.9253,0.0,0.0097
+857,36,Sales,Sales Executive,6201,No,0.0094,Low,N/A,0.7432,0.2225,0.0,0.0343
+859,32,Sales,Sales Executive,4403,No,0.0206,Low,N/A,0.063,0.937,0.0,0.0
+861,30,Research & Development,Research Scientist,3761,No,0.0301,Low,N/A,0.0681,0.9319,0.0,0.0
+862,53,Sales,Sales Executive,10934,No,0.1372,Low,N/A,0.0788,0.9065,0.0,0.0148
+864,45,Sales,Sales Executive,10761,No,0.0813,Low,N/A,0.0498,0.9502,0.0,0.0
+865,32,Research & Development,Research Scientist,5175,No,0.0202,Low,N/A,0.0548,0.9452,0.0,0.0
+867,52,Research & Development,Manufacturing Director,13826,No,0.0006,Low,N/A,0.0463,0.9341,0.0,0.0195
+868,37,Sales,Sales Executive,6334,No,0.0031,Low,N/A,0.0337,0.9663,0.0,0.0
+869,28,Human Resources,Human Resources,4936,No,0.0042,Low,N/A,0.0295,0.9705,0.0,0.0
+872,22,Research & Development,Manufacturing Director,4775,No,0.0164,Low,N/A,0.0678,0.9322,0.0,0.0
+874,44,Research & Development,Laboratory Technician,2818,No,0.0185,Low,N/A,0.9465,0.0535,0.0,0.0
+875,42,Research & Development,Research Scientist,2515,No,0.0251,Low,N/A,0.1168,0.8782,0.0,0.005
+878,36,Human Resources,Human Resources,2342,No,0.0463,Low,N/A,0.013,0.987,0.0,0.0
+879,25,Sales,Sales Executive,4194,No,0.0535,Low,N/A,0.0249,0.9751,0.0,0.0
+880,35,Research & Development,Manufacturing Director,10685,No,0.0083,Low,N/A,0.0715,0.8989,0.0,0.0296
+881,35,Research & Development,Research Scientist,2022,Yes,0.9753,Critical,Burnout,0.841,0.159,0.0,0.0
+882,32,Research & Development,Laboratory Technician,2314,No,0.0006,Low,N/A,0.0379,0.9621,0.0,0.0
+885,25,Sales,Sales Executive,4256,Yes,0.6593,High,Compensation,0.0097,0.9903,0.0,0.0
+887,49,Research & Development,Research Scientist,3580,No,0.0101,Low,N/A,0.0133,0.9867,0.0,0.0
+888,24,Research & Development,Laboratory Technician,3162,No,0.028,Low,N/A,0.0782,0.9218,0.0,0.0
+889,32,Sales,Sales Executive,6524,No,0.016,Low,N/A,0.0087,0.9522,0.0,0.0391
+893,38,Sales,Sales Representative,2899,No,0.0177,Low,N/A,0.0239,0.9712,0.0,0.0049
+894,42,Research & Development,Laboratory Technician,5231,No,0.0076,Low,N/A,0.8989,0.1011,0.0,0.0
+895,31,Research & Development,Research Scientist,2356,No,0.0299,Low,N/A,0.0456,0.9544,0.0,0.0
+896,29,Sales,Sales Representative,2800,No,0.2762,Low,N/A,0.0631,0.9369,0.0,0.0
+897,53,Sales,Sales Executive,11836,No,0.0194,Low,N/A,0.0311,0.9639,0.0,0.005
+899,35,Research & Development,Manufacturing Director,10903,No,0.0183,Low,N/A,0.045,0.9401,0.0,0.0148
+900,37,Sales,Sales Representative,2973,No,0.0809,Low,N/A,0.0154,0.9846,0.0,0.0
+901,53,Research & Development,Research Director,14275,No,0.0091,Low,N/A,0.0567,0.9336,0.0,0.0097
+902,43,Research & Development,Healthcare Representative,5562,No,0.0023,Low,N/A,0.1113,0.8887,0.0,0.0
+903,47,Sales,Sales Executive,4537,No,0.03,Low,N/A,0.0649,0.9004,0.0,0.0347
+904,37,Sales,Sales Executive,7642,No,0.0841,Low,N/A,0.0793,0.9157,0.0,0.0049
+905,50,Research & Development,Manager,17924,No,0.0164,Low,N/A,0.0495,0.8021,0.0,0.1484
+909,39,Human Resources,Human Resources,5204,No,0.0044,Low,N/A,0.0155,0.9845,0.0,0.0
+910,33,Human Resources,Human Resources,2277,No,0.091,Low,N/A,0.0262,0.9738,0.0,0.0
+911,32,Research & Development,Laboratory Technician,2795,Yes,0.996,Critical,Burnout,0.9574,0.0426,0.0,0.0
+912,29,Research & Development,Laboratory Technician,2532,No,0.1334,Low,N/A,0.0309,0.9642,0.0,0.0049
+913,44,Research & Development,Research Scientist,2559,No,0.1568,Low,N/A,0.0396,0.9116,0.0,0.0488
+916,28,Sales,Sales Executive,4908,No,0.0087,Low,N/A,0.0262,0.9738,0.0,0.0
+918,58,Research & Development,Laboratory Technician,2380,Yes,0.976,Critical,Burnout,0.9129,0.0871,0.0,0.0
+920,43,Research & Development,Manufacturing Director,4765,No,0.054,Low,N/A,0.0216,0.9734,0.0,0.005
+922,20,Sales,Sales Representative,2044,Yes,0.9593,Critical,Compensation,0.0131,0.9869,0.0,0.0
+923,21,Research & Development,Research Scientist,2693,No,0.4086,Medium,N/A,0.0621,0.9379,0.0,0.0
+924,36,Research & Development,Healthcare Representative,6586,No,0.0253,Low,N/A,0.7874,0.2078,0.0,0.0047
+925,47,Sales,Sales Representative,3294,No,0.1959,Low,N/A,0.8013,0.1987,0.0,0.0
+926,22,Research & Development,Manufacturing Director,4171,Yes,0.92,Critical,Compensation,0.0131,0.9869,0.0,0.0
+927,41,Research & Development,Laboratory Technician,2778,Yes,0.971,Critical,Burnout,0.9361,0.0592,0.0,0.0047
+930,28,Research & Development,Research Scientist,2377,No,0.0535,Low,N/A,0.0071,0.9929,0.0,0.0
+932,39,Research & Development,Laboratory Technician,2404,Yes,0.9875,Critical,Burnout,0.9576,0.0424,0.0,0.0
+933,27,Research & Development,Research Scientist,2318,Yes,0.5132,High,Compensation,0.0021,0.9979,0.0,0.0
+934,34,Research & Development,Laboratory Technician,2008,No,0.3498,Medium,N/A,0.0021,0.9979,0.0,0.0
+936,42,Sales,Sales Executive,6244,No,0.0257,Low,N/A,0.0127,0.9774,0.0,0.0099
+939,33,Research & Development,Research Scientist,2799,No,0.3001,Medium,N/A,0.0575,0.9376,0.0,0.0049
+940,58,Research & Development,Healthcare Representative,10552,No,0.0091,Low,N/A,0.0552,0.9398,0.0,0.005
+941,31,Sales,Sales Representative,2329,No,0.0865,Low,N/A,0.0103,0.9703,0.0,0.0195
+942,35,Research & Development,Healthcare Representative,4014,No,0.0286,Low,N/A,0.7846,0.2154,0.0,0.0
+944,49,Research & Development,Laboratory Technician,7403,No,0.0237,Low,N/A,0.0565,0.9191,0.0,0.0244
+945,48,Research & Development,Research Scientist,2259,No,0.0524,Low,N/A,0.1167,0.8833,0.0,0.0
+947,31,Sales,Sales Executive,6932,No,0.0229,Low,N/A,0.0758,0.9098,0.0,0.0144
+949,36,Research & Development,Research Scientist,4678,No,0.0009,Low,N/A,0.0139,0.9861,0.0,0.0
+950,38,Research & Development,Research Director,13582,No,0.0004,Low,N/A,0.0578,0.8684,0.0,0.0739
+951,32,Research & Development,Laboratory Technician,2332,No,0.0866,Low,N/A,0.0124,0.9876,0.0,0.0
+952,25,Sales,Sales Representative,2413,Yes,0.994,Critical,Compensation,0.026,0.974,0.0,0.0
+954,40,Sales,Sales Executive,9705,Yes,0.8608,Critical,Compensation,0.1073,0.838,0.0,0.0547
+956,26,Sales,Sales Executive,4294,No,0.215,Low,N/A,0.0181,0.9471,0.0,0.0347
+957,41,Research & Development,Laboratory Technician,4721,No,0.0064,Low,N/A,0.0533,0.9419,0.0,0.0048
+958,36,Research & Development,Laboratory Technician,2519,No,0.0025,Low,N/A,0.0255,0.915,0.0,0.0595
+959,19,Sales,Sales Representative,2121,Yes,0.9927,Critical,Compensation,0.0206,0.9794,0.0,0.0
+960,20,Research & Development,Laboratory Technician,2973,Yes,0.9951,Critical,Compensation,0.0021,0.9979,0.0,0.0
+961,31,Research & Development,Healthcare Representative,5855,No,0.0427,Low,N/A,0.7859,0.2141,0.0,0.0
+964,40,Research & Development,Research Scientist,3617,No,0.0457,Low,N/A,0.0581,0.9419,0.0,0.0
+966,32,Research & Development,Manufacturing Director,6725,No,0.0136,Low,N/A,0.008,0.9424,0.0,0.0496
+967,36,Sales,Sales Executive,10325,Yes,0.9456,Critical,Compensation,0.0206,0.9002,0.0,0.0792
+969,33,Research & Development,Healthcare Representative,6949,No,0.0029,Low,N/A,0.0206,0.9794,0.0,0.0
+970,37,Sales,Sales Executive,10609,Yes,0.9781,Critical,Compensation,0.0477,0.8437,0.0,0.1087
+972,45,Research & Development,Laboratory Technician,4447,No,0.026,Low,N/A,0.0715,0.8742,0.0,0.0543
+974,29,Sales,Sales Representative,2157,No,0.4366,Medium,N/A,0.0172,0.9828,0.0,0.0
+975,35,Sales,Sales Executive,4601,No,0.2036,Low,N/A,0.0093,0.9907,0.0,0.0
+976,52,Research & Development,Manager,17099,No,0.0104,Low,N/A,0.0945,0.8314,0.0,0.0741
+977,58,Research & Development,Research Scientist,2479,No,0.0234,Low,N/A,0.0351,0.955,0.0,0.0099
+981,53,Sales,Manager,14852,No,0.0254,Low,N/A,0.0282,0.9372,0.0,0.0346
+982,30,Sales,Sales Executive,7264,No,0.1132,Low,N/A,0.0177,0.9525,0.0,0.0298
+983,38,Sales,Sales Executive,5666,No,0.0604,Low,N/A,0.0616,0.9384,0.0,0.0
+984,35,Sales,Sales Executive,7823,No,0.0014,Low,N/A,0.0207,0.9544,0.0,0.0248
+985,39,Sales,Sales Executive,7880,No,0.0107,Low,N/A,0.0156,0.9351,0.0,0.0493
+986,40,Sales,Sales Executive,13194,Yes,0.9742,Critical,Burnout,0.8989,0.0962,0.0,0.0049
+987,47,Research & Development,Manufacturing Director,5067,No,0.0033,Low,N/A,0.0422,0.9431,0.0,0.0147
+990,36,Sales,Sales Executive,5079,No,0.0057,Low,N/A,0.0371,0.9384,0.0,0.0245
+991,31,Research & Development,Research Scientist,2321,Yes,0.949,Critical,Compensation,0.0254,0.9746,0.0,0.0
+992,33,Sales,Manager,17444,No,0.0426,Low,N/A,0.0466,0.8643,0.0,0.0891
+994,29,Research & Development,Research Scientist,2404,Yes,0.9869,Critical,Compensation,0.0385,0.9615,0.0,0.0
+995,33,Research & Development,Research Scientist,3452,No,0.0304,Low,N/A,0.0226,0.9774,0.0,0.0
+996,45,Research & Development,Laboratory Technician,2270,No,0.0006,Low,N/A,0.0346,0.9606,0.0,0.0049
+997,50,Research & Development,Research Director,17399,No,0.0003,Low,N/A,0.0887,0.8915,0.0,0.0197
+998,33,Research & Development,Healthcare Representative,5488,No,0.0024,Low,N/A,0.0474,0.9526,0.0,0.0
+999,41,Research & Development,Research Director,19419,No,0.0035,Low,N/A,0.0493,0.9162,0.0,0.0345
+1001,27,Research & Development,Laboratory Technician,2811,No,0.0513,Low,N/A,0.0233,0.9767,0.0,0.0
+1002,45,Research & Development,Laboratory Technician,3633,No,0.0239,Low,N/A,0.0646,0.916,0.0,0.0194
+1003,47,Sales,Sales Executive,4163,No,0.0524,Low,N/A,0.0528,0.9225,0.0,0.0247
+1004,30,Research & Development,Research Scientist,2132,Yes,0.9962,Critical,Compensation,0.0269,0.9731,0.0,0.0
+1005,50,Research & Development,Manufacturing Director,13973,No,0.0203,Low,N/A,0.0631,0.9127,0.0,0.0242
+1006,38,Research & Development,Research Scientist,2684,No,0.0594,Low,N/A,0.0595,0.9405,0.0,0.0
+1007,46,Research & Development,Manufacturing Director,10845,No,0.0209,Low,N/A,0.0351,0.9407,0.0,0.0242
+1009,24,Research & Development,Manufacturing Director,4377,No,0.0202,Low,N/A,0.0087,0.9913,0.0,0.0
+1010,35,Research & Development,Laboratory Technician,3743,Yes,0.9447,Critical,Burnout,0.9637,0.0363,0.0,0.0
+1011,31,Research & Development,Manufacturing Director,4148,No,0.0325,Low,N/A,0.0203,0.9797,0.0,0.0
+1012,18,Research & Development,Research Scientist,1051,No,0.1705,Low,N/A,0.0218,0.9782,0.0,0.0
+1013,54,Research & Development,Manufacturing Director,10739,No,0.032,Low,N/A,0.0611,0.9341,0.0,0.0049
+1014,35,Research & Development,Healthcare Representative,10388,No,0.0197,Low,N/A,0.7648,0.2254,0.0,0.0098
+1015,30,Research & Development,Research Director,11416,No,0.0157,Low,N/A,0.7145,0.2361,0.0,0.0495
+1016,20,Research & Development,Research Scientist,2600,Yes,0.9963,Critical,Compensation,0.011,0.989,0.0,0.0
+1017,30,Research & Development,Laboratory Technician,2422,Yes,0.742,Critical,Compensation,0.0037,0.9963,0.0,0.0
+1018,26,Research & Development,Manufacturing Director,5472,No,0.0012,Low,N/A,0.0215,0.9538,0.0,0.0247
+1019,22,Research & Development,Laboratory Technician,2451,No,0.3354,Medium,N/A,0.0398,0.9602,0.0,0.0
+1022,48,Research & Development,Healthcare Representative,4240,No,0.0389,Low,N/A,0.0034,0.9916,0.0,0.005
+1024,48,Research & Development,Healthcare Representative,10999,No,0.0068,Low,N/A,0.0613,0.9239,0.0,0.0148
+1025,41,Research & Development,Manufacturing Director,5003,No,0.0136,Low,N/A,0.0,0.9852,0.0,0.0148
+1026,39,Research & Development,Manufacturing Director,12742,No,0.0044,Low,N/A,0.0318,0.9088,0.0,0.0594
+1027,27,Research & Development,Manufacturing Director,4227,No,0.0035,Low,N/A,0.0145,0.9855,0.0,0.0
+1028,35,Research & Development,Laboratory Technician,3917,No,0.0197,Low,N/A,0.0565,0.9435,0.0,0.0
+1029,42,Sales,Manager,18303,No,0.0066,Low,N/A,0.0221,0.9679,0.0,0.01
+1030,50,Research & Development,Laboratory Technician,2380,No,0.1759,Low,N/A,0.0181,0.9621,0.0,0.0197
+1032,59,Research & Development,Manufacturing Director,13726,No,0.0437,Low,N/A,0.0813,0.8939,0.0,0.0248
+1033,37,Research & Development,Healthcare Representative,4777,Yes,0.992,Critical,Compensation,0.0433,0.9567,0.0,0.0
+1034,55,Research & Development,Healthcare Representative,6385,No,0.0092,Low,N/A,0.0542,0.9166,0.0,0.0292
+1035,41,Research & Development,Research Director,19973,No,0.0091,Low,N/A,0.0341,0.9214,0.0,0.0445
+1036,38,Sales,Sales Executive,6861,No,0.1013,Low,N/A,0.0782,0.9218,0.0,0.0
+1037,26,Sales,Sales Executive,4969,Yes,0.9546,Critical,Compensation,0.0164,0.9738,0.0,0.0098
+1038,52,Sales,Manager,19845,Yes,0.9643,Critical,Compensation,0.0355,0.8904,0.0,0.0741
+1039,44,Sales,Sales Executive,13320,No,0.037,Low,N/A,0.0885,0.872,0.0,0.0396
+1040,50,Sales,Sales Executive,6347,No,0.0006,Low,N/A,0.0336,0.9368,0.0,0.0296
+1042,36,Research & Development,Laboratory Technician,2743,Yes,0.9302,Critical,Compensation,0.0023,0.9583,0.0,0.0394
+1043,39,Research & Development,Manufacturing Director,10880,No,0.0359,Low,N/A,0.0936,0.8916,0.0,0.0148
+1044,33,Sales,Sales Representative,2342,No,0.0266,Low,N/A,0.0818,0.9182,0.0,0.0
+1045,45,Sales,Manager,17650,No,0.0027,Low,N/A,0.026,0.9544,0.0,0.0196
+1046,32,Research & Development,Laboratory Technician,4025,No,0.095,Low,N/A,0.0326,0.9477,0.0,0.0197
+1047,34,Sales,Sales Executive,9725,No,0.0118,Low,N/A,0.0593,0.7821,0.0,0.1586
+1048,59,Sales,Manager,11904,No,0.0251,Low,N/A,0.8096,0.1805,0.0,0.0098
+1049,45,Human Resources,Human Resources,2177,No,0.077,Low,N/A,0.0081,0.9919,0.0,0.0
+1050,53,Sales,Sales Executive,7525,No,0.1225,Low,N/A,0.0343,0.9061,0.0,0.0595
+1052,36,Research & Development,Laboratory Technician,4834,Yes,0.9661,Critical,Compensation,0.0364,0.9636,0.0,0.0
+1053,26,Research & Development,Research Scientist,2042,Yes,0.9393,Critical,Compensation,0.0474,0.9526,0.0,0.0
+1055,34,Sales,Sales Representative,2220,No,0.2114,Low,N/A,0.0546,0.9454,0.0,0.0
+1056,28,Sales,Sales Representative,1052,Yes,0.7775,Critical,Compensation,0.0081,0.9919,0.0,0.0
+1060,38,Research & Development,Research Scientist,2821,No,0.0085,Low,N/A,0.0181,0.9819,0.0,0.0
+1061,50,Research & Development,Research Director,19237,No,0.0688,Low,N/A,0.6988,0.247,0.0,0.0542
+1062,37,Research & Development,Healthcare Representative,4107,No,0.4019,Medium,N/A,0.0509,0.9491,0.0,0.0
+1066,40,Sales,Sales Executive,8396,No,0.1076,Low,N/A,0.1019,0.8438,0.0,0.0543
+1068,26,Research & Development,Research Scientist,2007,No,0.0153,Low,N/A,0.0221,0.968,0.0,0.0098
+1069,46,Research & Development,Research Director,19627,No,0.0015,Low,N/A,0.0608,0.9047,0.0,0.0345
+1070,54,Sales,Sales Executive,10686,No,0.1864,Low,N/A,0.0551,0.7713,0.0,0.1736
+1071,56,Research & Development,Research Scientist,2942,No,0.0216,Low,N/A,0.0071,0.9879,0.0,0.0049
+1073,36,Research & Development,Manufacturing Director,8858,No,0.066,Low,N/A,0.067,0.9033,0.0,0.0297
+1074,55,Research & Development,Manager,16756,No,0.0909,Low,N/A,0.0585,0.8969,0.0,0.0446
+1076,43,Sales,Sales Executive,10798,No,0.0083,Low,N/A,0.0165,0.9389,0.0,0.0446
+1077,20,Sales,Sales Representative,2323,Yes,0.964,Critical,Compensation,0.0204,0.9796,0.0,0.0
+1079,21,Research & Development,Laboratory Technician,1416,Yes,0.9949,Critical,Compensation,0.0084,0.9916,0.0,0.0
+1080,46,Research & Development,Research Scientist,4615,No,0.0081,Low,N/A,0.0726,0.8982,0.0,0.0292
+1081,51,Research & Development,Research Scientist,2461,No,0.0616,Low,N/A,0.0735,0.9068,0.0,0.0198
+1082,28,Research & Development,Healthcare Representative,8722,No,0.0305,Low,N/A,0.0684,0.8719,0.0,0.0596
+1083,26,Research & Development,Laboratory Technician,3955,No,0.0733,Low,N/A,0.0115,0.9885,0.0,0.0
+1084,30,Research & Development,Manufacturing Director,9957,No,0.0599,Low,N/A,0.0668,0.8885,0.0,0.0447
+1085,41,Research & Development,Research Scientist,3376,No,0.0009,Low,N/A,0.024,0.976,0.0,0.0
+1088,38,Research & Development,Healthcare Representative,8823,No,0.019,Low,N/A,0.0866,0.8441,0.0,0.0694
+1092,40,Research & Development,Healthcare Representative,10322,No,0.0061,Low,N/A,0.0466,0.7658,0.0,0.1876
+1094,27,Research & Development,Laboratory Technician,4621,No,0.022,Low,N/A,0.0333,0.9667,0.0,0.0
+1096,55,Research & Development,Manufacturing Director,10976,No,0.0018,Low,N/A,0.0404,0.9199,0.0,0.0397
+1097,28,Research & Development,Research Scientist,3660,No,0.0808,Low,N/A,0.0263,0.9542,0.0,0.0195
+1098,44,Human Resources,Human Resources,10482,No,0.2288,Low,N/A,0.0391,0.9017,0.0,0.0592
+1099,33,Research & Development,Healthcare Representative,7119,No,0.0008,Low,N/A,0.0124,0.9876,0.0,0.0
+1100,35,Sales,Sales Executive,9582,Yes,0.9815,Critical,Compensation,0.0461,0.855,0.0,0.0989
+1101,33,Research & Development,Research Scientist,4508,Yes,0.9483,Critical,Compensation,0.0081,0.9772,0.0,0.0147
+1102,28,Research & Development,Laboratory Technician,2207,No,0.0278,Low,N/A,0.0681,0.9222,0.0,0.0098
+1103,34,Research & Development,Healthcare Representative,7756,No,0.0098,Low,N/A,0.0739,0.9261,0.0,0.0
+1105,37,Sales,Sales Executive,6694,No,0.0025,Low,N/A,0.0465,0.9535,0.0,0.0
+1106,25,Research & Development,Laboratory Technician,3691,Yes,0.9595,Critical,Compensation,0.0237,0.9714,0.0,0.0049
+1107,26,Research & Development,Laboratory Technician,2377,Yes,0.969,Critical,Compensation,0.0789,0.9211,0.0,0.0
+1108,33,Research & Development,Research Scientist,2313,Yes,0.9976,Critical,Compensation,0.046,0.954,0.0,0.0
+1109,42,Research & Development,Manager,17665,No,0.0179,Low,N/A,0.0339,0.902,0.0,0.0641
+1111,28,Research & Development,Laboratory Technician,2596,Yes,0.9629,Critical,Compensation,0.0034,0.9966,0.0,0.0
+1113,50,Sales,Sales Executive,4728,No,0.0855,Low,N/A,0.0505,0.9149,0.0,0.0346
+1114,33,Sales,Sales Executive,4302,No,0.0303,Low,N/A,0.0059,0.9941,0.0,0.0
+1115,34,Research & Development,Research Scientist,2979,No,0.0006,Low,N/A,0.0366,0.9634,0.0,0.0
+1116,48,Research & Development,Manager,16885,No,0.0002,Low,N/A,0.1097,0.8606,0.0,0.0297
+1117,45,Sales,Sales Executive,5593,No,0.0007,Low,N/A,0.0216,0.9542,0.0,0.0242
+1118,52,Research & Development,Healthcare Representative,10445,No,0.0127,Low,N/A,0.0524,0.8885,0.0,0.0591
+1119,38,Sales,Sales Executive,8740,No,0.0179,Low,N/A,0.0782,0.9122,0.0,0.0096
+1120,29,Research & Development,Research Scientist,2514,No,0.0065,Low,N/A,0.0457,0.9543,0.0,0.0
+1121,28,Research & Development,Manufacturing Director,7655,No,0.0233,Low,N/A,0.0393,0.9458,0.0,0.0149
+1124,46,Sales,Manager,17465,No,0.0415,Low,N/A,0.047,0.8988,0.0,0.0542
+1125,38,Sales,Sales Executive,7351,No,0.1268,Low,N/A,0.015,0.985,0.0,0.0
+1126,43,Research & Development,Manufacturing Director,10820,No,0.0354,Low,N/A,0.0569,0.9137,0.0,0.0294
+1127,39,Research & Development,Healthcare Representative,12169,Yes,0.975,Critical,Compensation,0.0173,0.8494,0.0,0.1333
+1128,40,Research & Development,Research Director,19626,No,0.0337,Low,N/A,0.0453,0.9301,0.0,0.0247
+1131,21,Research & Development,Research Scientist,2070,No,0.0851,Low,N/A,0.0422,0.9431,0.0,0.0148
+1132,39,Research & Development,Laboratory Technician,6782,No,0.1679,Low,N/A,0.0682,0.9318,0.0,0.0
+1133,36,Research & Development,Manufacturing Director,7779,No,0.0083,Low,N/A,0.0416,0.9485,0.0,0.0099
+1135,31,Sales,Sales Representative,2791,No,0.04,Low,N/A,0.0029,0.9971,0.0,0.0
+1136,28,Research & Development,Research Scientist,3201,No,0.2673,Low,N/A,0.0537,0.9463,0.0,0.0
+1137,35,Sales,Sales Executive,4968,No,0.0062,Low,N/A,0.0217,0.9783,0.0,0.0
+1138,49,Sales,Sales Executive,13120,No,0.0326,Low,N/A,0.061,0.9144,0.0,0.0245
+1140,34,Research & Development,Manufacturing Director,4033,No,0.0352,Low,N/A,0.0492,0.9508,0.0,0.0
+1143,29,Research & Development,Research Scientist,3291,No,0.0278,Low,N/A,0.0661,0.9339,0.0,0.0
+1148,42,Research & Development,Laboratory Technician,4272,No,0.1887,Low,N/A,0.027,0.9681,0.0,0.005
+1150,29,Research & Development,Manufacturing Director,5056,No,0.1127,Low,N/A,0.8046,0.1905,0.0,0.0049
+1152,38,Human Resources,Human Resources,2844,No,0.0042,Low,N/A,0.0284,0.9519,0.0,0.0197
+1154,28,Research & Development,Research Scientist,2703,No,0.0503,Low,N/A,0.0387,0.9613,0.0,0.0
+1156,18,Research & Development,Laboratory Technician,1904,Yes,0.9565,Critical,Compensation,0.0268,0.9732,0.0,0.0
+1157,33,Sales,Sales Executive,8224,Yes,0.8194,Critical,Compensation,0.0474,0.9526,0.0,0.0
+1158,41,Research & Development,Laboratory Technician,4766,No,0.1355,Low,N/A,0.074,0.9161,0.0,0.0099
+1160,31,Research & Development,Laboratory Technician,2610,Yes,0.9065,Critical,Compensation,0.0453,0.9547,0.0,0.0
+1161,37,Research & Development,Healthcare Representative,5731,No,0.0017,Low,N/A,0.009,0.991,0.0,0.0
+1162,27,Research & Development,Research Scientist,2539,No,0.0061,Low,N/A,0.0,1.0,0.0,0.0
+1163,34,Sales,Sales Executive,5714,No,0.0484,Low,N/A,0.0511,0.9489,0.0,0.0
+1164,35,Human Resources,Human Resources,4323,No,0.1931,Low,N/A,0.0555,0.9445,0.0,0.0
+1165,29,Sales,Sales Executive,7336,Yes,0.9242,Critical,Compensation,0.0501,0.9252,0.0,0.0247
+1166,40,Research & Development,Research Director,13499,No,0.0074,Low,N/A,0.1242,0.8611,0.0,0.0147
+1167,42,Sales,Sales Executive,13758,Yes,0.957,Critical,Burnout,0.8688,0.1115,0.0,0.0197
+1171,42,Sales,Sales Executive,5155,No,0.045,Low,N/A,0.0115,0.9836,0.0,0.0049
+1172,35,Research & Development,Laboratory Technician,2258,No,0.005,Low,N/A,0.0256,0.9545,0.0,0.0198
+1173,24,Research & Development,Laboratory Technician,3597,No,0.3379,Medium,N/A,0.029,0.966,0.0,0.0049
+1175,28,Research & Development,Laboratory Technician,2515,Yes,0.9768,Critical,Burnout,0.8756,0.1244,0.0,0.0
+1177,26,Research & Development,Laboratory Technician,4420,No,0.0034,Low,N/A,0.0185,0.9468,0.0,0.0347
+1179,30,Sales,Sales Executive,6578,No,0.057,Low,N/A,0.008,0.9821,0.0,0.0099
+1180,40,Research & Development,Research Scientist,4422,No,0.0306,Low,N/A,0.8739,0.1261,0.0,0.0
+1182,35,Research & Development,Manufacturing Director,10274,No,0.0178,Low,N/A,0.0294,0.8863,0.0,0.0843
+1184,34,Research & Development,Healthcare Representative,5343,No,0.0009,Low,N/A,0.0163,0.9443,0.0,0.0394
+1185,35,Research & Development,Laboratory Technician,2376,No,0.0241,Low,N/A,0.0229,0.9771,0.0,0.0
+1188,43,Sales,Sales Executive,5346,Yes,0.9909,Critical,Compensation,0.0585,0.9415,0.0,0.0
+1190,32,Sales,Sales Representative,2827,No,0.0782,Low,N/A,0.0069,0.9931,0.0,0.0
+1191,56,Research & Development,Manager,19943,No,0.0366,Low,N/A,0.0502,0.9398,0.0,0.01
+1192,29,Research & Development,Laboratory Technician,3131,No,0.0117,Low,N/A,0.0212,0.9194,0.0,0.0594
+1193,19,Research & Development,Research Scientist,2552,No,0.4033,Medium,N/A,0.0457,0.9543,0.0,0.0
+1195,45,Research & Development,Research Scientist,4477,No,0.1397,Low,N/A,0.923,0.077,0.0,0.0
+1196,37,Research & Development,Manufacturing Director,6474,No,0.0019,Low,N/A,0.0863,0.8795,0.0,0.0342
+1198,20,Research & Development,Laboratory Technician,3033,No,0.4727,Medium,N/A,0.0315,0.9685,0.0,0.0
+1200,44,Research & Development,Research Scientist,2936,Yes,0.9334,Critical,Compensation,0.021,0.9741,0.0,0.0049
+1201,53,Research & Development,Manager,18606,No,0.0056,Low,N/A,0.0196,0.9015,0.0,0.0789
+1202,29,Research & Development,Research Scientist,2168,No,0.1814,Low,N/A,0.8186,0.1814,0.0,0.0
+1203,22,Research & Development,Research Scientist,2853,No,0.4921,Medium,N/A,0.039,0.9511,0.0,0.0098
+1204,46,Sales,Manager,17048,No,0.0268,Low,N/A,0.0652,0.8507,0.0,0.0841
+1206,44,Research & Development,Research Scientist,2290,No,0.0824,Low,N/A,0.0218,0.9732,0.0,0.005
+1207,33,Human Resources,Human Resources,3600,No,0.0764,Low,N/A,0.0292,0.9708,0.0,0.0
+1210,41,Research & Development,Research Scientist,2107,Yes,0.7436,Critical,Compensation,0.0586,0.9414,0.0,0.0
+1211,30,Sales,Sales Executive,4115,No,0.0141,Low,N/A,0.0302,0.9698,0.0,0.0
+1212,40,Sales,Sales Executive,4327,No,0.0577,Low,N/A,0.0243,0.9707,0.0,0.0049
+1215,50,Research & Development,Manager,17856,No,0.0009,Low,N/A,0.037,0.9282,0.0,0.0348
+1216,28,Research & Development,Laboratory Technician,3196,No,0.0406,Low,N/A,0.0279,0.9721,0.0,0.0
+1217,46,Research & Development,Research Director,19081,No,0.0564,Low,N/A,0.0145,0.9805,0.0,0.005
+1218,35,Sales,Sales Executive,8966,No,0.1024,Low,N/A,0.0601,0.9058,0.0,0.0341
+1219,24,Research & Development,Laboratory Technician,2210,Yes,0.9869,Critical,Compensation,0.0187,0.9813,0.0,0.0
+1220,33,Sales,Sales Executive,4539,No,0.0461,Low,N/A,0.0299,0.9701,0.0,0.0
+1221,36,Research & Development,Laboratory Technician,2741,No,0.0242,Low,N/A,0.021,0.9446,0.0,0.0344
+1224,30,Research & Development,Laboratory Technician,3491,No,0.1026,Low,N/A,0.0793,0.8466,0.0,0.0741
+1225,44,Research & Development,Research Scientist,4541,No,0.0128,Low,N/A,0.0213,0.9688,0.0,0.0099
+1226,20,Sales,Sales Representative,2678,No,0.1047,Low,N/A,0.004,0.996,0.0,0.0
+1228,46,Research & Development,Manufacturing Director,7379,No,0.0053,Low,N/A,0.0553,0.9447,0.0,0.0
+1231,42,Human Resources,Human Resources,6272,No,0.0013,Low,N/A,0.0281,0.9719,0.0,0.0
+1233,60,Sales,Sales Executive,5220,No,0.0013,Low,N/A,0.0674,0.9229,0.0,0.0097
+1234,32,Research & Development,Laboratory Technician,2743,No,0.1682,Low,N/A,0.015,0.985,0.0,0.0
+1235,32,Research & Development,Research Scientist,4998,No,0.0235,Low,N/A,0.0262,0.9395,0.0,0.0343
+1237,36,Research & Development,Manufacturing Director,10252,No,0.019,Low,N/A,0.0995,0.8164,0.0,0.0841
+1238,33,Research & Development,Research Scientist,2781,No,0.0014,Low,N/A,0.0077,0.9379,0.0,0.0544
+1239,40,Sales,Sales Executive,6852,No,0.0926,Low,N/A,0.0159,0.9841,0.0,0.0
+1240,25,Sales,Sales Executive,4950,No,0.0274,Low,N/A,0.022,0.978,0.0,0.0
+1241,30,Research & Development,Research Scientist,3579,No,0.0104,Low,N/A,0.0409,0.9147,0.0,0.0444
+1242,42,Research & Development,Research Director,13191,No,0.107,Low,N/A,0.0629,0.8878,0.0,0.0494
+1243,35,Sales,Sales Executive,10377,No,0.1352,Low,N/A,0.6332,0.3273,0.0,0.0396
+1244,27,Research & Development,Research Scientist,2235,No,0.1085,Low,N/A,0.766,0.2243,0.0,0.0097
+1245,54,Research & Development,Manufacturing Director,10502,No,0.0023,Low,N/A,0.1159,0.8644,0.0,0.0197
+1246,44,Research & Development,Research Scientist,2011,No,0.0217,Low,N/A,0.0393,0.8421,0.0,0.1186
+1248,19,Research & Development,Research Scientist,1859,Yes,0.9978,Critical,Compensation,0.0183,0.9817,0.0,0.0
+1249,29,Research & Development,Research Scientist,3760,No,0.0032,Low,N/A,0.0142,0.9759,0.0,0.0098
+1250,54,Research & Development,Research Director,17779,No,0.001,Low,N/A,0.0365,0.9437,0.0,0.0198
+1251,31,Research & Development,Healthcare Representative,6833,No,0.0536,Low,N/A,0.8651,0.1349,0.0,0.0
+1252,31,Research & Development,Healthcare Representative,6812,No,0.04,Low,N/A,0.0001,0.9852,0.0,0.0147
+1254,59,Sales,Sales Executive,5171,No,0.0874,Low,N/A,0.0218,0.9782,0.0,0.0
+1255,43,Research & Development,Research Director,19740,No,0.065,Low,N/A,0.0263,0.9346,0.0,0.0391
+1256,49,Research & Development,Manager,18711,No,0.0574,Low,N/A,0.0121,0.9679,0.0,0.02
+1257,36,Research & Development,Research Scientist,3692,No,0.0149,Low,N/A,0.0518,0.9283,0.0,0.0199
+1258,48,Research & Development,Laboratory Technician,2559,No,0.177,Low,N/A,0.0598,0.9402,0.0,0.0
+1259,27,Research & Development,Research Scientist,2517,No,0.0252,Low,N/A,0.0099,0.9901,0.0,0.0
+1260,29,Research & Development,Healthcare Representative,6623,No,0.0484,Low,N/A,0.041,0.959,0.0,0.0
+1263,48,Research & Development,Research Director,18265,No,0.0012,Low,N/A,0.0305,0.9497,0.0,0.0198
+1264,29,Research & Development,Research Director,16124,No,0.0012,Low,N/A,0.0878,0.8627,0.0,0.0495
+1265,34,Research & Development,Research Scientist,2585,No,0.0566,Low,N/A,0.0642,0.9358,0.0,0.0
+1267,44,Sales,Manager,18213,No,0.0097,Low,N/A,0.0447,0.8118,0.0,0.1435
+1268,33,Sales,Sales Executive,8380,No,0.0005,Low,N/A,0.0622,0.9183,0.0,0.0195
+1269,19,Research & Development,Research Scientist,2994,No,0.1857,Low,N/A,0.0605,0.9395,0.0,0.0
+1270,23,Research & Development,Research Scientist,1223,No,0.0288,Low,N/A,0.0104,0.9848,0.0,0.0049
+1273,25,Sales,Sales Representative,1118,Yes,0.9993,Critical,Compensation,0.0671,0.9329,0.0,0.0
+1275,26,Research & Development,Research Scientist,2875,No,0.1083,Low,N/A,0.8149,0.1753,0.0,0.0099
+1277,45,Sales,Manager,18824,Yes,0.9638,Critical,Compensation,0.1035,0.8815,0.0,0.015
+1278,55,Research & Development,Healthcare Representative,13577,No,0.0025,Low,N/A,0.0763,0.8846,0.0,0.0391
+1279,21,Research & Development,Laboratory Technician,2625,Yes,0.9735,Critical,Compensation,0.0296,0.9704,0.0,0.0
+1280,46,Sales,Manager,18789,No,0.0503,Low,N/A,0.0284,0.9617,0.0,0.0099
+1281,34,Sales,Sales Executive,4538,No,0.0571,Low,N/A,0.0425,0.9575,0.0,0.0
+1282,51,Sales,Manager,19847,No,0.0152,Low,N/A,0.6734,0.2477,0.0,0.0789
+1283,59,Research & Development,Manufacturing Director,10512,No,0.1416,Low,N/A,0.0889,0.8376,0.0,0.0735
+1285,34,Research & Development,Laboratory Technician,4444,No,0.0099,Low,N/A,0.015,0.9751,0.0,0.0099
+1286,28,Research & Development,Laboratory Technician,2154,No,0.2512,Low,N/A,0.8313,0.1687,0.0,0.0
+1288,44,Research & Development,Manager,19190,No,0.0021,Low,N/A,0.1117,0.7053,0.0,0.183
+1289,34,Human Resources,Human Resources,4490,No,0.0104,Low,N/A,0.0177,0.9037,0.0,0.0786
+1291,35,Research & Development,Research Scientist,3506,No,0.0185,Low,N/A,0.0597,0.9403,0.0,0.0
+1292,42,Research & Development,Research Scientist,2372,No,0.0673,Low,N/A,0.0577,0.9373,0.0,0.005
+1293,43,Sales,Sales Executive,10231,No,0.0209,Low,N/A,0.0559,0.8699,0.0,0.0741
+1294,36,Research & Development,Manufacturing Director,5410,No,0.0216,Low,N/A,0.071,0.9044,0.0,0.0245
+1295,44,Research & Development,Healthcare Representative,7978,Yes,0.9388,Critical,Compensation,0.017,0.9687,0.0,0.0143
+1296,28,Research & Development,Laboratory Technician,3867,No,0.0957,Low,N/A,0.0794,0.9206,0.0,0.0
+1297,51,Research & Development,Laboratory Technician,2838,No,0.4593,Medium,N/A,0.0434,0.8924,0.0,0.0642
+1298,30,Research & Development,Manufacturing Director,4695,No,0.19,Low,N/A,0.043,0.957,0.0,0.0
+1299,29,Research & Development,Laboratory Technician,3339,Yes,0.9476,Critical,Compensation,0.0355,0.9547,0.0,0.0098
+1301,28,Research & Development,Research Scientist,2080,No,0.0872,Low,N/A,0.0398,0.9602,0.0,0.0
+1303,25,Research & Development,Research Scientist,2096,No,0.1091,Low,N/A,0.0473,0.9479,0.0,0.0049
+1304,32,Sales,Sales Executive,6209,No,0.0021,Low,N/A,0.0165,0.9537,0.0,0.0299
+1306,45,Research & Development,Manager,18061,No,0.0098,Low,N/A,0.0542,0.8962,0.0,0.0496
+1307,39,Research & Development,Manager,17123,No,0.01,Low,N/A,0.0786,0.8177,0.0,0.1037
+1308,58,Research & Development,Research Scientist,2372,No,0.0124,Low,N/A,0.0296,0.9654,0.0,0.005
+1309,32,Research & Development,Laboratory Technician,4883,Yes,0.9102,Critical,Compensation,0.0,1.0,0.0,0.0
+1310,39,Research & Development,Research Scientist,3904,Yes,0.9385,Critical,Compensation,0.0019,0.9981,0.0,0.0
+1311,30,Research & Development,Laboratory Technician,4627,No,0.0297,Low,N/A,0.0063,0.9098,0.0,0.084
+1312,36,Research & Development,Healthcare Representative,7094,No,0.0236,Low,N/A,0.0189,0.9762,0.0,0.0049
+1314,46,Human Resources,Human Resources,3423,No,0.0491,Low,N/A,0.0294,0.9608,0.0,0.0098
+1315,28,Research & Development,Laboratory Technician,6674,No,0.0152,Low,N/A,0.02,0.7773,0.0,0.2026
+1317,50,Research & Development,Research Director,16880,No,0.1021,Low,N/A,0.0388,0.9562,0.0,0.005
+1318,40,Sales,Sales Executive,9094,Yes,0.7745,Critical,Compensation,0.031,0.9541,0.0,0.0149
+1319,52,Sales,Sales Executive,8446,Yes,0.9933,Critical,Burnout,0.9182,0.0573,0.0,0.0245
+1321,30,Research & Development,Manager,11916,No,0.081,Low,N/A,0.0786,0.8718,0.0,0.0496
+1322,39,Research & Development,Manufacturing Director,4534,No,0.0668,Low,N/A,0.0142,0.9316,0.0,0.0542
+1324,31,Sales,Sales Executive,9852,No,0.1615,Low,N/A,0.5853,0.241,0.0,0.1737
+1329,41,Sales,Sales Executive,6151,No,0.037,Low,N/A,0.0255,0.8555,0.0,0.1189
+1331,31,Sales,Sales Representative,2302,Yes,0.9655,Critical,Compensation,0.0472,0.9528,0.0,0.0
+1333,44,Research & Development,Laboratory Technician,2362,No,0.3366,Medium,N/A,0.0108,0.9842,0.0,0.0049
+1334,42,Research & Development,Manager,17861,No,0.006,Low,N/A,0.7514,0.2388,0.0,0.0099
+1336,55,Research & Development,Manager,19187,No,0.0715,Low,N/A,0.049,0.803,0.0,0.148
+1338,56,Human Resources,Manager,19717,No,0.025,Low,N/A,0.0644,0.8067,0.0,0.1289
+1340,40,Research & Development,Research Scientist,3544,No,0.0259,Low,N/A,0.0281,0.9719,0.0,0.0
+1344,34,Research & Development,Healthcare Representative,8500,No,0.01,Low,N/A,0.065,0.9055,0.0,0.0295
+1346,40,Research & Development,Research Scientist,4661,No,0.0056,Low,N/A,0.0,0.8462,0.0,0.1538
+1349,41,Sales,Sales Executive,4103,No,0.008,Low,N/A,0.0171,0.9235,0.0,0.0593
+1350,35,Research & Development,Research Scientist,4249,No,0.454,Medium,N/A,0.0443,0.9457,0.0,0.01
+1352,51,Human Resources,Manager,14026,No,0.0135,Low,N/A,0.1036,0.8717,0.0,0.0247
+1355,38,Sales,Sales Executive,6893,No,0.0227,Low,N/A,0.012,0.9489,0.0,0.0391
+1356,34,Sales,Sales Executive,6125,No,0.0251,Low,N/A,0.0131,0.8387,0.0,0.1482
+1358,25,Research & Development,Laboratory Technician,3669,No,0.0617,Low,N/A,0.0944,0.9056,0.0,0.0
+1360,58,Research & Development,Manufacturing Director,10008,Yes,0.9599,Critical,Burnout,0.9147,0.0805,0.0,0.0048
+1361,40,Research & Development,Laboratory Technician,2387,No,0.0035,Low,N/A,0.0274,0.9726,0.0,0.0
+1362,36,Sales,Sales Executive,4639,No,0.0094,Low,N/A,0.0619,0.9041,0.0,0.0341
+1363,48,Research & Development,Manufacturing Director,7898,No,0.0051,Low,N/A,0.0201,0.97,0.0,0.0099
+1364,27,Sales,Sales Representative,2534,No,0.0727,Low,N/A,0.0217,0.9783,0.0,0.0
+1367,51,Research & Development,Manufacturing Director,13142,No,0.0341,Low,N/A,0.0703,0.9247,0.0,0.005
+1368,18,Research & Development,Laboratory Technician,1611,No,0.093,Low,N/A,0.0184,0.9717,0.0,0.0099
+1369,35,Research & Development,Laboratory Technician,5363,No,0.0011,Low,N/A,0.0252,0.9599,0.0,0.0149
+1371,27,Sales,Sales Executive,5071,No,0.0475,Low,N/A,0.0308,0.9692,0.0,0.0
+1372,55,Sales,Sales Executive,13695,Yes,0.9799,Critical,Burnout,0.9061,0.089,0.0,0.0049
+1373,56,Research & Development,Manufacturing Director,13402,No,0.0773,Low,N/A,0.152,0.8133,0.0,0.0347
+1374,34,Research & Development,Research Scientist,2029,No,0.0098,Low,N/A,0.0371,0.9629,0.0,0.0
+1375,40,Research & Development,Healthcare Representative,6377,No,0.0005,Low,N/A,0.0288,0.9166,0.0,0.0546
+1377,34,Research & Development,Laboratory Technician,5429,No,0.0737,Low,N/A,0.0146,0.9656,0.0,0.0198
+1379,31,Sales,Sales Representative,2785,Yes,0.9572,Critical,Compensation,0.007,0.993,0.0,0.0
+1380,35,Sales,Sales Executive,4614,Yes,0.9573,Critical,Burnout,0.9334,0.0666,0.0,0.0
+1382,38,Research & Development,Research Scientist,2610,No,0.0032,Low,N/A,0.0098,0.9902,0.0,0.0
+1383,34,Research & Development,Healthcare Representative,6687,No,0.0014,Low,N/A,0.0121,0.9584,0.0,0.0295
+1387,28,Sales,Sales Executive,4724,No,0.0823,Low,N/A,0.0204,0.9648,0.0,0.0148
+1389,31,Research & Development,Manufacturing Director,6179,No,0.1727,Low,N/A,0.7548,0.2452,0.0,0.0
+1390,39,Sales,Sales Executive,6120,No,0.0254,Low,N/A,0.0521,0.9479,0.0,0.0
+1391,51,Sales,Sales Executive,10596,Yes,0.5508,High,Compensation,0.0452,0.8603,0.0,0.0944
+1392,41,Research & Development,Research Scientist,5467,No,0.0454,Low,N/A,0.7851,0.2149,0.0,0.0
+1394,37,Research & Development,Research Scientist,2996,No,0.0812,Low,N/A,0.0464,0.9536,0.0,0.0
+1395,33,Sales,Sales Executive,9998,No,0.1073,Low,N/A,0.009,0.9164,0.0,0.0745
+1396,32,Sales,Sales Executive,4078,No,0.0746,Low,N/A,0.7929,0.2071,0.0,0.0
+1397,39,Research & Development,Healthcare Representative,10920,No,0.0145,Low,N/A,0.0302,0.9649,0.0,0.0049
+1399,25,Sales,Sales Executive,6232,No,0.0446,Low,N/A,0.0551,0.9449,0.0,0.0
+1401,52,Research & Development,Manufacturing Director,13247,No,0.0025,Low,N/A,0.789,0.211,0.0,0.0
+1402,43,Research & Development,Research Scientist,4081,No,0.09,Low,N/A,0.8012,0.1988,0.0,0.0
+1403,27,Sales,Sales Executive,5769,No,0.1032,Low,N/A,0.0306,0.9645,0.0,0.0049
+1405,27,Research & Development,Research Scientist,2394,Yes,0.9495,Critical,Compensation,0.038,0.9471,0.0,0.0148
+1407,26,Research & Development,Research Scientist,3904,No,0.0367,Low,N/A,0.0181,0.9819,0.0,0.0
+1408,42,Human Resources,Manager,16799,No,0.0018,Low,N/A,0.0451,0.8559,0.0,0.099
+1409,52,Research & Development,Laboratory Technician,2950,No,0.1936,Low,N/A,0.0453,0.9547,0.0,0.0
+1411,37,Research & Development,Laboratory Technician,3629,No,0.1316,Low,N/A,0.004,0.9911,0.0,0.0049
+1412,35,Research & Development,Manufacturing Director,9362,No,0.0161,Low,N/A,0.0342,0.9409,0.0,0.0249
+1415,25,Research & Development,Laboratory Technician,3229,No,0.1141,Low,N/A,0.0694,0.9306,0.0,0.0
+1417,26,Research & Development,Laboratory Technician,3578,No,0.0165,Low,N/A,0.0034,0.9672,0.0,0.0294
+1419,29,Human Resources,Human Resources,7988,No,0.0831,Low,N/A,0.0452,0.9301,0.0,0.0246
+1420,49,Research & Development,Laboratory Technician,4284,Yes,0.9761,Critical,Compensation,0.0131,0.9869,0.0,0.0
+1421,29,Research & Development,Healthcare Representative,7553,Yes,0.9855,Critical,Compensation,0.019,0.9712,0.0,0.0098
+1422,54,Research & Development,Research Director,17328,No,0.0284,Low,N/A,0.0865,0.8449,0.0,0.0686
+1423,58,Research & Development,Research Director,19701,No,0.0182,Low,N/A,0.072,0.8742,0.0,0.0538
+1424,55,Research & Development,Research Director,14732,No,0.0004,Low,N/A,0.0622,0.8539,0.0,0.0838
+1425,36,Sales,Sales Executive,9278,No,0.0994,Low,N/A,0.0836,0.8469,0.0,0.0695
+1427,31,Sales,Sales Representative,1359,Yes,0.9986,Critical,Compensation,0.008,0.992,0.0,0.0
+1428,30,Sales,Sales Executive,4779,No,0.0398,Low,N/A,0.0163,0.9837,0.0,0.0
+1430,31,Research & Development,Research Director,16422,No,0.0367,Low,N/A,0.0363,0.929,0.0,0.0347
+1431,34,Research & Development,Research Scientist,2996,No,0.0067,Low,N/A,0.0227,0.9773,0.0,0.0
+1433,31,Research & Development,Research Scientist,1261,Yes,0.9912,Critical,Compensation,0.0,1.0,0.0,0.0
+1434,27,Research & Development,Laboratory Technician,2099,No,0.0896,Low,N/A,0.0062,0.9938,0.0,0.0
+1435,36,Research & Development,Laboratory Technician,5810,No,0.0174,Low,N/A,0.0813,0.9037,0.0,0.015
+1436,36,Sales,Sales Executive,5647,No,0.0987,Low,N/A,0.0645,0.9355,0.0,0.0
+1438,47,Research & Development,Research Scientist,3420,No,0.0052,Low,N/A,0.0941,0.9059,0.0,0.0
+1439,25,Sales,Sales Representative,4400,Yes,0.7457,Critical,Compensation,0.0,1.0,0.0,0.0
+1440,37,Research & Development,Laboratory Technician,3500,No,0.0231,Low,N/A,0.0379,0.9621,0.0,0.0
+1441,56,Research & Development,Research Scientist,2066,No,0.0483,Low,N/A,0.0312,0.9591,0.0,0.0097
+1443,47,Research & Development,Research Director,17169,No,0.0028,Low,N/A,0.0635,0.8971,0.0,0.0394
+1445,24,Sales,Sales Executive,4162,No,0.0117,Low,N/A,0.0324,0.9676,0.0,0.0
+1446,32,Sales,Sales Executive,9204,No,0.0225,Low,N/A,0.0702,0.885,0.0,0.0448
+1447,34,Research & Development,Laboratory Technician,3294,No,0.0125,Low,N/A,0.0646,0.9354,0.0,0.0
+1448,41,Research & Development,Research Scientist,2127,No,0.1336,Low,N/A,0.7571,0.238,0.0,0.0049
+1449,40,Research & Development,Laboratory Technician,3975,No,0.0054,Low,N/A,0.0305,0.9597,0.0,0.0098
+1453,31,Sales,Sales Executive,10793,No,0.0846,Low,N/A,0.0214,0.7357,0.0,0.2429
+1457,46,Sales,Sales Executive,10096,Yes,0.9475,Critical,Compensation,0.0348,0.9405,0.0,0.0247
+1458,39,Research & Development,Laboratory Technician,3646,Yes,0.9857,Critical,Compensation,0.0531,0.9469,0.0,0.0
+1459,31,Research & Development,Manufacturing Director,7446,Yes,0.9629,Critical,Compensation,0.0081,0.9478,0.0,0.0441
+1460,45,Research & Development,Healthcare Representative,10851,No,0.0242,Low,N/A,0.0609,0.9145,0.0,0.0246
+1461,31,Human Resources,Human Resources,2109,No,0.0847,Low,N/A,0.0074,0.9926,0.0,0.0
+1464,31,Research & Development,Laboratory Technician,3722,Yes,0.9856,Critical,Burnout,0.9718,0.0282,0.0,0.0
+1465,45,Research & Development,Manufacturing Director,9380,No,0.0441,Low,N/A,0.0503,0.9001,0.0,0.0495
+1466,48,Sales,Sales Executive,5486,No,0.0198,Low,N/A,0.0194,0.9707,0.0,0.0099
+1467,34,Human Resources,Human Resources,2742,Yes,0.9317,Critical,Compensation,0.0083,0.9917,0.0,0.0
+1468,40,Research & Development,Research Director,13757,No,0.0014,Low,N/A,0.0218,0.8695,0.0,0.1087
+1469,28,Sales,Sales Executive,8463,No,0.0143,Low,N/A,0.0305,0.9446,0.0,0.0249
+1471,44,Research & Development,Laboratory Technician,3162,No,0.0096,Low,N/A,0.0249,0.9652,0.0,0.0099
+1472,53,Research & Development,Research Director,16598,No,0.0177,Low,N/A,0.1208,0.8148,0.0,0.0644
+1473,49,Research & Development,Healthcare Representative,6651,No,0.0055,Low,N/A,0.0538,0.9462,0.0,0.0
+1474,40,Research & Development,Research Scientist,2345,No,0.0085,Low,N/A,0.0287,0.9713,0.0,0.0
+1475,44,Research & Development,Research Scientist,3420,No,0.0645,Low,N/A,0.0704,0.9296,0.0,0.0
+1477,33,Sales,Sales Executive,4373,No,0.0817,Low,N/A,0.0064,0.9936,0.0,0.0
+1478,34,Sales,Sales Executive,4759,No,0.0657,Low,N/A,0.0182,0.9424,0.0,0.0394
+1479,30,Sales,Sales Executive,5301,No,0.144,Low,N/A,0.0946,0.9054,0.0,0.0
+1480,42,Research & Development,Laboratory Technician,3673,No,0.0308,Low,N/A,0.0171,0.9829,0.0,0.0
+1481,44,Sales,Sales Executive,4768,No,0.146,Low,N/A,0.0773,0.9127,0.0,0.0099
+1482,30,Research & Development,Research Scientist,1274,No,0.1893,Low,N/A,0.0378,0.9622,0.0,0.0
+1483,57,Research & Development,Research Scientist,4900,No,0.0013,Low,N/A,0.1198,0.8459,0.0,0.0343
+1484,49,Research & Development,Healthcare Representative,10466,No,0.0014,Low,N/A,0.0608,0.9099,0.0,0.0292
+1485,34,Research & Development,Research Director,17007,No,0.0388,Low,N/A,0.0958,0.8602,0.0,0.044
+1486,28,Sales,Sales Representative,2909,Yes,0.9587,Critical,Compensation,0.0114,0.9788,0.0,0.0098
+1487,29,Sales,Sales Executive,5765,Yes,0.995,Critical,Compensation,0.0223,0.9777,0.0,0.0
+1489,34,Sales,Sales Executive,4599,Yes,0.9661,Critical,Compensation,0.0279,0.9721,0.0,0.0
+1492,35,Sales,Sales Representative,2404,No,0.0765,Low,N/A,0.005,0.995,0.0,0.0
+1494,24,Research & Development,Laboratory Technician,3172,Yes,0.9982,Critical,Burnout,0.9067,0.0933,0.0,0.0
+1495,24,Sales,Sales Representative,2033,Yes,0.884,Critical,Compensation,0.0069,0.9931,0.0,0.0
+1496,44,Research & Development,Manufacturing Director,10209,No,0.2262,Low,N/A,0.8677,0.1275,0.0,0.0049
+1497,29,Sales,Sales Executive,8620,No,0.016,Low,N/A,0.0187,0.9568,0.0,0.0246
+1499,30,Human Resources,Human Resources,2064,No,0.0233,Low,N/A,0.0196,0.9804,0.0,0.0
+1501,55,Research & Development,Healthcare Representative,4035,No,0.0335,Low,N/A,0.0458,0.9542,0.0,0.0
+1502,33,Research & Development,Laboratory Technician,3838,No,0.0789,Low,N/A,0.0165,0.9639,0.0,0.0197
+1503,47,Sales,Sales Executive,4591,No,0.0346,Low,N/A,0.8087,0.1913,0.0,0.0
+1504,28,Research & Development,Laboratory Technician,2561,Yes,0.9973,Critical,Compensation,0.0888,0.9112,0.0,0.0
+1506,28,Research & Development,Research Scientist,1563,No,0.2416,Low,N/A,0.0449,0.9454,0.0,0.0097
+1507,28,Sales,Sales Executive,4898,No,0.0664,Low,N/A,0.0165,0.9785,0.0,0.0049
+1509,49,Research & Development,Laboratory Technician,4789,No,0.0525,Low,N/A,0.0131,0.9869,0.0,0.0
+1513,29,Research & Development,Laboratory Technician,3180,No,0.032,Low,N/A,0.0175,0.9825,0.0,0.0
+1514,28,Research & Development,Manufacturing Director,6549,No,0.1494,Low,N/A,0.0576,0.9324,0.0,0.01
+1515,33,Research & Development,Healthcare Representative,6388,No,0.0602,Low,N/A,0.0388,0.9612,0.0,0.0
+1516,32,Research & Development,Manager,11244,No,0.0026,Low,N/A,0.032,0.9285,0.0,0.0395
+1520,54,Research & Development,Manager,16032,No,0.0005,Low,N/A,0.0857,0.8848,0.0,0.0295
+1522,29,Research & Development,Research Scientist,2362,Yes,0.9645,Critical,Compensation,0.0368,0.9383,0.0,0.0248
+1523,44,Research & Development,Research Director,16328,No,0.0097,Low,N/A,0.0563,0.924,0.0,0.0197
+1525,39,Research & Development,Manufacturing Director,8376,No,0.0538,Low,N/A,0.0309,0.9392,0.0,0.0298
+1527,46,Sales,Manager,16606,No,0.0961,Low,N/A,0.0424,0.9283,0.0,0.0293
+1529,35,Research & Development,Healthcare Representative,8606,No,0.1065,Low,N/A,0.0766,0.889,0.0,0.0345
+1533,23,Research & Development,Laboratory Technician,2272,No,0.0714,Low,N/A,0.0146,0.9854,0.0,0.0
+1534,40,Research & Development,Laboratory Technician,2018,Yes,0.9583,Critical,Compensation,0.0321,0.9679,0.0,0.0
+1535,34,Sales,Sales Executive,7083,No,0.0238,Low,N/A,0.0369,0.9042,0.0,0.0588
+1537,31,Research & Development,Research Scientist,4084,Yes,0.9648,Critical,Compensation,0.0434,0.922,0.0,0.0347
+1539,50,Research & Development,Research Director,14411,No,0.0915,Low,N/A,0.0951,0.8901,0.0,0.0148
+1541,34,Sales,Sales Representative,2308,No,0.066,Low,N/A,0.0695,0.8811,0.0,0.0494
+1542,42,Research & Development,Laboratory Technician,4841,No,0.0739,Low,N/A,0.0177,0.9773,0.0,0.005
+1543,37,Research & Development,Research Scientist,4285,No,0.0558,Low,N/A,0.005,0.9802,0.0,0.0148
+1544,29,Research & Development,Healthcare Representative,9715,No,0.0317,Low,N/A,0.0309,0.8947,0.0,0.0745
+1545,33,Research & Development,Manufacturing Director,4320,No,0.012,Low,N/A,0.0098,0.9852,0.0,0.0049
+1546,45,Research & Development,Research Scientist,2132,No,0.002,Low,N/A,0.023,0.977,0.0,0.0
+1547,42,Research & Development,Healthcare Representative,10124,No,0.015,Low,N/A,0.7074,0.2727,0.0,0.0199
+1548,40,Sales,Sales Executive,5473,No,0.0164,Low,N/A,0.0109,0.8654,0.0,0.1237
+1549,33,Research & Development,Laboratory Technician,5207,No,0.0432,Low,N/A,0.0573,0.9281,0.0,0.0146
+1550,40,Human Resources,Manager,16437,No,0.0327,Low,N/A,0.0616,0.8893,0.0,0.0491
+1551,24,Research & Development,Laboratory Technician,2296,No,0.2936,Low,N/A,0.0172,0.9828,0.0,0.0
+1552,40,Research & Development,Healthcare Representative,4069,No,0.0012,Low,N/A,0.0561,0.9439,0.0,0.0
+1553,45,Research & Development,Healthcare Representative,7441,No,0.0095,Low,N/A,0.0282,0.7393,0.0,0.2326
+1554,35,Sales,Sales Representative,2430,No,0.0082,Low,N/A,0.0153,0.9847,0.0,0.0
+1555,32,Research & Development,Research Scientist,5878,No,0.0761,Low,N/A,0.0034,0.9966,0.0,0.0
+1556,36,Sales,Sales Representative,2644,No,0.0207,Low,N/A,0.8258,0.1742,0.0,0.0
+1557,48,Sales,Sales Executive,6439,No,0.0082,Low,N/A,0.0394,0.9066,0.0,0.054
+1558,29,Research & Development,Research Scientist,2451,No,0.0668,Low,N/A,0.0646,0.9354,0.0,0.0
+1560,33,Sales,Sales Executive,6392,No,0.0158,Low,N/A,0.0743,0.911,0.0,0.0147
+1562,30,Sales,Sales Executive,9714,Yes,0.9363,Critical,Career Growth,0.0044,0.3509,0.0,0.6447
+1563,38,Human Resources,Human Resources,6077,No,0.0612,Low,N/A,0.0084,0.9916,0.0,0.0
+1564,35,Research & Development,Laboratory Technician,2450,No,0.0111,Low,N/A,0.0082,0.9918,0.0,0.0
+1568,30,Sales,Sales Executive,9250,No,0.0199,Low,N/A,0.0397,0.9254,0.0,0.0349
+1569,35,Research & Development,Laboratory Technician,2074,Yes,0.9916,Critical,Compensation,0.0403,0.9597,0.0,0.0
+1572,53,Research & Development,Manufacturing Director,10169,No,0.0031,Low,N/A,0.0583,0.8775,0.0,0.0643
+1573,38,Research & Development,Manufacturing Director,4855,Yes,0.9374,Critical,Compensation,0.004,0.996,0.0,0.0
+1574,32,Research & Development,Research Scientist,4087,No,0.0022,Low,N/A,0.0712,0.9288,0.0,0.0
+1576,48,Research & Development,Research Scientist,2367,No,0.1177,Low,N/A,0.0544,0.9309,0.0,0.0146
+1577,34,Research & Development,Research Scientist,2972,No,0.1085,Low,N/A,0.0636,0.9364,0.0,0.0
+1578,55,Sales,Manager,19586,No,0.0025,Low,N/A,0.0627,0.9078,0.0,0.0295
+1580,34,Research & Development,Research Scientist,5484,No,0.0016,Low,N/A,0.1384,0.8616,0.0,0.0
+1581,26,Research & Development,Research Scientist,2061,No,0.3333,Medium,N/A,0.007,0.9881,0.0,0.0049
+1582,38,Sales,Sales Executive,9924,No,0.1602,Low,N/A,0.0186,0.7337,0.0,0.2477
+1583,38,Sales,Sales Executive,4198,No,0.0865,Low,N/A,0.0029,0.9971,0.0,0.0
+1585,36,Sales,Sales Executive,6815,No,0.0765,Low,N/A,0.0204,0.9647,0.0,0.0149
+1586,29,Research & Development,Laboratory Technician,4723,No,0.0695,Low,N/A,0.029,0.9415,0.0,0.0294
+1587,35,Research & Development,Healthcare Representative,6142,No,0.0438,Low,N/A,0.0219,0.9781,0.0,0.0
+1588,39,Sales,Sales Executive,8237,No,0.0293,Low,N/A,0.0235,0.9566,0.0,0.0198
+1590,29,Research & Development,Healthcare Representative,8853,No,0.0133,Low,N/A,0.0389,0.8966,0.0,0.0645
+1591,50,Sales,Manager,19331,No,0.042,Low,N/A,0.0551,0.9399,0.0,0.005
+1592,23,Research & Development,Research Scientist,2073,No,0.0046,Low,N/A,0.009,0.991,0.0,0.0
+1594,36,Research & Development,Laboratory Technician,5562,No,0.0368,Low,N/A,0.0409,0.9591,0.0,0.0
+1595,42,Research & Development,Manager,19613,No,0.0034,Low,N/A,0.0283,0.957,0.0,0.0148
+1596,35,Research & Development,Laboratory Technician,3407,No,0.0106,Low,N/A,0.0716,0.8942,0.0,0.0343
+1597,34,Research & Development,Healthcare Representative,5063,No,0.0438,Low,N/A,0.0558,0.9343,0.0,0.0099
+1598,40,Sales,Sales Executive,4639,No,0.0182,Low,N/A,0.0176,0.9824,0.0,0.0
+1599,43,Research & Development,Laboratory Technician,4876,No,0.0075,Low,N/A,0.018,0.982,0.0,0.0
+1601,35,Research & Development,Laboratory Technician,2690,No,0.0057,Low,N/A,0.0898,0.9102,0.0,0.0
+1602,46,Sales,Manager,17567,No,0.0104,Low,N/A,0.1233,0.7728,0.0,0.1039
+1604,28,Research & Development,Laboratory Technician,2408,Yes,0.9879,Critical,Compensation,0.0341,0.9659,0.0,0.0
+1605,22,Research & Development,Research Scientist,2814,No,0.2481,Low,N/A,0.7653,0.2347,0.0,0.0
+1606,50,Research & Development,Healthcare Representative,11245,No,0.0043,Low,N/A,0.0985,0.8817,0.0,0.0198
+1607,32,Research & Development,Research Scientist,3312,No,0.0008,Low,N/A,0.0124,0.9876,0.0,0.0
+1608,44,Research & Development,Research Director,19049,No,0.0015,Low,N/A,0.6851,0.2803,0.0,0.0347
+1609,30,Research & Development,Research Scientist,2141,No,0.0685,Low,N/A,0.0355,0.9645,0.0,0.0
+1611,45,Research & Development,Laboratory Technician,5769,No,0.0956,Low,N/A,0.054,0.9363,0.0,0.0097
+1612,45,Sales,Sales Executive,4385,No,0.0446,Low,N/A,0.0313,0.9443,0.0,0.0244
+1613,31,Sales,Sales Executive,5332,No,0.1341,Low,N/A,0.004,0.991,0.0,0.0049
+1614,36,Research & Development,Manufacturing Director,4663,No,0.1827,Low,N/A,0.0583,0.9417,0.0,0.0
+1615,34,Research & Development,Manufacturing Director,4724,No,0.006,Low,N/A,0.0222,0.9483,0.0,0.0296
+1617,49,Research & Development,Laboratory Technician,3211,No,0.0534,Low,N/A,0.0622,0.9281,0.0,0.0097
+1618,39,Research & Development,Manufacturing Director,5377,No,0.0021,Low,N/A,0.0221,0.9188,0.0,0.0591
+1619,27,Research & Development,Laboratory Technician,4066,No,0.0202,Low,N/A,0.0251,0.96,0.0,0.0148
+1621,35,Research & Development,Research Scientist,5208,No,0.0064,Low,N/A,0.0184,0.928,0.0,0.0537
+1622,28,Research & Development,Manufacturing Director,4877,No,0.0611,Low,N/A,0.047,0.953,0.0,0.0
+1623,21,Research & Development,Research Scientist,3117,No,0.0318,Low,N/A,0.0187,0.9813,0.0,0.0
+1624,18,Sales,Sales Representative,1569,Yes,0.9944,Critical,Compensation,0.0439,0.9561,0.0,0.0
+1625,47,Human Resources,Manager,19658,No,0.003,Low,N/A,0.0171,0.9829,0.0,0.0
+1627,39,Research & Development,Laboratory Technician,3069,No,0.0047,Low,N/A,0.0221,0.9384,0.0,0.0394
+1628,40,Research & Development,Manufacturing Director,10435,No,0.0651,Low,N/A,0.046,0.8401,0.0,0.1138
+1630,35,Research & Development,Healthcare Representative,4148,No,1e-04,Low,N/A,0.0196,0.9166,0.0,0.0638
+1631,37,Research & Development,Manufacturing Director,5768,No,0.0709,Low,N/A,0.0725,0.9275,0.0,0.0
+1633,39,Research & Development,Manufacturing Director,5042,No,0.0519,Low,N/A,0.0492,0.9311,0.0,0.0197
+1635,45,Research & Development,Manufacturing Director,5770,No,0.0028,Low,N/A,0.0181,0.9719,0.0,0.01
+1638,38,Research & Development,Manufacturing Director,7756,No,0.0022,Low,N/A,0.0311,0.9491,0.0,0.0198
+1639,35,Sales,Sales Executive,10306,Yes,0.9424,Critical,Compensation,0.0187,0.9369,0.0,0.0444
+1640,37,Research & Development,Research Scientist,3936,No,0.113,Low,N/A,0.0281,0.9521,0.0,0.0198
+1641,40,Research & Development,Manufacturing Director,7945,No,0.2726,Low,N/A,0.8961,0.1039,0.0,0.0
+1642,44,Human Resources,Human Resources,5743,No,0.0484,Low,N/A,0.0675,0.8982,0.0,0.0343
+1644,48,Research & Development,Manager,15202,No,0.0004,Low,N/A,0.0446,0.9306,0.0,0.0248
+1645,35,Sales,Sales Executive,5440,Yes,0.9805,Critical,Burnout,0.9314,0.0686,0.0,0.0
+1646,24,Research & Development,Research Scientist,3760,No,0.2783,Low,N/A,0.0771,0.9229,0.0,0.0
+1647,27,Research & Development,Research Scientist,3517,No,0.1107,Low,N/A,0.0181,0.9819,0.0,0.0
+1648,27,Research & Development,Research Scientist,2580,No,0.0552,Low,N/A,0.0707,0.9293,0.0,0.0
+1649,40,Research & Development,Laboratory Technician,2166,Yes,0.9866,Critical,Burnout,0.9122,0.0878,0.0,0.0
+1650,29,Sales,Sales Executive,5869,No,0.4093,Medium,N/A,0.0114,0.9838,0.0,0.0049
+1651,36,Research & Development,Healthcare Representative,8008,No,0.0092,Low,N/A,0.0085,0.9717,0.0,0.0197
+1653,25,Research & Development,Manufacturing Director,5206,No,0.0004,Low,N/A,0.0284,0.9272,0.0,0.0445
+1654,39,Research & Development,Manufacturing Director,5295,No,0.3061,Medium,N/A,0.0181,0.9819,0.0,0.0
+1655,49,Research & Development,Research Director,16413,No,0.0063,Low,N/A,0.0303,0.9647,0.0,0.005
+1656,50,Research & Development,Research Director,13269,No,0.0018,Low,N/A,0.064,0.9114,0.0,0.0246
+1657,20,Sales,Sales Representative,2783,No,0.1036,Low,N/A,0.0037,0.9963,0.0,0.0
+1658,34,Research & Development,Research Scientist,5433,No,0.0024,Low,N/A,0.0053,0.9155,0.0,0.0792
+1659,36,Research & Development,Laboratory Technician,2013,No,0.1476,Low,N/A,0.0149,0.9851,0.0,0.0
+1661,49,Research & Development,Healthcare Representative,13966,No,0.0034,Low,N/A,0.0918,0.8934,0.0,0.0147
+1662,36,Research & Development,Manufacturing Director,4374,No,0.0004,Low,N/A,0.0104,0.9747,0.0,0.0149
+1664,36,Research & Development,Healthcare Representative,6842,No,0.0051,Low,N/A,0.0159,0.9841,0.0,0.0
+1665,54,Research & Development,Manager,17426,No,0.0012,Low,N/A,0.0442,0.8374,0.0,0.1184
+1666,43,Research & Development,Research Director,17603,No,0.0116,Low,N/A,0.059,0.8866,0.0,0.0543
+1667,35,Sales,Sales Executive,4581,No,0.09,Low,N/A,0.0364,0.9586,0.0,0.005
+1668,38,Research & Development,Research Scientist,4735,No,0.0009,Low,N/A,0.0181,0.8737,0.0,0.1082
+1669,29,Sales,Sales Executive,4187,No,0.0151,Low,N/A,0.743,0.2521,0.0,0.0049
+1670,33,Sales,Sales Executive,5505,No,0.0002,Low,N/A,0.0276,0.9624,0.0,0.01
+1671,32,Research & Development,Research Scientist,5470,No,0.0024,Low,N/A,0.0469,0.9332,0.0,0.0199
+1673,31,Sales,Sales Executive,5476,No,0.0278,Low,N/A,0.0081,0.9822,0.0,0.0097
+1674,49,Research & Development,Laboratory Technician,2587,No,0.1687,Low,N/A,0.9329,0.0671,0.0,0.0
+1675,38,Research & Development,Laboratory Technician,2440,No,0.0307,Low,N/A,0.0037,0.9963,0.0,0.0
+1676,47,Sales,Manager,15972,No,0.0015,Low,N/A,0.0429,0.9421,0.0,0.015
+1677,49,Research & Development,Manager,15379,No,0.017,Low,N/A,0.0364,0.9294,0.0,0.0341
+1678,41,Sales,Sales Executive,7082,No,0.1121,Low,N/A,0.0429,0.9571,0.0,0.0
+1680,20,Sales,Sales Representative,2728,No,0.1428,Low,N/A,0.0037,0.9864,0.0,0.0099
+1681,33,Sales,Sales Executive,5368,No,0.0046,Low,N/A,0.0842,0.9158,0.0,0.0
+1682,36,Research & Development,Healthcare Representative,5347,No,0.0788,Low,N/A,0.0702,0.9298,0.0,0.0
+1683,44,Human Resources,Human Resources,3195,No,0.0088,Low,N/A,0.1126,0.8824,0.0,0.005
+1684,23,Research & Development,Laboratory Technician,3989,Yes,0.9771,Critical,Compensation,0.0107,0.9893,0.0,0.0
+1687,38,Research & Development,Laboratory Technician,3306,No,0.0139,Low,N/A,0.0741,0.921,0.0,0.005
+1689,53,Research & Development,Healthcare Representative,7005,No,0.0056,Low,N/A,0.0112,0.9888,0.0,0.0
+1691,48,Sales,Sales Representative,2655,No,0.2073,Low,N/A,0.0523,0.9379,0.0,0.0098
+1692,32,Research & Development,Laboratory Technician,1393,Yes,0.9783,Critical,Compensation,0.004,0.996,0.0,0.0
+1693,26,Research & Development,Laboratory Technician,2570,No,0.0043,Low,N/A,0.0293,0.9263,0.0,0.0444
+1694,55,Research & Development,Research Scientist,3537,No,0.0799,Low,N/A,0.024,0.9662,0.0,0.0098
+1696,34,Research & Development,Laboratory Technician,3986,No,0.0042,Low,N/A,0.0131,0.972,0.0,0.0149
+1697,60,Research & Development,Healthcare Representative,10883,No,0.0002,Low,N/A,0.0368,0.9336,0.0,0.0296
+1698,33,Research & Development,Laboratory Technician,2028,No,0.0013,Low,N/A,0.0341,0.9019,0.0,0.0641
+1700,37,Sales,Sales Executive,9525,No,0.0311,Low,N/A,0.0885,0.8369,0.0,0.0746
+1701,34,Research & Development,Research Scientist,2929,No,0.0521,Low,N/A,0.0028,0.9529,0.0,0.0443
+1702,23,Sales,Sales Representative,2275,Yes,0.9315,Critical,Compensation,0.0129,0.9871,0.0,0.0
+1703,44,Research & Development,Healthcare Representative,7879,No,0.0181,Low,N/A,0.0553,0.8955,0.0,0.0493
+1704,35,Research & Development,Research Scientist,4930,No,0.0151,Low,N/A,0.0824,0.9176,0.0,0.0
+1706,43,Sales,Sales Executive,7847,No,0.0551,Low,N/A,0.0686,0.8817,0.0,0.0497
+1707,24,Research & Development,Research Scientist,4401,No,0.007,Low,N/A,0.005,0.995,0.0,0.0
+1708,41,Sales,Sales Executive,9241,No,0.1103,Low,N/A,0.0187,0.8025,0.0,0.1788
+1709,29,Research & Development,Laboratory Technician,2974,No,0.0168,Low,N/A,0.02,0.98,0.0,0.0
+1710,36,Sales,Sales Representative,4502,No,0.1341,Low,N/A,0.0387,0.9264,0.0,0.0348
+1712,45,Research & Development,Healthcare Representative,10748,No,0.0032,Low,N/A,0.0673,0.8493,0.0,0.0834
+1714,24,Human Resources,Human Resources,1555,Yes,0.9734,Critical,Compensation,0.014,0.986,0.0,0.0
+1716,47,Sales,Sales Executive,12936,Yes,0.9861,Critical,Compensation,0.0985,0.8819,0.0,0.0197
+1718,26,Research & Development,Laboratory Technician,2305,No,0.0723,Low,N/A,0.0135,0.9865,0.0,0.0
+1719,45,Research & Development,Research Director,16704,No,0.0298,Low,N/A,0.0424,0.9282,0.0,0.0294
+1720,32,Research & Development,Research Scientist,3433,Yes,0.5566,High,Compensation,0.0344,0.9656,0.0,0.0
+1721,31,Research & Development,Laboratory Technician,3477,No,0.0101,Low,N/A,0.0213,0.9787,0.0,0.0
+1722,41,Human Resources,Human Resources,6430,No,0.0055,Low,N/A,0.0119,0.9782,0.0,0.0099
+1724,40,Research & Development,Manufacturing Director,6516,No,0.4429,Medium,N/A,0.0455,0.9545,0.0,0.0
+1725,24,Research & Development,Laboratory Technician,3907,No,0.0419,Low,N/A,0.0159,0.9841,0.0,0.0
+1727,46,Research & Development,Healthcare Representative,5562,No,0.0098,Low,N/A,0.0124,0.9681,0.0,0.0195
+1728,35,Research & Development,Manufacturing Director,6883,No,0.0065,Low,N/A,0.0077,0.9777,0.0,0.0146
+1729,30,Research & Development,Research Scientist,2862,No,0.0155,Low,N/A,0.0597,0.9354,0.0,0.0049
+1731,47,Sales,Sales Executive,4978,No,0.0456,Low,N/A,0.0712,0.919,0.0,0.0098
+1732,46,Sales,Sales Executive,10368,No,0.0883,Low,N/A,0.6563,0.2942,0.0,0.0495
+1733,36,Sales,Sales Executive,6134,No,0.1347,Low,N/A,0.0776,0.9224,0.0,0.0
+1734,32,Sales,Sales Executive,6735,Yes,0.9958,Critical,Compensation,0.0124,0.9876,0.0,0.0
+1735,23,Research & Development,Laboratory Technician,3295,Yes,0.8372,Critical,Compensation,0.0436,0.9564,0.0,0.0
+1736,31,Research & Development,Manufacturing Director,5238,No,0.018,Low,N/A,0.079,0.921,0.0,0.0
+1737,39,Research & Development,Laboratory Technician,6472,No,0.0011,Low,N/A,0.0498,0.8816,0.0,0.0685
+1739,32,Sales,Sales Executive,9610,Yes,0.6269,High,Compensation,0.078,0.897,0.0,0.025
+1740,40,Sales,Manager,19833,No,0.0341,Low,N/A,0.138,0.8125,0.0,0.0496
+1744,45,Human Resources,Human Resources,9756,No,0.0405,Low,N/A,0.0042,0.961,0.0,0.0349
+1745,30,Research & Development,Research Scientist,4968,No,0.0037,Low,N/A,0.0121,0.9583,0.0,0.0295
+1746,24,Human Resources,Human Resources,2145,No,0.1223,Low,N/A,0.0127,0.9873,0.0,0.0
+1747,30,Human Resources,Human Resources,2180,Yes,0.9779,Critical,Compensation,0.0324,0.9676,0.0,0.0
+1749,31,Sales,Sales Executive,8346,No,0.0092,Low,N/A,0.0228,0.9772,0.0,0.0
+1751,27,Research & Development,Research Scientist,3445,No,0.0367,Low,N/A,0.053,0.947,0.0,0.0
+1752,29,Sales,Sales Representative,2760,Yes,0.9788,Critical,Compensation,0.0,1.0,0.0,0.0
+1753,29,Research & Development,Healthcare Representative,6294,No,0.0077,Low,N/A,0.037,0.9333,0.0,0.0297
+1754,30,Sales,Sales Executive,7140,No,0.116,Low,N/A,0.0188,0.9516,0.0,0.0296
+1755,34,Research & Development,Research Scientist,2932,No,0.0047,Low,N/A,0.0766,0.9234,0.0,0.0
+1756,33,Sales,Sales Executive,5147,No,0.0493,Low,N/A,0.058,0.9124,0.0,0.0296
+1757,49,Sales,Sales Executive,4507,No,0.0192,Low,N/A,0.0081,0.9919,0.0,0.0
+1758,33,Sales,Sales Executive,8564,Yes,0.9989,Critical,Burnout,0.9611,0.0389,0.0,0.0
+1760,38,Research & Development,Laboratory Technician,2468,No,0.199,Low,N/A,0.0535,0.9465,0.0,0.0
+1761,31,Sales,Sales Executive,8161,Yes,0.9527,Critical,Compensation,0.0165,0.9835,0.0,0.0
+1762,29,Research & Development,Research Scientist,2109,No,0.0843,Low,N/A,0.0,1.0,0.0,0.0
+1763,30,Research & Development,Healthcare Representative,5294,No,0.0196,Low,N/A,0.0147,0.9853,0.0,0.0
+1764,32,Research & Development,Research Scientist,2718,No,0.044,Low,N/A,0.0272,0.9481,0.0,0.0248
+1766,38,Research & Development,Healthcare Representative,5811,No,0.0237,Low,N/A,0.0861,0.9139,0.0,0.0
+1767,43,Research & Development,Research Scientist,2437,Yes,0.9798,Critical,Compensation,0.0358,0.9543,0.0,0.0099
+1768,42,Research & Development,Laboratory Technician,2766,No,0.0145,Low,N/A,0.0598,0.9352,0.0,0.0049
+1770,55,Research & Development,Research Director,19038,No,0.0336,Low,N/A,0.0403,0.9447,0.0,0.015
+1771,33,Research & Development,Research Scientist,3055,No,0.0111,Low,N/A,0.0544,0.9161,0.0,0.0295
+1772,41,Research & Development,Laboratory Technician,2289,No,0.0109,Low,N/A,0.0257,0.9743,0.0,0.0
+1774,34,Sales,Sales Executive,4001,No,0.0002,Low,N/A,0.0311,0.9493,0.0,0.0196
+1775,53,Research & Development,Manufacturing Director,12965,No,0.0041,Low,N/A,0.8069,0.1735,0.0,0.0196
+1778,43,Human Resources,Human Resources,3539,No,0.0019,Low,N/A,0.021,0.9045,0.0,0.0745
+1779,34,Sales,Sales Executive,6029,No,0.0335,Low,N/A,0.0263,0.9737,0.0,0.0
+1780,21,Sales,Sales Representative,2679,Yes,0.9619,Critical,Compensation,0.0062,0.9938,0.0,0.0
+1782,38,Research & Development,Laboratory Technician,3702,No,0.0249,Low,N/A,0.01,0.99,0.0,0.0
+1783,22,Research & Development,Laboratory Technician,2398,Yes,0.9866,Critical,Compensation,0.0205,0.9795,0.0,0.0
+1784,31,Sales,Sales Executive,5468,No,0.0906,Low,N/A,0.033,0.9574,0.0,0.0096
+1786,51,Research & Development,Manager,13116,No,0.0328,Low,N/A,0.0278,0.9424,0.0,0.0299
+1787,37,Sales,Sales Executive,4189,No,0.0681,Low,N/A,0.0064,0.9936,0.0,0.0
+1789,46,Research & Development,Research Director,19328,No,0.0016,Low,N/A,0.1128,0.8774,0.0,0.0098
+1790,36,Research & Development,Healthcare Representative,8321,No,0.1402,Low,N/A,0.0774,0.8934,0.0,0.0293
+1792,44,Research & Development,Research Scientist,2342,Yes,0.9208,Critical,Burnout,0.9093,0.0907,0.0,0.0
+1794,37,Human Resources,Human Resources,4071,No,0.1117,Low,N/A,0.0376,0.9426,0.0,0.0198
+1797,35,Sales,Sales Executive,5813,Yes,0.9286,Critical,Compensation,0.0321,0.9335,0.0,0.0344
+1798,33,Research & Development,Research Scientist,3143,No,0.0387,Low,N/A,0.0158,0.9448,0.0,0.0393
+1799,28,Research & Development,Research Scientist,2044,No,0.0016,Low,N/A,0.042,0.9482,0.0,0.0099
+1800,39,Research & Development,Research Director,13464,No,0.0268,Low,N/A,0.0225,0.9527,0.0,0.0247
+1801,46,Sales,Sales Executive,7991,No,0.1904,Low,N/A,0.0267,0.9683,0.0,0.005
+1802,40,Research & Development,Laboratory Technician,3377,No,0.0379,Low,N/A,0.0712,0.914,0.0,0.0148
+1803,42,Research & Development,Healthcare Representative,5538,No,0.0168,Low,N/A,0.0777,0.9223,0.0,0.0
+1804,35,Research & Development,Manufacturing Director,5762,No,0.0002,Low,N/A,0.0234,0.9268,0.0,0.0497
+1805,38,Human Resources,Human Resources,2592,No,0.0146,Low,N/A,0.0191,0.9269,0.0,0.054
+1807,34,Research & Development,Laboratory Technician,5346,Yes,0.9188,Critical,Compensation,0.045,0.95,0.0,0.005
+1809,37,Research & Development,Manufacturing Director,4213,Yes,0.9569,Critical,Compensation,0.024,0.9661,0.0,0.0099
+1812,39,Sales,Sales Executive,4127,No,0.0021,Low,N/A,0.0242,0.9708,0.0,0.0049
+1813,43,Research & Development,Research Scientist,2438,No,0.3061,Medium,N/A,0.0742,0.9258,0.0,0.0
+1814,41,Research & Development,Healthcare Representative,6870,No,0.0495,Low,N/A,0.0561,0.9439,0.0,0.0
+1815,41,Sales,Sales Executive,10447,No,0.0206,Low,N/A,0.0567,0.8843,0.0,0.0591
+1816,30,Research & Development,Manufacturing Director,9667,No,0.4275,Medium,N/A,0.0364,0.929,0.0,0.0346
+1818,26,Human Resources,Human Resources,2148,Yes,0.5827,High,Compensation,0.0447,0.9553,0.0,0.0
+1821,46,Research & Development,Healthcare Representative,8926,Yes,0.946,Critical,Compensation,0.0165,0.9443,0.0,0.0393
+1822,40,Research & Development,Healthcare Representative,6513,No,0.0002,Low,N/A,0.0239,0.9663,0.0,0.0098
+1823,34,Sales,Sales Executive,6799,No,0.0014,Low,N/A,0.0127,0.9228,0.0,0.0645
+1824,58,Sales,Manager,16291,No,0.0038,Low,N/A,0.1212,0.7949,0.0,0.0839
+1826,35,Research & Development,Laboratory Technician,2705,No,0.0647,Low,N/A,0.0214,0.9786,0.0,0.0
+1827,47,Research & Development,Manufacturing Director,10333,No,0.0312,Low,N/A,0.074,0.7922,0.0,0.1338
+1829,40,Research & Development,Healthcare Representative,4448,No,0.0089,Low,N/A,0.0174,0.9528,0.0,0.0298
+1830,54,Research & Development,Research Scientist,6854,No,0.0251,Low,N/A,0.0652,0.9299,0.0,0.005
+1833,31,Sales,Sales Executive,9637,No,0.0889,Low,N/A,0.0239,0.9114,0.0,0.0646
+1834,28,Research & Development,Research Scientist,3591,No,0.0044,Low,N/A,0.0303,0.9697,0.0,0.0
+1835,38,Sales,Sales Representative,5405,No,0.0571,Low,N/A,0.7652,0.2298,0.0,0.005
+1836,26,Sales,Sales Executive,4684,No,0.0265,Low,N/A,0.0174,0.9826,0.0,0.0
+1837,58,Research & Development,Research Director,15787,No,0.0595,Low,N/A,0.0823,0.9077,0.0,0.01
+1839,18,Research & Development,Research Scientist,1514,Yes,0.9401,Critical,Compensation,0.0502,0.9498,0.0,0.0
+1842,31,Human Resources,Human Resources,2956,Yes,0.9718,Critical,Compensation,0.0243,0.9757,0.0,0.0
+1844,29,Human Resources,Human Resources,2335,Yes,0.9932,Critical,Compensation,0.0336,0.9664,0.0,0.0
+1845,45,Sales,Sales Executive,5154,No,0.0146,Low,N/A,0.024,0.9318,0.0,0.0442
+1847,36,Research & Development,Research Scientist,6962,No,0.002,Low,N/A,0.0515,0.9485,0.0,0.0
+1849,43,Sales,Sales Executive,5675,No,0.0026,Low,N/A,0.0358,0.7561,0.0,0.2081
+1850,27,Research & Development,Laboratory Technician,2379,No,0.1089,Low,N/A,0.8468,0.1532,0.0,0.0
+1852,29,Research & Development,Laboratory Technician,3812,No,0.0362,Low,N/A,0.005,0.9752,0.0,0.0198
+1853,32,Sales,Sales Executive,4648,No,0.1013,Low,N/A,0.009,0.991,0.0,0.0
+1854,42,Research & Development,Research Scientist,2936,No,0.0183,Low,N/A,0.0956,0.9044,0.0,0.0
+1856,47,Research & Development,Laboratory Technician,2105,No,0.1294,Low,N/A,0.0021,0.9929,0.0,0.005
+1857,46,Research & Development,Manufacturing Director,8578,No,0.0343,Low,N/A,0.092,0.8238,0.0,0.0843
+1858,28,Human Resources,Human Resources,2706,No,0.0029,Low,N/A,0.0277,0.9723,0.0,0.0
+1859,29,Research & Development,Healthcare Representative,6384,No,0.0071,Low,N/A,0.0164,0.9836,0.0,0.0
+1860,42,Research & Development,Laboratory Technician,3968,No,0.0123,Low,N/A,0.0124,0.9826,0.0,0.005
+1862,32,Sales,Sales Executive,9907,Yes,0.9904,Critical,Burnout,0.8752,0.095,0.0,0.0299
+1863,46,Sales,Sales Executive,13225,No,0.0021,Low,N/A,0.0649,0.7421,0.0,0.193
+1864,27,Sales,Sales Representative,3540,No,0.0476,Low,N/A,0.0245,0.8818,0.0,0.0937
+1865,29,Human Resources,Human Resources,2804,No,0.1298,Low,N/A,0.01,0.9851,0.0,0.0049
+1866,43,Research & Development,Manager,19392,No,0.0876,Low,N/A,0.0385,0.9271,0.0,0.0343
+1867,48,Research & Development,Research Director,19665,No,0.0397,Low,N/A,0.0476,0.9082,0.0,0.0442
+1868,29,Research & Development,Research Scientist,2439,Yes,0.9912,Critical,Burnout,0.9392,0.0608,0.0,0.0
+1869,46,Sales,Sales Executive,7314,Yes,0.9122,Critical,Compensation,0.0182,0.9672,0.0,0.0146
+1870,27,Research & Development,Research Scientist,4774,No,0.0603,Low,N/A,0.0905,0.8897,0.0,0.0198
+1871,39,Research & Development,Research Scientist,3902,No,0.0013,Low,N/A,0.022,0.978,0.0,0.0
+1873,55,Research & Development,Research Scientist,2662,No,0.003,Low,N/A,0.0265,0.9735,0.0,0.0
+1875,28,Sales,Sales Representative,2856,No,0.0384,Low,N/A,0.005,0.995,0.0,0.0
+1876,30,Sales,Sales Representative,1081,Yes,0.9672,Critical,Compensation,0.0193,0.9807,0.0,0.0
+1878,22,Research & Development,Research Scientist,2472,Yes,0.9931,Critical,Compensation,0.0152,0.9848,0.0,0.0
+1880,36,Sales,Sales Executive,5673,No,0.0077,Low,N/A,0.0417,0.9237,0.0,0.0345
+1881,31,Research & Development,Laboratory Technician,4197,No,0.0727,Low,N/A,0.029,0.9367,0.0,0.0342
+1882,34,Sales,Sales Executive,9713,No,0.0195,Low,N/A,0.045,0.9102,0.0,0.0449
+1883,29,Research & Development,Laboratory Technician,2062,No,0.1236,Low,N/A,0.0143,0.9857,0.0,0.0
+1885,37,Research & Development,Research Scientist,4284,No,0.0119,Low,N/A,0.0345,0.9655,0.0,0.0
+1886,35,Research & Development,Manufacturing Director,4788,No,0.0641,Low,N/A,0.03,0.97,0.0,0.0
+1888,45,Research & Development,Manufacturing Director,5906,No,0.0549,Low,N/A,0.0704,0.9152,0.0,0.0144
+1890,36,Human Resources,Human Resources,3886,No,0.0184,Low,N/A,0.0623,0.9328,0.0,0.005
+1892,40,Research & Development,Manager,16823,No,0.0095,Low,N/A,0.0621,0.819,0.0,0.1188
+1893,26,Research & Development,Research Scientist,2933,Yes,0.7088,Critical,Burnout,0.8263,0.1737,0.0,0.0
+1898,27,Sales,Sales Executive,6500,No,0.0036,Low,N/A,0.047,0.8886,0.0,0.0644
+1900,48,Research & Development,Manager,17174,No,0.0029,Low,N/A,0.0262,0.9444,0.0,0.0294
+1903,44,Research & Development,Healthcare Representative,5033,No,0.0002,Low,N/A,0.0423,0.9034,0.0,0.0543
+1905,34,Research & Development,Research Scientist,2307,Yes,0.9694,Critical,Compensation,0.0449,0.9551,0.0,0.0
+1907,56,Research & Development,Laboratory Technician,2587,Yes,0.9431,Critical,Compensation,0.0206,0.9794,0.0,0.0
+1908,36,Sales,Sales Executive,5507,No,0.4395,Medium,N/A,0.0815,0.9185,0.0,0.0
+1909,41,Sales,Sales Executive,4393,No,0.0119,Low,N/A,0.0131,0.9869,0.0,0.0
+1911,42,Research & Development,Research Director,13348,No,0.0167,Low,N/A,0.0527,0.9177,0.0,0.0296
+1912,31,Sales,Sales Executive,6583,No,0.0101,Low,N/A,0.0322,0.9678,0.0,0.0
+1915,34,Sales,Sales Executive,8103,No,0.0274,Low,N/A,0.8311,0.1689,0.0,0.0
+1916,31,Research & Development,Laboratory Technician,3978,No,0.1358,Low,N/A,0.0832,0.9168,0.0,0.0
+1918,26,Research & Development,Laboratory Technician,2544,No,0.022,Low,N/A,0.0176,0.9527,0.0,0.0297
+1922,45,Research & Development,Healthcare Representative,5399,No,0.0064,Low,N/A,0.0279,0.9721,0.0,0.0
+1924,33,Sales,Sales Executive,5487,No,0.0499,Low,N/A,0.0747,0.9154,0.0,0.01
+1927,28,Sales,Sales Executive,6834,No,0.02,Low,N/A,0.0644,0.926,0.0,0.0096
+1928,29,Sales,Sales Representative,1091,Yes,0.9876,Critical,Compensation,0.0218,0.9733,0.0,0.0049
+1929,39,Sales,Sales Executive,5736,No,0.035,Low,N/A,0.0271,0.9729,0.0,0.0
+1931,27,Research & Development,Research Scientist,2226,No,0.0125,Low,N/A,0.064,0.936,0.0,0.0
+1932,34,Research & Development,Research Scientist,5747,No,0.0087,Low,N/A,0.048,0.9422,0.0,0.0099
+1933,28,Sales,Sales Executive,9854,Yes,0.9831,Critical,Compensation,0.0606,0.865,0.0,0.0745
+1934,47,Research & Development,Research Scientist,5467,No,0.0105,Low,N/A,0.022,0.9436,0.0,0.0344
+1935,56,Sales,Sales Executive,5380,No,0.0714,Low,N/A,0.0315,0.9636,0.0,0.005
+1936,39,Research & Development,Manufacturing Director,5151,No,0.0335,Low,N/A,0.0173,0.9382,0.0,0.0445
+1937,38,Research & Development,Research Scientist,2133,No,0.0082,Low,N/A,0.0473,0.9428,0.0,0.0099
+1938,58,Sales,Manager,17875,No,0.0069,Low,N/A,0.8059,0.1941,0.0,0.0
+1939,32,Research & Development,Research Scientist,2432,Yes,0.99,Critical,Compensation,0.0244,0.9756,0.0,0.0
+1940,38,Research & Development,Research Scientist,4771,No,0.0017,Low,N/A,0.0181,0.9819,0.0,0.0
+1941,49,Research & Development,Research Director,19161,No,0.0237,Low,N/A,0.0403,0.9448,0.0,0.0149
+1943,42,Sales,Sales Executive,5087,No,0.0119,Low,N/A,0.0428,0.9473,0.0,0.0099
+1944,27,Human Resources,Human Resources,2863,Yes,0.9982,Critical,Compensation,0.0,1.0,0.0,0.0
+1945,35,Sales,Sales Executive,5561,No,0.0265,Low,N/A,0.072,0.9182,0.0,0.0098
+1947,28,Research & Development,Research Scientist,2144,No,0.0226,Low,N/A,0.0632,0.9368,0.0,0.0
+1948,31,Research & Development,Research Scientist,3065,No,0.0172,Low,N/A,0.0371,0.9629,0.0,0.0
+1949,36,Research & Development,Laboratory Technician,2810,No,0.0315,Low,N/A,0.017,0.983,0.0,0.0
+1950,34,Sales,Sales Executive,9888,No,0.0996,Low,N/A,0.0907,0.8155,0.0,0.0939
+1951,34,Sales,Sales Executive,8628,No,0.0434,Low,N/A,0.1106,0.8798,0.0,0.0096
+1952,26,Research & Development,Laboratory Technician,2867,No,0.0242,Low,N/A,0.0627,0.7941,0.0,0.1431
+1954,29,Research & Development,Healthcare Representative,5373,No,0.0074,Low,N/A,0.0366,0.9436,0.0,0.0198
+1955,32,Research & Development,Healthcare Representative,6667,No,0.0012,Low,N/A,0.0234,0.9766,0.0,0.0
+1956,31,Research & Development,Research Scientist,5003,No,0.1787,Low,N/A,0.0221,0.7405,0.0,0.2374
+1960,28,Research & Development,Laboratory Technician,2367,Yes,0.9735,Critical,Compensation,0.0398,0.9602,0.0,0.0
+1961,38,Sales,Sales Representative,2858,Yes,0.9683,Critical,Compensation,0.0604,0.9396,0.0,0.0
+1962,35,Sales,Sales Executive,5204,No,0.0034,Low,N/A,0.03,0.9507,0.0,0.0193
+1965,27,Sales,Sales Executive,4105,No,0.0041,Low,N/A,0.0185,0.9418,0.0,0.0397
+1966,32,Research & Development,Manufacturing Director,9679,No,0.0116,Low,N/A,0.0404,0.9002,0.0,0.0595
+1967,31,Sales,Sales Executive,5617,Yes,0.9538,Critical,Compensation,0.0447,0.9408,0.0,0.0145
+1968,53,Sales,Sales Executive,10448,Yes,0.9962,Critical,Burnout,0.9389,0.0611,0.0,0.0
+1969,54,Research & Development,Research Scientist,2897,No,0.0653,Low,N/A,0.0606,0.9295,0.0,0.0098
+1970,33,Research & Development,Healthcare Representative,5968,No,0.001,Low,N/A,0.0138,0.9765,0.0,0.0097
+1971,43,Research & Development,Healthcare Representative,7510,No,0.0216,Low,N/A,0.0145,0.9708,0.0,0.0147
+1972,38,Human Resources,Human Resources,2991,No,0.0513,Low,N/A,0.0834,0.9166,0.0,0.0
+1973,55,Human Resources,Manager,19636,No,0.0178,Low,N/A,0.131,0.8494,0.0,0.0195
+1974,31,Research & Development,Laboratory Technician,1129,Yes,0.9134,Critical,Compensation,0.0582,0.9368,0.0,0.0049
+1975,39,Sales,Sales Executive,13341,No,0.0932,Low,N/A,0.0749,0.826,0.0,0.099
+1976,42,Research & Development,Research Scientist,4332,No,0.0027,Low,N/A,0.0134,0.9523,0.0,0.0343
+1979,31,Research & Development,Research Director,11031,No,0.0241,Low,N/A,0.0395,0.9408,0.0,0.0196
+1980,54,Research & Development,Manufacturing Director,4440,No,0.0886,Low,N/A,0.047,0.953,0.0,0.0
+1981,24,Research & Development,Healthcare Representative,4617,No,0.037,Low,N/A,0.0563,0.9437,0.0,0.0
+1982,23,Research & Development,Laboratory Technician,2647,No,0.0092,Low,N/A,0.0187,0.9813,0.0,0.0
+1985,40,Research & Development,Laboratory Technician,6323,No,0.0267,Low,N/A,0.0168,0.9535,0.0,0.0297
+1986,40,Sales,Sales Executive,5677,No,0.0097,Low,N/A,0.0087,0.8776,0.0,0.1138
+1987,25,Human Resources,Human Resources,2187,No,0.0831,Low,N/A,0.0112,0.9888,0.0,0.0
+1989,30,Research & Development,Laboratory Technician,3748,No,0.0054,Low,N/A,0.0703,0.8408,0.0,0.0889
+1992,25,Research & Development,Laboratory Technician,3977,No,0.1541,Low,N/A,0.8538,0.1462,0.0,0.0
+1993,47,Research & Development,Healthcare Representative,8633,No,0.0713,Low,N/A,0.042,0.9033,0.0,0.0547
+1994,33,Research & Development,Laboratory Technician,2008,No,0.0257,Low,N/A,0.0574,0.9426,0.0,0.0
+1995,38,Sales,Sales Executive,4440,No,0.0013,Low,N/A,0.0214,0.9144,0.0,0.0641
+1996,31,Sales,Sales Representative,3067,No,0.0192,Low,N/A,0.0099,0.9901,0.0,0.0
+1997,38,Research & Development,Manufacturing Director,5321,No,0.031,Low,N/A,0.0199,0.9553,0.0,0.0248
+1998,42,Research & Development,Research Scientist,5410,No,0.0775,Low,N/A,0.8982,0.1018,0.0,0.0
+1999,41,Research & Development,Research Scientist,2782,No,0.0027,Low,N/A,0.0334,0.9666,0.0,0.0
+2000,47,Research & Development,Research Director,11957,No,0.0079,Low,N/A,0.1393,0.7967,0.0,0.064
+2003,35,Research & Development,Laboratory Technician,2660,No,0.1603,Low,N/A,0.0917,0.9083,0.0,0.0
+2007,22,Research & Development,Research Scientist,3375,No,0.0028,Low,N/A,0.0193,0.9709,0.0,0.0098
+2008,35,Research & Development,Research Scientist,5098,No,0.0054,Low,N/A,0.013,0.9672,0.0,0.0198
+2009,33,Research & Development,Healthcare Representative,4878,No,0.0559,Low,N/A,0.0198,0.9309,0.0,0.0494
+2010,32,Research & Development,Laboratory Technician,2837,No,0.4384,Medium,N/A,0.0171,0.9829,0.0,0.0
+2012,40,Research & Development,Laboratory Technician,2406,No,0.0373,Low,N/A,0.1077,0.8923,0.0,0.0
+2013,32,Sales,Sales Representative,2269,No,0.0086,Low,N/A,0.0192,0.9808,0.0,0.0
+2014,39,Research & Development,Research Scientist,4108,No,0.0405,Low,N/A,0.0114,0.9738,0.0,0.0148
+2015,38,Research & Development,Research Director,13206,No,0.0097,Low,N/A,0.0342,0.9412,0.0,0.0247
+2016,32,Sales,Sales Executive,10422,No,0.0109,Low,N/A,0.0348,0.8914,0.0,0.0738
+2017,37,Research & Development,Research Director,13744,No,0.0043,Low,N/A,0.0695,0.891,0.0,0.0395
+2018,25,Sales,Sales Executive,4907,No,0.017,Low,N/A,0.7956,0.2044,0.0,0.0
+2019,52,Sales,Sales Representative,3482,No,0.0145,Low,N/A,0.0948,0.8858,0.0,0.0195
+2020,44,Research & Development,Research Scientist,2436,No,0.2217,Low,N/A,0.0994,0.9006,0.0,0.0
+2021,21,Sales,Sales Representative,2380,No,0.2957,Low,N/A,0.0368,0.9583,0.0,0.0049
+2022,39,Research & Development,Manager,19431,No,0.001,Low,N/A,0.0549,0.9401,0.0,0.0049
+2023,23,Sales,Sales Representative,1790,Yes,0.9927,Critical,Compensation,0.0366,0.9634,0.0,0.0
+2024,36,Sales,Sales Executive,7644,No,0.0229,Low,N/A,0.0297,0.9653,0.0,0.005
+2025,36,Research & Development,Manufacturing Director,5131,No,0.0128,Low,N/A,0.0034,0.9966,0.0,0.0
+2026,56,Research & Development,Healthcare Representative,6306,No,1e-04,Low,N/A,0.1271,0.8337,0.0,0.0392
+2027,29,Research & Development,Research Scientist,4787,No,0.0207,Low,N/A,0.1222,0.8778,0.0,0.0
+2031,42,Research & Development,Manager,18880,No,0.1078,Low,N/A,0.0894,0.8761,0.0,0.0345
+2032,56,Research & Development,Laboratory Technician,2339,Yes,0.9595,Critical,Compensation,0.0446,0.8816,0.0,0.0738
+2034,41,Research & Development,Manufacturing Director,13570,No,0.0081,Low,N/A,0.07,0.8757,0.0,0.0543
+2035,34,Sales,Sales Executive,6712,No,0.0298,Low,N/A,0.0139,0.9618,0.0,0.0242
+2036,36,Sales,Sales Executive,5406,No,0.0239,Low,N/A,0.0756,0.8156,0.0,0.1089
+2037,41,Sales,Sales Executive,8938,No,0.0153,Low,N/A,0.0213,0.8895,0.0,0.0893
+2038,32,Research & Development,Research Scientist,2439,No,0.015,Low,N/A,0.0235,0.9716,0.0,0.0049
+2040,35,Human Resources,Human Resources,8837,No,0.1142,Low,N/A,0.0691,0.9012,0.0,0.0297
+2041,38,Sales,Sales Executive,5343,No,0.069,Low,N/A,0.0122,0.9733,0.0,0.0145
+2044,50,Sales,Sales Executive,6728,Yes,0.9554,Critical,Compensation,0.0144,0.9758,0.0,0.0098
+2045,36,Sales,Sales Executive,6652,No,0.0641,Low,N/A,0.0975,0.9025,0.0,0.0
+2046,45,Sales,Sales Executive,4850,No,0.0426,Low,N/A,0.0074,0.9926,0.0,0.0
+2048,40,Research & Development,Research Scientist,2809,No,0.0076,Low,N/A,0.0226,0.9774,0.0,0.0
+2049,35,Research & Development,Healthcare Representative,5689,No,0.0028,Low,N/A,0.0477,0.9523,0.0,0.0
+2051,40,Research & Development,Research Scientist,2001,No,0.0031,Low,N/A,0.027,0.973,0.0,0.0
+2052,35,Research & Development,Research Scientist,2977,No,0.0015,Low,N/A,0.0364,0.9439,0.0,0.0197
+2053,29,Research & Development,Laboratory Technician,4025,No,0.2813,Low,N/A,0.0144,0.9856,0.0,0.0
+2054,29,Research & Development,Research Scientist,3785,No,0.2321,Low,N/A,0.0565,0.9435,0.0,0.0
+2055,50,Sales,Sales Executive,10854,Yes,0.944,Critical,Compensation,0.0598,0.9352,0.0,0.005
+2056,39,Sales,Sales Executive,12031,No,0.1058,Low,N/A,0.0808,0.8649,0.0,0.0542
+2057,31,Research & Development,Manufacturing Director,9936,No,0.0831,Low,N/A,0.0177,0.8733,0.0,0.109
+2060,26,Sales,Sales Representative,2966,No,0.0908,Low,N/A,0.0129,0.9871,0.0,0.0
+2061,36,Research & Development,Laboratory Technician,2571,No,0.0028,Low,N/A,0.0184,0.9816,0.0,0.0
+2062,39,Research & Development,Healthcare Representative,9991,No,0.0216,Low,N/A,0.0299,0.871,0.0,0.0991
+2064,27,Research & Development,Manufacturing Director,6142,No,0.0474,Low,N/A,0.0341,0.9659,0.0,0.0
+2065,49,Sales,Sales Executive,5390,No,0.023,Low,N/A,0.0536,0.9215,0.0,0.0249
+2068,34,Research & Development,Laboratory Technician,4404,No,0.0876,Low,N/A,0.0,1.0,0.0,0.0

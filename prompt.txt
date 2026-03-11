@@ -1,0 +1,12 @@
+We are building a HR employee talent management system for attrition risk prediction with SHAP and DIce reasoing. The python model code is in the module 3-1 version6.ipynb and its results are saved in resultys folder. please carefully check the ipynb code first to see what results it produces.
+
+We also have a fronted code ready for the project. and we want to deploy it using react, we want to keep the model in huggingface models, keep the backend running in huggingface spaces, deploy the frontend in vercel, docker , ultimately we want to build MERN stack but currently we will use only 5 dummy data from IBM HR dataset. i have given the dataset in dtaset.csv You please create dummy json consiting of all the columns except "attrition" of the first 5 data. 
+
+the frontend code for the attrition risk and shap dice showing is in frontend/employees/EmployeesView.jsx file. You can create new files in suitable places. currently we have a dummy employee data file, but you create a new one in suitable place from the dataset.csv.
+
+You have to create another .md document to tell me alll the steps to deploy the model in huggingface spaces. Don't tell in straighfroward way, tell each and every step like "login to huggingface " and so on because i am a noob beginner. 
+
+Then create another comprehensive .md for the frontend deployment in vercel, step by step.
+You can create the new files needed for backend in the separate folder named "backend" . Please show me all the file structures correctly. Currently the code will be for inferring from the dummy 5 data of the dataset,,csv. we are not thinking about creating mongoDB schema now. so you can do that later, not now. 
+
+Find out which .pkl / .json files are needed for infernece carefully and create codes in backend so that when clicked on an employee, the deployed model can infer the attirtion risk and shap dice and fetch the results correctly and display in the frontend

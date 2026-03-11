@@ -1,0 +1,933 @@
+EmployeeNumber,cf_index,feature_changed,current_value,suggested_value,new_attrition_prob,risk_reduction,intervention_label
+1,1,WorkLifeBalance,1.0,4.0,0.9217,0.0615,Improve work-life balance: 1 → 4/4
+1,2,StockOptionLevel,0.0,1.0,0.9482,0.0351,Grant stock options (Level 0 → 1)
+1,3,WorkLifeBalance,1.0,4.0,0.852,0.1313,Improve work-life balance: 1 → 4/4
+1,3,StockOptionLevel,0.0,1.0,0.852,0.1313,Grant stock options (Level 0 → 1)
+4,1,OverTime,1.0,0.0,0.4903,0.2706,Remove overtime requirement
+4,2,DistanceFromHome,2.0,1.0,0.6024,0.1585,Offer remote/hybrid work (commute: 2 → 1 miles)
+4,3,OverTime,1.0,0.0,0.3214,0.4395,Remove overtime requirement
+4,3,DistanceFromHome,2.0,1.0,0.3214,0.4395,Offer remote/hybrid work (commute: 2 → 1 miles)
+19,1,DistanceFromHome,24.0,1.0,0.9548,0.0414,Offer remote/hybrid work (commute: 24 → 1 miles)
+19,2,OverTime,1.0,0.0,0.9654,0.0308,Remove overtime requirement
+19,3,DistanceFromHome,24.0,1.0,0.7609,0.2353,Offer remote/hybrid work (commute: 24 → 1 miles)
+19,3,OverTime,1.0,0.0,0.7609,0.2353,Remove overtime requirement
+27,1,JobSatisfaction,1.0,4.0,0.0769,0.8685,Improve job satisfaction: 1 → 4/4
+27,2,StockOptionLevel,0.0,2.0,0.6757,0.2696,Grant stock options (Level 0 → 2)
+27,3,JobSatisfaction,1.0,4.0,0.0384,0.907,Improve job satisfaction: 1 → 4/4
+27,3,StockOptionLevel,0.0,2.0,0.0384,0.907,Grant stock options (Level 0 → 2)
+31,1,JobSatisfaction,1.0,4.0,0.0304,0.6857,Improve job satisfaction: 1 → 4/4
+31,2,TrainingTimesLastYear,2.0,6.0,0.2368,0.4793,Increase training sessions: 2 → 6/year
+31,3,JobSatisfaction,1.0,4.0,0.0063,0.7098,Improve job satisfaction: 1 → 4/4
+31,3,TrainingTimesLastYear,2.0,6.0,0.0063,0.7098,Increase training sessions: 2 → 6/year
+33,1,StockOptionLevel,0.0,2.0,0.981,0.0174,Grant stock options (Level 0 → 2)
+33,2,JobSatisfaction,1.0,4.0,0.9843,0.0141,Improve job satisfaction: 1 → 4/4
+33,3,StockOptionLevel,0.0,2.0,0.9091,0.0894,Grant stock options (Level 0 → 2)
+33,3,JobSatisfaction,1.0,4.0,0.9091,0.0894,Improve job satisfaction: 1 → 4/4
+42,1,MonthlyIncome,2086.0,8379.0,0.44,0.459,"Salary raise: $2,086 → $8,379/month (+302%)"
+42,2,DistanceFromHome,5.0,1.0,0.4597,0.4394,Offer remote/hybrid work (commute: 5 → 1 miles)
+42,3,MonthlyIncome,2086.0,8379.0,0.1125,0.7866,"Salary raise: $2,086 → $8,379/month (+302%)"
+42,3,DistanceFromHome,5.0,1.0,0.1125,0.7866,Offer remote/hybrid work (commute: 5 → 1 miles)
+45,1,MonthlyIncome,2293.0,4919.0,0.7006,0.2562,"Salary raise: $2,293 → $4,919/month (+115%)"
+45,2,OverTime,1.0,0.0,0.791,0.1658,Remove overtime requirement
+45,3,MonthlyIncome,2293.0,4919.0,0.4042,0.5526,"Salary raise: $2,293 → $4,919/month (+115%)"
+45,3,OverTime,1.0,0.0,0.4042,0.5526,Remove overtime requirement
+47,1,EnvironmentSatisfaction,1.0,4.0,0.6921,0.227,Improve work environment: 1 → 4/4
+47,2,StockOptionLevel,0.0,2.0,0.7476,0.1715,Grant stock options (Level 0 → 2)
+47,3,EnvironmentSatisfaction,1.0,4.0,0.3164,0.6027,Improve work environment: 1 → 4/4
+47,3,StockOptionLevel,0.0,2.0,0.3164,0.6027,Grant stock options (Level 0 → 2)
+55,1,StockOptionLevel,0.0,2.0,0.9796,0.0178,Grant stock options (Level 0 → 2)
+55,2,TrainingTimesLastYear,2.0,6.0,0.9834,0.014,Increase training sessions: 2 → 6/year
+55,3,StockOptionLevel,0.0,2.0,0.9107,0.0867,Grant stock options (Level 0 → 2)
+55,3,TrainingTimesLastYear,2.0,6.0,0.9107,0.0867,Increase training sessions: 2 → 6/year
+64,1,EnvironmentSatisfaction,1.0,4.0,0.5502,0.4198,Improve work environment: 1 → 4/4
+64,2,JobSatisfaction,3.0,4.0,0.8247,0.1453,Improve job satisfaction: 3 → 4/4
+64,3,EnvironmentSatisfaction,1.0,4.0,0.1487,0.8213,Improve work environment: 1 → 4/4
+64,3,JobSatisfaction,3.0,4.0,0.1487,0.8213,Improve job satisfaction: 3 → 4/4
+65,1,DistanceFromHome,5.0,1.0,0.8448,0.1415,Offer remote/hybrid work (commute: 5 → 1 miles)
+65,2,JobSatisfaction,3.0,4.0,0.9224,0.0638,Improve job satisfaction: 3 → 4/4
+65,3,DistanceFromHome,5.0,1.0,0.5841,0.4021,Offer remote/hybrid work (commute: 5 → 1 miles)
+65,3,JobSatisfaction,3.0,4.0,0.5841,0.4021,Improve job satisfaction: 3 → 4/4
+90,1,DistanceFromHome,9.0,1.0,0.1546,0.4905,Offer remote/hybrid work (commute: 9 → 1 miles)
+90,2,JobSatisfaction,3.0,4.0,0.1745,0.4706,Improve job satisfaction: 3 → 4/4
+90,3,DistanceFromHome,9.0,1.0,0.0412,0.6039,Offer remote/hybrid work (commute: 9 → 1 miles)
+90,3,JobSatisfaction,3.0,4.0,0.0412,0.6039,Improve job satisfaction: 3 → 4/4
+118,1,YearsSinceLastPromotion,4.0,0.0,0.7882,0.1737,Promote employee (reset promotion clock to 0)
+118,2,TrainingTimesLastYear,3.0,6.0,0.8281,0.1338,Increase training sessions: 3 → 6/year
+118,3,YearsSinceLastPromotion,4.0,0.0,0.4442,0.5177,Promote employee (reset promotion clock to 0)
+118,3,TrainingTimesLastYear,3.0,6.0,0.4442,0.5177,Increase training sessions: 3 → 6/year
+133,1,JobSatisfaction,1.0,4.0,0.5962,0.346,Improve job satisfaction: 1 → 4/4
+133,2,DistanceFromHome,6.0,1.0,0.6988,0.2434,Offer remote/hybrid work (commute: 6 → 1 miles)
+133,3,JobSatisfaction,1.0,4.0,0.1798,0.7624,Improve job satisfaction: 1 → 4/4
+133,3,DistanceFromHome,6.0,1.0,0.1798,0.7624,Offer remote/hybrid work (commute: 6 → 1 miles)
+137,1,OverTime,1.0,0.0,0.8219,0.1485,Remove overtime requirement
+137,2,DistanceFromHome,6.0,1.0,0.8619,0.1085,Offer remote/hybrid work (commute: 6 → 1 miles)
+137,3,OverTime,1.0,0.0,0.5162,0.4542,Remove overtime requirement
+137,3,DistanceFromHome,6.0,1.0,0.5162,0.4542,Offer remote/hybrid work (commute: 6 → 1 miles)
+142,1,JobSatisfaction,3.0,4.0,0.6659,0.2776,Improve job satisfaction: 3 → 4/4
+142,2,TrainingTimesLastYear,1.0,6.0,0.7458,0.1976,Increase training sessions: 1 → 6/year
+142,3,JobSatisfaction,3.0,4.0,0.348,0.5954,Improve job satisfaction: 3 → 4/4
+142,3,TrainingTimesLastYear,1.0,6.0,0.348,0.5954,Increase training sessions: 1 → 6/year
+144,1,DistanceFromHome,15.0,1.0,0.2206,0.3095,Offer remote/hybrid work (commute: 15 → 1 miles)
+144,2,StockOptionLevel,0.0,2.0,0.2723,0.2578,Grant stock options (Level 0 → 2)
+144,3,DistanceFromHome,15.0,1.0,0.1085,0.4216,Offer remote/hybrid work (commute: 15 → 1 miles)
+144,3,StockOptionLevel,0.0,2.0,0.1085,0.4216,Grant stock options (Level 0 → 2)
+147,1,EnvironmentSatisfaction,1.0,4.0,0.6327,0.3537,Improve work environment: 1 → 4/4
+147,2,JobSatisfaction,3.0,4.0,0.9503,0.0361,Improve job satisfaction: 3 → 4/4
+147,3,EnvironmentSatisfaction,1.0,4.0,0.3003,0.6861,Improve work environment: 1 → 4/4
+147,3,JobSatisfaction,3.0,4.0,0.3003,0.6861,Improve job satisfaction: 3 → 4/4
+163,1,StockOptionLevel,0.0,2.0,0.7962,0.1909,Grant stock options (Level 0 → 2)
+163,2,WorkLifeBalance,2.0,4.0,0.887,0.1001,Improve work-life balance: 2 → 4/4
+163,3,StockOptionLevel,0.0,2.0,0.4164,0.5708,Grant stock options (Level 0 → 2)
+163,3,WorkLifeBalance,2.0,4.0,0.4164,0.5708,Improve work-life balance: 2 → 4/4
+167,1,DistanceFromHome,22.0,1.0,0.9482,0.0481,Offer remote/hybrid work (commute: 22 → 1 miles)
+167,2,OverTime,1.0,0.0,0.9853,0.0109,Remove overtime requirement
+167,3,DistanceFromHome,22.0,1.0,0.8496,0.1466,Offer remote/hybrid work (commute: 22 → 1 miles)
+167,3,OverTime,1.0,0.0,0.8496,0.1466,Remove overtime requirement
+175,1,EnvironmentSatisfaction,2.0,4.0,0.3102,0.3931,Improve work environment: 2 → 4/4
+175,2,DistanceFromHome,20.0,1.0,0.3262,0.3771,Offer remote/hybrid work (commute: 20 → 1 miles)
+175,3,EnvironmentSatisfaction,2.0,4.0,0.0771,0.6262,Improve work environment: 2 → 4/4
+175,3,DistanceFromHome,20.0,1.0,0.0771,0.6262,Offer remote/hybrid work (commute: 20 → 1 miles)
+190,1,JobSatisfaction,1.0,4.0,0.3815,0.6047,Improve job satisfaction: 1 → 4/4
+190,2,EnvironmentSatisfaction,1.0,4.0,0.7845,0.2017,Improve work environment: 1 → 4/4
+190,3,JobSatisfaction,1.0,4.0,0.0585,0.9277,Improve job satisfaction: 1 → 4/4
+190,3,EnvironmentSatisfaction,1.0,4.0,0.0585,0.9277,Improve work environment: 1 → 4/4
+201,1,TrainingTimesLastYear,3.0,6.0,0.2217,0.3296,Increase training sessions: 3 → 6/year
+201,2,StockOptionLevel,0.0,2.0,0.2567,0.2947,Grant stock options (Level 0 → 2)
+201,3,TrainingTimesLastYear,3.0,6.0,0.1085,0.4429,Increase training sessions: 3 → 6/year
+201,3,StockOptionLevel,0.0,2.0,0.1085,0.4429,Grant stock options (Level 0 → 2)
+235,1,JobSatisfaction,1.0,4.0,0.9121,0.077,Improve job satisfaction: 1 → 4/4
+235,2,StockOptionLevel,0.0,2.0,0.9169,0.0722,Grant stock options (Level 0 → 2)
+235,3,JobSatisfaction,1.0,4.0,0.677,0.3121,Improve job satisfaction: 1 → 4/4
+235,3,StockOptionLevel,0.0,2.0,0.677,0.3121,Grant stock options (Level 0 → 2)
+243,1,DistanceFromHome,2.0,1.0,0.8689,0.0922,Offer remote/hybrid work (commute: 2 → 1 miles)
+243,2,WorkLifeBalance,2.0,3.0,0.8707,0.0904,Improve work-life balance: 2 → 3/4
+243,3,DistanceFromHome,2.0,1.0,0.7111,0.25,Offer remote/hybrid work (commute: 2 → 1 miles)
+243,3,WorkLifeBalance,2.0,3.0,0.7111,0.25,Improve work-life balance: 2 → 3/4
+248,1,DistanceFromHome,20.0,1.0,0.3512,0.4143,Offer remote/hybrid work (commute: 20 → 1 miles)
+248,2,JobSatisfaction,2.0,4.0,0.4343,0.3312,Improve job satisfaction: 2 → 4/4
+248,3,DistanceFromHome,20.0,1.0,0.1278,0.6377,Offer remote/hybrid work (commute: 20 → 1 miles)
+248,3,JobSatisfaction,2.0,4.0,0.1278,0.6377,Improve job satisfaction: 2 → 4/4
+261,1,DistanceFromHome,23.0,1.0,0.9197,0.0759,Offer remote/hybrid work (commute: 23 → 1 miles)
+261,2,JobSatisfaction,3.0,4.0,0.9452,0.0504,Improve job satisfaction: 3 → 4/4
+261,3,DistanceFromHome,23.0,1.0,0.48,0.5156,Offer remote/hybrid work (commute: 23 → 1 miles)
+261,3,JobSatisfaction,3.0,4.0,0.48,0.5156,Improve job satisfaction: 3 → 4/4
+282,1,JobSatisfaction,1.0,4.0,0.3822,0.5818,Improve job satisfaction: 1 → 4/4
+282,2,DistanceFromHome,29.0,1.0,0.6377,0.3263,Offer remote/hybrid work (commute: 29 → 1 miles)
+282,3,JobSatisfaction,1.0,4.0,0.0556,0.9085,Improve job satisfaction: 1 → 4/4
+282,3,DistanceFromHome,29.0,1.0,0.0556,0.9085,Offer remote/hybrid work (commute: 29 → 1 miles)
+283,1,DistanceFromHome,27.0,1.0,0.3273,0.573,Offer remote/hybrid work (commute: 27 → 1 miles)
+283,2,WorkLifeBalance,2.0,3.0,0.5905,0.3097,Improve work-life balance: 2 → 3/4
+283,3,DistanceFromHome,27.0,1.0,0.1061,0.7942,Offer remote/hybrid work (commute: 27 → 1 miles)
+283,3,WorkLifeBalance,2.0,3.0,0.1061,0.7942,Improve work-life balance: 2 → 3/4
+291,1,WorkLifeBalance,2.0,3.0,0.5503,0.4008,Improve work-life balance: 2 → 3/4
+291,2,StockOptionLevel,0.0,2.0,0.7621,0.189,Grant stock options (Level 0 → 2)
+291,3,WorkLifeBalance,2.0,3.0,0.1974,0.7537,Improve work-life balance: 2 → 3/4
+291,3,StockOptionLevel,0.0,2.0,0.1974,0.7537,Grant stock options (Level 0 → 2)
+297,1,JobSatisfaction,1.0,4.0,0.6317,0.3182,Improve job satisfaction: 1 → 4/4
+297,2,DistanceFromHome,3.0,1.0,0.817,0.1329,Offer remote/hybrid work (commute: 3 → 1 miles)
+297,3,JobSatisfaction,1.0,4.0,0.297,0.6528,Improve job satisfaction: 1 → 4/4
+297,3,DistanceFromHome,3.0,1.0,0.297,0.6528,Offer remote/hybrid work (commute: 3 → 1 miles)
+299,1,JobSatisfaction,1.0,4.0,0.5218,0.4629,Improve job satisfaction: 1 → 4/4
+299,2,StockOptionLevel,0.0,2.0,0.919,0.0657,Grant stock options (Level 0 → 2)
+299,3,JobSatisfaction,1.0,4.0,0.3076,0.6771,Improve job satisfaction: 1 → 4/4
+299,3,StockOptionLevel,0.0,2.0,0.3076,0.6771,Grant stock options (Level 0 → 2)
+315,1,DistanceFromHome,18.0,1.0,0.2816,0.5554,Offer remote/hybrid work (commute: 18 → 1 miles)
+315,2,TrainingTimesLastYear,3.0,6.0,0.6629,0.1741,Increase training sessions: 3 → 6/year
+315,3,DistanceFromHome,18.0,1.0,0.1634,0.6736,Offer remote/hybrid work (commute: 18 → 1 miles)
+315,3,TrainingTimesLastYear,3.0,6.0,0.1634,0.6736,Increase training sessions: 3 → 6/year
+325,1,DistanceFromHome,14.0,1.0,0.8261,0.1611,Offer remote/hybrid work (commute: 14 → 1 miles)
+325,2,MonthlyIncome,2436.0,4919.0,0.9103,0.0769,"Salary raise: $2,436 → $4,919/month (+102%)"
+325,3,DistanceFromHome,14.0,1.0,0.4072,0.5801,Offer remote/hybrid work (commute: 14 → 1 miles)
+325,3,MonthlyIncome,2436.0,4919.0,0.4072,0.5801,"Salary raise: $2,436 → $4,919/month (+102%)"
+328,1,JobSatisfaction,1.0,4.0,0.3757,0.5804,Improve job satisfaction: 1 → 4/4
+328,2,EnvironmentSatisfaction,1.0,4.0,0.6359,0.3202,Improve work environment: 1 → 4/4
+328,3,JobSatisfaction,1.0,4.0,0.0529,0.9032,Improve job satisfaction: 1 → 4/4
+328,3,EnvironmentSatisfaction,1.0,4.0,0.0529,0.9032,Improve work environment: 1 → 4/4
+342,1,EnvironmentSatisfaction,1.0,4.0,0.3212,0.6296,Improve work environment: 1 → 4/4
+342,2,JobSatisfaction,3.0,4.0,0.7355,0.2154,Improve job satisfaction: 3 → 4/4
+342,3,EnvironmentSatisfaction,1.0,4.0,0.071,0.8798,Improve work environment: 1 → 4/4
+342,3,JobSatisfaction,3.0,4.0,0.071,0.8798,Improve job satisfaction: 3 → 4/4
+355,1,JobSatisfaction,2.0,4.0,0.5456,0.4164,Improve job satisfaction: 2 → 4/4
+355,2,EnvironmentSatisfaction,3.0,4.0,0.6346,0.3273,Improve work environment: 3 → 4/4
+355,3,JobSatisfaction,2.0,4.0,0.2098,0.7522,Improve job satisfaction: 2 → 4/4
+355,3,EnvironmentSatisfaction,3.0,4.0,0.2098,0.7522,Improve work environment: 3 → 4/4
+364,1,JobSatisfaction,3.0,4.0,0.7306,0.2436,Improve job satisfaction: 3 → 4/4
+364,2,DistanceFromHome,2.0,1.0,0.8878,0.0864,Offer remote/hybrid work (commute: 2 → 1 miles)
+364,3,JobSatisfaction,3.0,4.0,0.4162,0.558,Improve job satisfaction: 3 → 4/4
+364,3,DistanceFromHome,2.0,1.0,0.4162,0.558,Offer remote/hybrid work (commute: 2 → 1 miles)
+376,1,DistanceFromHome,29.0,1.0,0.4696,0.4882,Offer remote/hybrid work (commute: 29 → 1 miles)
+376,2,EnvironmentSatisfaction,1.0,4.0,0.7027,0.2551,Improve work environment: 1 → 4/4
+376,3,DistanceFromHome,29.0,1.0,0.1314,0.8263,Offer remote/hybrid work (commute: 29 → 1 miles)
+376,3,EnvironmentSatisfaction,1.0,4.0,0.1314,0.8263,Improve work environment: 1 → 4/4
+379,1,JobSatisfaction,3.0,4.0,0.2199,0.3508,Improve job satisfaction: 3 → 4/4
+379,2,DistanceFromHome,3.0,1.0,0.2288,0.3419,Offer remote/hybrid work (commute: 3 → 1 miles)
+379,3,JobSatisfaction,3.0,4.0,0.0612,0.5095,Improve job satisfaction: 3 → 4/4
+379,3,DistanceFromHome,3.0,1.0,0.0612,0.5095,Offer remote/hybrid work (commute: 3 → 1 miles)
+392,1,DistanceFromHome,24.0,1.0,0.4304,0.541,Offer remote/hybrid work (commute: 24 → 1 miles)
+392,2,JobSatisfaction,3.0,4.0,0.7688,0.2026,Improve job satisfaction: 3 → 4/4
+392,3,DistanceFromHome,24.0,1.0,0.1454,0.826,Offer remote/hybrid work (commute: 24 → 1 miles)
+392,3,JobSatisfaction,3.0,4.0,0.1454,0.826,Improve job satisfaction: 3 → 4/4
+394,1,OverTime,1.0,0.0,0.8138,0.1689,Remove overtime requirement
+394,2,DistanceFromHome,16.0,1.0,0.8209,0.1618,Offer remote/hybrid work (commute: 16 → 1 miles)
+394,3,OverTime,1.0,0.0,0.306,0.6767,Remove overtime requirement
+394,3,DistanceFromHome,16.0,1.0,0.306,0.6767,Offer remote/hybrid work (commute: 16 → 1 miles)
+399,1,WorkLifeBalance,2.0,3.0,0.1991,0.3386,Improve work-life balance: 2 → 3/4
+399,2,JobSatisfaction,2.0,4.0,0.269,0.2688,Improve job satisfaction: 2 → 4/4
+399,3,WorkLifeBalance,2.0,3.0,0.1005,0.4373,Improve work-life balance: 2 → 3/4
+399,3,JobSatisfaction,2.0,4.0,0.1005,0.4373,Improve job satisfaction: 2 → 4/4
+401,1,TrainingTimesLastYear,0.0,6.0,0.3582,0.4151,Increase training sessions: 0 → 6/year
+401,2,YearsSinceLastPromotion,7.0,1.0,0.4105,0.3628,Promote employee (reset promotion clock to 0)
+401,3,TrainingTimesLastYear,0.0,6.0,0.1291,0.6441,Increase training sessions: 0 → 6/year
+401,3,YearsSinceLastPromotion,7.0,1.0,0.1291,0.6441,Promote employee (reset promotion clock to 0)
+405,1,TrainingTimesLastYear,2.0,6.0,0.9091,0.076,Increase training sessions: 2 → 6/year
+405,2,DistanceFromHome,3.0,1.0,0.9263,0.0589,Offer remote/hybrid work (commute: 3 → 1 miles)
+405,3,TrainingTimesLastYear,2.0,6.0,0.7093,0.2759,Increase training sessions: 2 → 6/year
+405,3,DistanceFromHome,3.0,1.0,0.7093,0.2759,Offer remote/hybrid work (commute: 3 → 1 miles)
+411,1,TrainingTimesLastYear,2.0,6.0,0.9139,0.0719,Increase training sessions: 2 → 6/year
+411,2,StockOptionLevel,0.0,2.0,0.9177,0.0681,Grant stock options (Level 0 → 2)
+411,3,TrainingTimesLastYear,2.0,6.0,0.721,0.2648,Increase training sessions: 2 → 6/year
+411,3,StockOptionLevel,0.0,2.0,0.721,0.2648,Grant stock options (Level 0 → 2)
+424,1,JobSatisfaction,1.0,4.0,0.1167,0.4788,Improve job satisfaction: 1 → 4/4
+424,2,EnvironmentSatisfaction,1.0,4.0,0.1712,0.4243,Improve work environment: 1 → 4/4
+424,3,JobSatisfaction,1.0,4.0,0.025,0.5705,Improve job satisfaction: 1 → 4/4
+424,3,EnvironmentSatisfaction,1.0,4.0,0.025,0.5705,Improve work environment: 1 → 4/4
+433,1,JobSatisfaction,2.0,4.0,0.4488,0.4982,Improve job satisfaction: 2 → 4/4
+433,2,StockOptionLevel,0.0,2.0,0.4975,0.4495,Grant stock options (Level 0 → 2)
+433,3,JobSatisfaction,2.0,4.0,0.1357,0.8112,Improve job satisfaction: 2 → 4/4
+433,3,StockOptionLevel,0.0,2.0,0.1357,0.8112,Grant stock options (Level 0 → 2)
+434,1,JobSatisfaction,2.0,4.0,0.5739,0.361,Improve job satisfaction: 2 → 4/4
+434,2,TrainingTimesLastYear,2.0,6.0,0.67,0.2649,Increase training sessions: 2 → 6/year
+434,3,JobSatisfaction,2.0,4.0,0.2537,0.6812,Improve job satisfaction: 2 → 4/4
+434,3,TrainingTimesLastYear,2.0,6.0,0.2537,0.6812,Increase training sessions: 2 → 6/year
+440,1,EnvironmentSatisfaction,1.0,4.0,0.9544,0.0381,Improve work environment: 1 → 4/4
+440,2,WorkLifeBalance,2.0,3.0,0.9588,0.0337,Improve work-life balance: 2 → 3/4
+440,3,EnvironmentSatisfaction,1.0,4.0,0.6739,0.3186,Improve work environment: 1 → 4/4
+440,3,WorkLifeBalance,2.0,3.0,0.6739,0.3186,Improve work-life balance: 2 → 3/4
+445,1,StockOptionLevel,0.0,2.0,0.6858,0.2647,Grant stock options (Level 0 → 2)
+445,2,JobSatisfaction,3.0,4.0,0.7252,0.2253,Improve job satisfaction: 3 → 4/4
+445,3,StockOptionLevel,0.0,2.0,0.3315,0.6191,Grant stock options (Level 0 → 2)
+445,3,JobSatisfaction,3.0,4.0,0.3315,0.6191,Improve job satisfaction: 3 → 4/4
+454,1,StockOptionLevel,0.0,2.0,0.8653,0.1111,Grant stock options (Level 0 → 2)
+454,2,WorkLifeBalance,2.0,3.0,0.895,0.0814,Improve work-life balance: 2 → 3/4
+454,3,StockOptionLevel,0.0,2.0,0.6512,0.3253,Grant stock options (Level 0 → 2)
+454,3,WorkLifeBalance,2.0,3.0,0.6512,0.3253,Improve work-life balance: 2 → 3/4
+478,1,EnvironmentSatisfaction,1.0,4.0,0.9362,0.0558,Improve work environment: 1 → 4/4
+478,2,JobSatisfaction,2.0,4.0,0.9699,0.022,Improve job satisfaction: 2 → 4/4
+478,3,EnvironmentSatisfaction,1.0,4.0,0.8847,0.1073,Improve work environment: 1 → 4/4
+478,3,JobSatisfaction,2.0,4.0,0.8847,0.1073,Improve job satisfaction: 2 → 4/4
+485,1,DistanceFromHome,5.0,1.0,0.9155,0.0655,Offer remote/hybrid work (commute: 5 → 1 miles)
+485,2,TrainingTimesLastYear,2.0,6.0,0.9175,0.0635,Increase training sessions: 2 → 6/year
+485,3,DistanceFromHome,5.0,1.0,0.7597,0.2213,Offer remote/hybrid work (commute: 5 → 1 miles)
+485,3,TrainingTimesLastYear,2.0,6.0,0.7597,0.2213,Increase training sessions: 2 → 6/year
+488,1,EnvironmentSatisfaction,1.0,4.0,0.6172,0.3369,Improve work environment: 1 → 4/4
+488,2,JobSatisfaction,2.0,4.0,0.6556,0.2985,Improve job satisfaction: 2 → 4/4
+488,3,EnvironmentSatisfaction,1.0,4.0,0.2723,0.6818,Improve work environment: 1 → 4/4
+488,3,JobSatisfaction,2.0,4.0,0.2723,0.6818,Improve job satisfaction: 2 → 4/4
+492,1,DistanceFromHome,22.0,1.0,0.7703,0.1819,Offer remote/hybrid work (commute: 22 → 1 miles)
+492,2,OverTime,1.0,0.0,0.7909,0.1613,Remove overtime requirement
+492,3,DistanceFromHome,22.0,1.0,0.4726,0.4796,Offer remote/hybrid work (commute: 22 → 1 miles)
+492,3,OverTime,1.0,0.0,0.4726,0.4796,Remove overtime requirement
+494,1,TrainingTimesLastYear,0.0,6.0,0.4818,0.4819,Increase training sessions: 0 → 6/year
+494,2,DistanceFromHome,12.0,1.0,0.8211,0.1427,Offer remote/hybrid work (commute: 12 → 1 miles)
+494,3,TrainingTimesLastYear,0.0,6.0,0.239,0.7248,Increase training sessions: 0 → 6/year
+494,3,DistanceFromHome,12.0,1.0,0.239,0.7248,Offer remote/hybrid work (commute: 12 → 1 miles)
+502,1,DistanceFromHome,19.0,1.0,0.7476,0.2242,Offer remote/hybrid work (commute: 19 → 1 miles)
+502,2,EnvironmentSatisfaction,1.0,4.0,0.8521,0.1197,Improve work environment: 1 → 4/4
+502,3,DistanceFromHome,19.0,1.0,0.4131,0.5587,Offer remote/hybrid work (commute: 19 → 1 miles)
+502,3,EnvironmentSatisfaction,1.0,4.0,0.4131,0.5587,Improve work environment: 1 → 4/4
+514,1,MonthlyIncome,2285.0,4919.0,0.8371,0.1454,"Salary raise: $2,285 → $4,919/month (+115%)"
+514,2,OverTime,1.0,0.0,0.8762,0.1063,Remove overtime requirement
+514,3,MonthlyIncome,2285.0,4919.0,0.5716,0.4109,"Salary raise: $2,285 → $4,919/month (+115%)"
+514,3,OverTime,1.0,0.0,0.5716,0.4109,Remove overtime requirement
+527,1,EnvironmentSatisfaction,2.0,4.0,0.249,0.4488,Improve work environment: 2 → 4/4
+527,2,OverTime,1.0,0.0,0.3534,0.3445,Remove overtime requirement
+527,3,EnvironmentSatisfaction,2.0,4.0,0.0709,0.627,Improve work environment: 2 → 4/4
+527,3,OverTime,1.0,0.0,0.0709,0.627,Remove overtime requirement
+538,1,JobSatisfaction,1.0,4.0,0.524,0.4047,Improve job satisfaction: 1 → 4/4
+538,2,EnvironmentSatisfaction,1.0,4.0,0.54,0.3887,Improve work environment: 1 → 4/4
+538,3,JobSatisfaction,1.0,4.0,0.1326,0.796,Improve job satisfaction: 1 → 4/4
+538,3,EnvironmentSatisfaction,1.0,4.0,0.1326,0.796,Improve work environment: 1 → 4/4
+554,1,EnvironmentSatisfaction,1.0,4.0,0.8474,0.1359,Improve work environment: 1 → 4/4
+554,2,JobSatisfaction,2.0,4.0,0.8962,0.0871,Improve job satisfaction: 2 → 4/4
+554,3,EnvironmentSatisfaction,1.0,4.0,0.5803,0.403,Improve work environment: 1 → 4/4
+554,3,JobSatisfaction,2.0,4.0,0.5803,0.403,Improve job satisfaction: 2 → 4/4
+555,1,MonthlyIncome,2351.0,8379.0,0.7878,0.1786,"Salary raise: $2,351 → $8,379/month (+256%)"
+555,2,WorkLifeBalance,2.0,3.0,0.7882,0.1782,Improve work-life balance: 2 → 3/4
+555,3,MonthlyIncome,2351.0,8379.0,0.4074,0.559,"Salary raise: $2,351 → $8,379/month (+256%)"
+555,3,WorkLifeBalance,2.0,3.0,0.4074,0.559,Improve work-life balance: 2 → 3/4
+565,1,StockOptionLevel,0.0,2.0,0.3739,0.5659,Grant stock options (Level 0 → 2)
+565,2,JobSatisfaction,2.0,4.0,0.4609,0.4789,Improve job satisfaction: 2 → 4/4
+565,3,StockOptionLevel,0.0,2.0,0.1027,0.8371,Grant stock options (Level 0 → 2)
+565,3,JobSatisfaction,2.0,4.0,0.1027,0.8371,Improve job satisfaction: 2 → 4/4
+566,1,EnvironmentSatisfaction,1.0,4.0,0.7482,0.2379,Improve work environment: 1 → 4/4
+566,2,TrainingTimesLastYear,3.0,6.0,0.9571,0.029,Increase training sessions: 3 → 6/year
+566,3,EnvironmentSatisfaction,1.0,4.0,0.5247,0.4614,Improve work environment: 1 → 4/4
+566,3,TrainingTimesLastYear,3.0,6.0,0.5247,0.4614,Increase training sessions: 3 → 6/year
+582,1,DistanceFromHome,15.0,1.0,0.7638,0.2055,Offer remote/hybrid work (commute: 15 → 1 miles)
+582,2,TrainingTimesLastYear,2.0,6.0,0.7917,0.1776,Increase training sessions: 2 → 6/year
+582,3,DistanceFromHome,15.0,1.0,0.4156,0.5538,Offer remote/hybrid work (commute: 15 → 1 miles)
+582,3,TrainingTimesLastYear,2.0,6.0,0.4156,0.5538,Increase training sessions: 2 → 6/year
+584,1,EnvironmentSatisfaction,1.0,4.0,0.4659,0.4934,Improve work environment: 1 → 4/4
+584,2,DistanceFromHome,10.0,1.0,0.6872,0.2721,Offer remote/hybrid work (commute: 10 → 1 miles)
+584,3,EnvironmentSatisfaction,1.0,4.0,0.1039,0.8554,Improve work environment: 1 → 4/4
+584,3,DistanceFromHome,10.0,1.0,0.1039,0.8554,Offer remote/hybrid work (commute: 10 → 1 miles)
+587,1,DistanceFromHome,20.0,1.0,0.8695,0.1205,Offer remote/hybrid work (commute: 20 → 1 miles)
+587,2,JobSatisfaction,3.0,4.0,0.8917,0.0983,Improve job satisfaction: 3 → 4/4
+587,3,DistanceFromHome,20.0,1.0,0.3589,0.6311,Offer remote/hybrid work (commute: 20 → 1 miles)
+587,3,JobSatisfaction,3.0,4.0,0.3589,0.6311,Improve job satisfaction: 3 → 4/4
+590,1,EnvironmentSatisfaction,2.0,4.0,0.7826,0.1899,Improve work environment: 2 → 4/4
+590,2,JobSatisfaction,1.0,4.0,0.7941,0.1784,Improve job satisfaction: 1 → 4/4
+590,3,EnvironmentSatisfaction,2.0,4.0,0.3438,0.6287,Improve work environment: 2 → 4/4
+590,3,JobSatisfaction,1.0,4.0,0.3438,0.6287,Improve job satisfaction: 1 → 4/4
+593,1,EnvironmentSatisfaction,3.0,4.0,0.7812,0.1866,Improve work environment: 3 → 4/4
+593,2,JobSatisfaction,3.0,4.0,0.8042,0.1636,Improve job satisfaction: 3 → 4/4
+593,3,EnvironmentSatisfaction,3.0,4.0,0.4912,0.4766,Improve work environment: 3 → 4/4
+593,3,JobSatisfaction,3.0,4.0,0.4912,0.4766,Improve job satisfaction: 3 → 4/4
+608,1,DistanceFromHome,17.0,1.0,0.9243,0.0619,Offer remote/hybrid work (commute: 17 → 1 miles)
+608,2,OverTime,1.0,0.0,0.9562,0.03,Remove overtime requirement
+608,3,DistanceFromHome,17.0,1.0,0.8026,0.1835,Offer remote/hybrid work (commute: 17 → 1 miles)
+608,3,OverTime,1.0,0.0,0.8026,0.1835,Remove overtime requirement
+631,1,StockOptionLevel,0.0,2.0,0.4307,0.4938,Grant stock options (Level 0 → 2)
+631,2,DistanceFromHome,11.0,1.0,0.4955,0.429,Offer remote/hybrid work (commute: 11 → 1 miles)
+631,3,StockOptionLevel,0.0,2.0,0.0944,0.8302,Grant stock options (Level 0 → 2)
+631,3,DistanceFromHome,11.0,1.0,0.0944,0.8302,Offer remote/hybrid work (commute: 11 → 1 miles)
+647,1,EnvironmentSatisfaction,1.0,4.0,0.8447,0.131,Improve work environment: 1 → 4/4
+647,2,OverTime,1.0,0.0,0.8703,0.1054,Remove overtime requirement
+647,3,EnvironmentSatisfaction,1.0,4.0,0.4363,0.5395,Improve work environment: 1 → 4/4
+647,3,OverTime,1.0,0.0,0.4363,0.5395,Remove overtime requirement
+648,1,JobSatisfaction,1.0,4.0,0.9155,0.0805,Improve job satisfaction: 1 → 4/4
+648,2,DistanceFromHome,12.0,1.0,0.9677,0.0284,Offer remote/hybrid work (commute: 12 → 1 miles)
+648,3,JobSatisfaction,1.0,4.0,0.6117,0.3844,Improve job satisfaction: 1 → 4/4
+648,3,DistanceFromHome,12.0,1.0,0.6117,0.3844,Offer remote/hybrid work (commute: 12 → 1 miles)
+650,1,JobSatisfaction,1.0,4.0,0.3361,0.6298,Improve job satisfaction: 1 → 4/4
+650,2,DistanceFromHome,13.0,1.0,0.4691,0.4968,Offer remote/hybrid work (commute: 13 → 1 miles)
+650,3,JobSatisfaction,1.0,4.0,0.0311,0.9348,Improve job satisfaction: 1 → 4/4
+650,3,DistanceFromHome,13.0,1.0,0.0311,0.9348,Offer remote/hybrid work (commute: 13 → 1 miles)
+667,1,JobSatisfaction,1.0,4.0,0.5307,0.388,Improve job satisfaction: 1 → 4/4
+667,2,MonthlyIncome,3041.0,4919.0,0.758,0.1607,"Salary raise: $3,041 → $4,919/month (+62%)"
+667,3,JobSatisfaction,1.0,4.0,0.3113,0.6075,Improve job satisfaction: 1 → 4/4
+667,3,MonthlyIncome,3041.0,4919.0,0.3113,0.6075,"Salary raise: $3,041 → $4,919/month (+62%)"
+669,1,TrainingTimesLastYear,2.0,6.0,0.1108,0.4119,Increase training sessions: 2 → 6/year
+669,2,JobSatisfaction,3.0,4.0,0.1974,0.3253,Improve job satisfaction: 3 → 4/4
+669,3,TrainingTimesLastYear,2.0,6.0,0.0389,0.4838,Increase training sessions: 2 → 6/year
+669,3,JobSatisfaction,3.0,4.0,0.0389,0.4838,Improve job satisfaction: 3 → 4/4
+684,1,JobSatisfaction,1.0,4.0,0.4633,0.4972,Improve job satisfaction: 1 → 4/4
+684,2,DistanceFromHome,26.0,1.0,0.4728,0.4876,Offer remote/hybrid work (commute: 26 → 1 miles)
+684,3,JobSatisfaction,1.0,4.0,0.0414,0.9191,Improve job satisfaction: 1 → 4/4
+684,3,DistanceFromHome,26.0,1.0,0.0414,0.9191,Offer remote/hybrid work (commute: 26 → 1 miles)
+701,1,DistanceFromHome,10.0,1.0,0.7337,0.2229,Offer remote/hybrid work (commute: 10 → 1 miles)
+701,2,OverTime,1.0,0.0,0.8302,0.1263,Remove overtime requirement
+701,3,DistanceFromHome,10.0,1.0,0.4492,0.5074,Offer remote/hybrid work (commute: 10 → 1 miles)
+701,3,OverTime,1.0,0.0,0.4492,0.5074,Remove overtime requirement
+702,1,JobSatisfaction,1.0,4.0,0.8449,0.1259,Improve job satisfaction: 1 → 4/4
+702,2,EnvironmentSatisfaction,1.0,4.0,0.8834,0.0875,Improve work environment: 1 → 4/4
+702,3,JobSatisfaction,1.0,4.0,0.6756,0.2952,Improve job satisfaction: 1 → 4/4
+702,3,EnvironmentSatisfaction,1.0,4.0,0.6756,0.2952,Improve work environment: 1 → 4/4
+720,1,JobSatisfaction,3.0,4.0,0.1649,0.4919,Improve job satisfaction: 3 → 4/4
+720,2,EnvironmentSatisfaction,1.0,4.0,0.3308,0.326,Improve work environment: 1 → 4/4
+720,3,JobSatisfaction,3.0,4.0,0.0683,0.5885,Improve job satisfaction: 3 → 4/4
+720,3,EnvironmentSatisfaction,1.0,4.0,0.0683,0.5885,Improve work environment: 1 → 4/4
+723,1,DistanceFromHome,8.0,1.0,0.7675,0.1665,Offer remote/hybrid work (commute: 8 → 1 miles)
+723,2,EnvironmentSatisfaction,2.0,4.0,0.8045,0.1295,Improve work environment: 2 → 4/4
+723,3,DistanceFromHome,8.0,1.0,0.524,0.4101,Offer remote/hybrid work (commute: 8 → 1 miles)
+723,3,EnvironmentSatisfaction,2.0,4.0,0.524,0.4101,Improve work environment: 2 → 4/4
+741,1,EnvironmentSatisfaction,1.0,4.0,0.9592,0.0365,Improve work environment: 1 → 4/4
+741,2,StockOptionLevel,0.0,1.0,0.9737,0.0221,Grant stock options (Level 0 → 1)
+741,3,EnvironmentSatisfaction,1.0,4.0,0.8091,0.1866,Improve work environment: 1 → 4/4
+741,3,StockOptionLevel,0.0,1.0,0.8091,0.1866,Grant stock options (Level 0 → 1)
+773,1,WorkLifeBalance,1.0,3.0,0.1236,0.3976,Improve work-life balance: 1 → 3/4
+773,2,JobSatisfaction,3.0,4.0,0.192,0.3293,Improve job satisfaction: 3 → 4/4
+773,3,WorkLifeBalance,1.0,3.0,0.0261,0.4951,Improve work-life balance: 1 → 3/4
+773,3,JobSatisfaction,3.0,4.0,0.0261,0.4951,Improve job satisfaction: 3 → 4/4
+785,1,JobSatisfaction,3.0,4.0,0.8113,0.1585,Improve job satisfaction: 3 → 4/4
+785,2,DistanceFromHome,27.0,1.0,0.8207,0.1491,Offer remote/hybrid work (commute: 27 → 1 miles)
+785,3,JobSatisfaction,3.0,4.0,0.3553,0.6145,Improve job satisfaction: 3 → 4/4
+785,3,DistanceFromHome,27.0,1.0,0.3553,0.6145,Offer remote/hybrid work (commute: 27 → 1 miles)
+787,1,JobSatisfaction,1.0,4.0,0.6331,0.3117,Improve job satisfaction: 1 → 4/4
+787,2,TrainingTimesLastYear,2.0,6.0,0.8014,0.1434,Increase training sessions: 2 → 6/year
+787,3,JobSatisfaction,1.0,4.0,0.4015,0.5433,Improve job satisfaction: 1 → 4/4
+787,3,TrainingTimesLastYear,2.0,6.0,0.4015,0.5433,Increase training sessions: 2 → 6/year
+796,1,JobSatisfaction,1.0,4.0,0.573,0.4012,Improve job satisfaction: 1 → 4/4
+796,2,StockOptionLevel,0.0,2.0,0.7302,0.244,Grant stock options (Level 0 → 2)
+796,3,JobSatisfaction,1.0,4.0,0.2682,0.706,Improve job satisfaction: 1 → 4/4
+796,3,StockOptionLevel,0.0,2.0,0.2682,0.706,Grant stock options (Level 0 → 2)
+811,1,MonthlyIncome,1601.0,4919.0,0.9409,0.0521,"Salary raise: $1,601 → $4,919/month (+207%)"
+811,2,OverTime,1.0,0.0,0.9633,0.0297,Remove overtime requirement
+811,3,MonthlyIncome,1601.0,4919.0,0.825,0.168,"Salary raise: $1,601 → $4,919/month (+207%)"
+811,3,OverTime,1.0,0.0,0.825,0.168,Remove overtime requirement
+816,1,MonthlyIncome,2319.0,4919.0,0.9196,0.0713,"Salary raise: $2,319 → $4,919/month (+112%)"
+816,2,OverTime,1.0,0.0,0.9623,0.0286,Remove overtime requirement
+816,3,MonthlyIncome,2319.0,4919.0,0.8391,0.1518,"Salary raise: $2,319 → $4,919/month (+112%)"
+816,3,OverTime,1.0,0.0,0.8391,0.1518,Remove overtime requirement
+819,1,JobSatisfaction,1.0,4.0,0.7322,0.263,Improve job satisfaction: 1 → 4/4
+819,2,EnvironmentSatisfaction,1.0,4.0,0.8841,0.1111,Improve work environment: 1 → 4/4
+819,3,JobSatisfaction,1.0,4.0,0.1867,0.8085,Improve job satisfaction: 1 → 4/4
+819,3,EnvironmentSatisfaction,1.0,4.0,0.1867,0.8085,Improve work environment: 1 → 4/4
+825,1,JobSatisfaction,2.0,4.0,0.6916,0.2485,Improve job satisfaction: 2 → 4/4
+825,2,TrainingTimesLastYear,2.0,6.0,0.7104,0.2297,Increase training sessions: 2 → 6/year
+825,3,JobSatisfaction,2.0,4.0,0.4177,0.5224,Improve job satisfaction: 2 → 4/4
+825,3,TrainingTimesLastYear,2.0,6.0,0.4177,0.5224,Increase training sessions: 2 → 6/year
+828,1,JobSatisfaction,3.0,4.0,0.5356,0.4055,Improve job satisfaction: 3 → 4/4
+828,2,WorkLifeBalance,2.0,3.0,0.5774,0.3637,Improve work-life balance: 2 → 3/4
+828,3,JobSatisfaction,3.0,4.0,0.0758,0.8653,Improve job satisfaction: 3 → 4/4
+828,3,WorkLifeBalance,2.0,3.0,0.0758,0.8653,Improve work-life balance: 2 → 3/4
+833,1,StockOptionLevel,0.0,2.0,0.2325,0.3534,Grant stock options (Level 0 → 2)
+833,2,WorkLifeBalance,2.0,3.0,0.245,0.3409,Improve work-life balance: 2 → 3/4
+833,3,StockOptionLevel,0.0,2.0,0.0951,0.4908,Grant stock options (Level 0 → 2)
+833,3,WorkLifeBalance,2.0,3.0,0.0951,0.4908,Improve work-life balance: 2 → 3/4
+840,1,DistanceFromHome,11.0,1.0,0.7939,0.1729,Offer remote/hybrid work (commute: 11 → 1 miles)
+840,2,YearsSinceLastPromotion,7.0,0.0,0.8782,0.0885,Promote employee (reset promotion clock to 0)
+840,3,DistanceFromHome,11.0,1.0,0.471,0.4958,Offer remote/hybrid work (commute: 11 → 1 miles)
+840,3,YearsSinceLastPromotion,7.0,0.0,0.471,0.4958,Promote employee (reset promotion clock to 0)
+842,1,YearsSinceLastPromotion,7.0,0.0,0.7064,0.2351,Promote employee (reset promotion clock to 0)
+842,2,WorkLifeBalance,2.0,3.0,0.7228,0.2187,Improve work-life balance: 2 → 3/4
+842,3,YearsSinceLastPromotion,7.0,0.0,0.2986,0.6428,Promote employee (reset promotion clock to 0)
+842,3,WorkLifeBalance,2.0,3.0,0.2986,0.6428,Improve work-life balance: 2 → 3/4
+848,1,MonthlyIncome,2366.0,4919.0,0.8281,0.1534,"Salary raise: $2,366 → $4,919/month (+108%)"
+848,2,OverTime,1.0,0.0,0.8286,0.1529,Remove overtime requirement
+848,3,MonthlyIncome,2366.0,4919.0,0.4919,0.4896,"Salary raise: $2,366 → $4,919/month (+108%)"
+848,3,OverTime,1.0,0.0,0.4919,0.4896,Remove overtime requirement
+881,1,DistanceFromHome,25.0,1.0,0.7422,0.2331,Offer remote/hybrid work (commute: 25 → 1 miles)
+881,2,MonthlyIncome,2022.0,4919.0,0.8838,0.0915,"Salary raise: $2,022 → $4,919/month (+143%)"
+881,3,DistanceFromHome,25.0,1.0,0.3438,0.6315,Offer remote/hybrid work (commute: 25 → 1 miles)
+881,3,MonthlyIncome,2022.0,4919.0,0.3438,0.6315,"Salary raise: $2,022 → $4,919/month (+143%)"
+885,1,JobSatisfaction,1.0,4.0,0.064,0.5953,Improve job satisfaction: 1 → 4/4
+885,2,StockOptionLevel,0.0,2.0,0.2694,0.3899,Grant stock options (Level 0 → 2)
+885,3,JobSatisfaction,1.0,4.0,0.0411,0.6182,Improve job satisfaction: 1 → 4/4
+885,3,StockOptionLevel,0.0,2.0,0.0411,0.6182,Grant stock options (Level 0 → 2)
+911,1,DistanceFromHome,25.0,1.0,0.8565,0.1396,Offer remote/hybrid work (commute: 25 → 1 miles)
+911,2,EnvironmentSatisfaction,1.0,4.0,0.9796,0.0164,Improve work environment: 1 → 4/4
+911,3,DistanceFromHome,25.0,1.0,0.5662,0.4299,Offer remote/hybrid work (commute: 25 → 1 miles)
+911,3,EnvironmentSatisfaction,1.0,4.0,0.5662,0.4299,Improve work environment: 1 → 4/4
+918,1,MonthlyIncome,2380.0,13775.6,0.6191,0.3569,"Salary raise: $2,380 → $13,776/month (+479%)"
+918,2,WorkLifeBalance,2.0,3.0,0.9414,0.0346,Improve work-life balance: 2 → 3/4
+918,3,MonthlyIncome,2380.0,13775.6,0.4708,0.5052,"Salary raise: $2,380 → $13,776/month (+479%)"
+918,3,WorkLifeBalance,2.0,3.0,0.4708,0.5052,Improve work-life balance: 2 → 3/4
+922,1,WorkLifeBalance,2.0,3.0,0.7737,0.1856,Improve work-life balance: 2 → 3/4
+922,2,EnvironmentSatisfaction,3.0,4.0,0.8022,0.1572,Improve work environment: 3 → 4/4
+922,3,WorkLifeBalance,2.0,3.0,0.3178,0.6415,Improve work-life balance: 2 → 3/4
+922,3,EnvironmentSatisfaction,3.0,4.0,0.3178,0.6415,Improve work environment: 3 → 4/4
+926,1,OverTime,1.0,0.0,0.3468,0.5732,Remove overtime requirement
+926,2,DistanceFromHome,3.0,1.0,0.6398,0.2802,Offer remote/hybrid work (commute: 3 → 1 miles)
+926,3,OverTime,1.0,0.0,0.0943,0.8257,Remove overtime requirement
+926,3,DistanceFromHome,3.0,1.0,0.0943,0.8257,Offer remote/hybrid work (commute: 3 → 1 miles)
+927,1,WorkLifeBalance,2.0,3.0,0.8665,0.1045,Improve work-life balance: 2 → 3/4
+927,2,MonthlyIncome,2778.0,4919.0,0.8936,0.0773,"Salary raise: $2,778 → $4,919/month (+77%)"
+927,3,WorkLifeBalance,2.0,3.0,0.5384,0.4326,Improve work-life balance: 2 → 3/4
+927,3,MonthlyIncome,2778.0,4919.0,0.5384,0.4326,"Salary raise: $2,778 → $4,919/month (+77%)"
+932,1,WorkLifeBalance,1.0,3.0,0.8277,0.1598,Improve work-life balance: 1 → 3/4
+932,2,JobSatisfaction,1.0,4.0,0.8822,0.1053,Improve job satisfaction: 1 → 4/4
+932,3,WorkLifeBalance,1.0,3.0,0.3509,0.6366,Improve work-life balance: 1 → 3/4
+932,3,JobSatisfaction,1.0,4.0,0.3509,0.6366,Improve job satisfaction: 1 → 4/4
+933,1,TrainingTimesLastYear,2.0,6.0,0.1432,0.37,Increase training sessions: 2 → 6/year
+933,2,JobSatisfaction,3.0,4.0,0.1654,0.3478,Improve job satisfaction: 3 → 4/4
+933,3,TrainingTimesLastYear,2.0,6.0,0.0464,0.4668,Increase training sessions: 2 → 6/year
+933,3,JobSatisfaction,3.0,4.0,0.0464,0.4668,Improve job satisfaction: 3 → 4/4
+952,1,DistanceFromHome,19.0,1.0,0.9597,0.0342,Offer remote/hybrid work (commute: 19 → 1 miles)
+952,2,MonthlyIncome,2413.0,4919.0,0.9635,0.0305,"Salary raise: $2,413 → $4,919/month (+104%)"
+952,3,DistanceFromHome,19.0,1.0,0.7561,0.2379,Offer remote/hybrid work (commute: 19 → 1 miles)
+952,3,MonthlyIncome,2413.0,4919.0,0.7561,0.2379,"Salary raise: $2,413 → $4,919/month (+104%)"
+954,1,JobSatisfaction,2.0,4.0,0.3636,0.4972,Improve job satisfaction: 2 → 4/4
+954,2,DistanceFromHome,10.0,1.0,0.3914,0.4694,Offer remote/hybrid work (commute: 10 → 1 miles)
+954,3,JobSatisfaction,2.0,4.0,0.0775,0.7832,Improve job satisfaction: 2 → 4/4
+954,3,DistanceFromHome,10.0,1.0,0.0775,0.7832,Offer remote/hybrid work (commute: 10 → 1 miles)
+959,1,DistanceFromHome,21.0,1.0,0.9575,0.0353,Offer remote/hybrid work (commute: 21 → 1 miles)
+959,2,OverTime,1.0,0.0,0.964,0.0288,Remove overtime requirement
+959,3,DistanceFromHome,21.0,1.0,0.8494,0.1433,Offer remote/hybrid work (commute: 21 → 1 miles)
+959,3,OverTime,1.0,0.0,0.8494,0.1433,Remove overtime requirement
+960,1,JobSatisfaction,1.0,4.0,0.6941,0.3011,Improve job satisfaction: 1 → 4/4
+960,2,EnvironmentSatisfaction,1.0,4.0,0.9431,0.0521,Improve work environment: 1 → 4/4
+960,3,JobSatisfaction,1.0,4.0,0.3215,0.6736,Improve job satisfaction: 1 → 4/4
+960,3,EnvironmentSatisfaction,1.0,4.0,0.3215,0.6736,Improve work environment: 1 → 4/4
+967,1,YearsSinceLastPromotion,3.0,0.0,0.8004,0.1451,Promote employee (reset promotion clock to 0)
+967,2,EnvironmentSatisfaction,3.0,4.0,0.8774,0.0682,Improve work environment: 3 → 4/4
+967,3,YearsSinceLastPromotion,3.0,0.0,0.5856,0.3599,Promote employee (reset promotion clock to 0)
+967,3,EnvironmentSatisfaction,3.0,4.0,0.5856,0.3599,Improve work environment: 3 → 4/4
+970,1,WorkLifeBalance,1.0,4.0,0.9077,0.0704,Improve work-life balance: 1 → 4/4
+970,2,YearsSinceLastPromotion,11.0,1.0,0.9376,0.0405,Promote employee (reset promotion clock to 0)
+970,3,WorkLifeBalance,1.0,4.0,0.7845,0.1936,Improve work-life balance: 1 → 4/4
+970,3,YearsSinceLastPromotion,11.0,1.0,0.7845,0.1936,Promote employee (reset promotion clock to 0)
+986,1,DistanceFromHome,24.0,1.0,0.6659,0.3083,Offer remote/hybrid work (commute: 24 → 1 miles)
+986,2,JobSatisfaction,2.0,4.0,0.7043,0.2699,Improve job satisfaction: 2 → 4/4
+986,3,DistanceFromHome,24.0,1.0,0.1739,0.8003,Offer remote/hybrid work (commute: 24 → 1 miles)
+986,3,JobSatisfaction,2.0,4.0,0.1739,0.8003,Improve job satisfaction: 2 → 4/4
+991,1,JobSatisfaction,1.0,4.0,0.4415,0.5075,Improve job satisfaction: 1 → 4/4
+991,2,TrainingTimesLastYear,0.0,6.0,0.5792,0.3697,Increase training sessions: 0 → 6/year
+991,3,JobSatisfaction,1.0,4.0,0.103,0.8459,Improve job satisfaction: 1 → 4/4
+991,3,TrainingTimesLastYear,0.0,6.0,0.103,0.8459,Increase training sessions: 0 → 6/year
+994,1,JobSatisfaction,1.0,4.0,0.9389,0.048,Improve job satisfaction: 1 → 4/4
+994,2,DistanceFromHome,10.0,1.0,0.9508,0.0361,Offer remote/hybrid work (commute: 10 → 1 miles)
+994,3,JobSatisfaction,1.0,4.0,0.8162,0.1707,Improve job satisfaction: 1 → 4/4
+994,3,DistanceFromHome,10.0,1.0,0.8162,0.1707,Offer remote/hybrid work (commute: 10 → 1 miles)
+1004,1,OverTime,1.0,0.0,0.9781,0.0181,Remove overtime requirement
+1004,2,DistanceFromHome,22.0,1.0,0.9788,0.0174,Offer remote/hybrid work (commute: 22 → 1 miles)
+1004,3,OverTime,1.0,0.0,0.9089,0.0873,Remove overtime requirement
+1004,3,DistanceFromHome,22.0,1.0,0.9089,0.0873,Offer remote/hybrid work (commute: 22 → 1 miles)
+1010,1,DistanceFromHome,14.0,1.0,0.1979,0.7468,Offer remote/hybrid work (commute: 14 → 1 miles)
+1010,2,WorkLifeBalance,1.0,3.0,0.5915,0.3532,Improve work-life balance: 1 → 3/4
+1010,3,DistanceFromHome,14.0,1.0,0.0454,0.8993,Offer remote/hybrid work (commute: 14 → 1 miles)
+1010,3,WorkLifeBalance,1.0,3.0,0.0454,0.8993,Improve work-life balance: 1 → 3/4
+1016,1,TrainingTimesLastYear,2.0,6.0,0.9741,0.0221,Increase training sessions: 2 → 6/year
+1016,2,StockOptionLevel,0.0,2.0,0.9791,0.0172,Grant stock options (Level 0 → 2)
+1016,3,TrainingTimesLastYear,2.0,6.0,0.921,0.0752,Increase training sessions: 2 → 6/year
+1016,3,StockOptionLevel,0.0,2.0,0.921,0.0752,Grant stock options (Level 0 → 2)
+1017,1,JobSatisfaction,2.0,4.0,0.1261,0.6159,Improve job satisfaction: 2 → 4/4
+1017,2,EnvironmentSatisfaction,2.0,4.0,0.3606,0.3814,Improve work environment: 2 → 4/4
+1017,3,JobSatisfaction,2.0,4.0,0.0621,0.6799,Improve job satisfaction: 2 → 4/4
+1017,3,EnvironmentSatisfaction,2.0,4.0,0.0621,0.6799,Improve work environment: 2 → 4/4
+1033,1,DistanceFromHome,11.0,1.0,0.9054,0.0866,Offer remote/hybrid work (commute: 11 → 1 miles)
+1033,2,JobSatisfaction,2.0,4.0,0.9215,0.0705,Improve job satisfaction: 2 → 4/4
+1033,3,DistanceFromHome,11.0,1.0,0.5791,0.4129,Offer remote/hybrid work (commute: 11 → 1 miles)
+1033,3,JobSatisfaction,2.0,4.0,0.5791,0.4129,Improve job satisfaction: 2 → 4/4
+1037,1,JobSatisfaction,1.0,4.0,0.4795,0.4751,Improve job satisfaction: 1 → 4/4
+1037,2,StockOptionLevel,0.0,2.0,0.7473,0.2073,Grant stock options (Level 0 → 2)
+1037,3,JobSatisfaction,1.0,4.0,0.21,0.7446,Improve job satisfaction: 1 → 4/4
+1037,3,StockOptionLevel,0.0,2.0,0.21,0.7446,Grant stock options (Level 0 → 2)
+1038,1,EnvironmentSatisfaction,1.0,4.0,0.5085,0.4558,Improve work environment: 1 → 4/4
+1038,2,YearsSinceLastPromotion,6.0,0.0,0.9147,0.0497,Promote employee (reset promotion clock to 0)
+1038,3,EnvironmentSatisfaction,1.0,4.0,0.2082,0.7562,Improve work environment: 1 → 4/4
+1038,3,YearsSinceLastPromotion,6.0,0.0,0.2082,0.7562,Promote employee (reset promotion clock to 0)
+1042,1,JobSatisfaction,1.0,4.0,0.2839,0.6463,Improve job satisfaction: 1 → 4/4
+1042,2,TrainingTimesLastYear,1.0,6.0,0.3391,0.5912,Increase training sessions: 1 → 6/year
+1042,3,JobSatisfaction,1.0,4.0,0.0282,0.902,Improve job satisfaction: 1 → 4/4
+1042,3,TrainingTimesLastYear,1.0,6.0,0.0282,0.902,Increase training sessions: 1 → 6/year
+1052,1,DistanceFromHome,15.0,1.0,0.4768,0.4893,Offer remote/hybrid work (commute: 15 → 1 miles)
+1052,2,EnvironmentSatisfaction,1.0,4.0,0.6256,0.3404,Improve work environment: 1 → 4/4
+1052,3,DistanceFromHome,15.0,1.0,0.0515,0.9145,Offer remote/hybrid work (commute: 15 → 1 miles)
+1052,3,EnvironmentSatisfaction,1.0,4.0,0.0515,0.9145,Improve work environment: 1 → 4/4
+1053,1,OverTime,1.0,0.0,0.6574,0.2818,Remove overtime requirement
+1053,2,EnvironmentSatisfaction,1.0,4.0,0.7115,0.2278,Improve work environment: 1 → 4/4
+1053,3,OverTime,1.0,0.0,0.2078,0.7314,Remove overtime requirement
+1053,3,EnvironmentSatisfaction,1.0,4.0,0.2078,0.7314,Improve work environment: 1 → 4/4
+1056,1,StockOptionLevel,0.0,2.0,0.3951,0.3824,Grant stock options (Level 0 → 2)
+1056,2,DistanceFromHome,10.0,1.0,0.4512,0.3263,Offer remote/hybrid work (commute: 10 → 1 miles)
+1056,3,StockOptionLevel,0.0,2.0,0.13,0.6476,Grant stock options (Level 0 → 2)
+1056,3,DistanceFromHome,10.0,1.0,0.13,0.6476,Offer remote/hybrid work (commute: 10 → 1 miles)
+1077,1,OverTime,1.0,0.0,0.6961,0.2679,Remove overtime requirement
+1077,2,MonthlyIncome,2323.0,4919.0,0.8098,0.1542,"Salary raise: $2,323 → $4,919/month (+112%)"
+1077,3,OverTime,1.0,0.0,0.4725,0.4916,Remove overtime requirement
+1077,3,MonthlyIncome,2323.0,4919.0,0.4725,0.4916,"Salary raise: $2,323 → $4,919/month (+112%)"
+1079,1,DistanceFromHome,10.0,1.0,0.965,0.03,Offer remote/hybrid work (commute: 10 → 1 miles)
+1079,2,JobSatisfaction,1.0,4.0,0.9671,0.0278,Improve job satisfaction: 1 → 4/4
+1079,3,DistanceFromHome,10.0,1.0,0.8027,0.1922,Offer remote/hybrid work (commute: 10 → 1 miles)
+1079,3,JobSatisfaction,1.0,4.0,0.8027,0.1922,Improve job satisfaction: 1 → 4/4
+1100,1,JobSatisfaction,1.0,4.0,0.8505,0.131,Improve job satisfaction: 1 → 4/4
+1100,2,StockOptionLevel,0.0,2.0,0.9159,0.0656,Grant stock options (Level 0 → 2)
+1100,3,JobSatisfaction,1.0,4.0,0.7503,0.2312,Improve job satisfaction: 1 → 4/4
+1100,3,StockOptionLevel,0.0,2.0,0.7503,0.2312,Grant stock options (Level 0 → 2)
+1101,1,DistanceFromHome,29.0,1.0,0.2867,0.6617,Offer remote/hybrid work (commute: 29 → 1 miles)
+1101,2,EnvironmentSatisfaction,1.0,4.0,0.4399,0.5084,Improve work environment: 1 → 4/4
+1101,3,DistanceFromHome,29.0,1.0,0.0353,0.913,Offer remote/hybrid work (commute: 29 → 1 miles)
+1101,3,EnvironmentSatisfaction,1.0,4.0,0.0353,0.913,Improve work environment: 1 → 4/4
+1106,1,OverTime,1.0,0.0,0.695,0.2645,Remove overtime requirement
+1106,2,DistanceFromHome,4.0,1.0,0.7249,0.2346,Offer remote/hybrid work (commute: 4 → 1 miles)
+1106,3,OverTime,1.0,0.0,0.2444,0.715,Remove overtime requirement
+1106,3,DistanceFromHome,4.0,1.0,0.2444,0.715,Offer remote/hybrid work (commute: 4 → 1 miles)
+1107,1,DistanceFromHome,21.0,1.0,0.5737,0.3953,Offer remote/hybrid work (commute: 21 → 1 miles)
+1107,2,TrainingTimesLastYear,0.0,6.0,0.8175,0.1515,Increase training sessions: 0 → 6/year
+1107,3,DistanceFromHome,21.0,1.0,0.2161,0.7528,Offer remote/hybrid work (commute: 21 → 1 miles)
+1107,3,TrainingTimesLastYear,0.0,6.0,0.2161,0.7528,Increase training sessions: 0 → 6/year
+1108,1,DistanceFromHome,25.0,1.0,0.9662,0.0314,Offer remote/hybrid work (commute: 25 → 1 miles)
+1108,2,EnvironmentSatisfaction,1.0,4.0,0.9668,0.0308,Improve work environment: 1 → 4/4
+1108,3,DistanceFromHome,25.0,1.0,0.6699,0.3277,Offer remote/hybrid work (commute: 25 → 1 miles)
+1108,3,EnvironmentSatisfaction,1.0,4.0,0.6699,0.3277,Improve work environment: 1 → 4/4
+1111,1,EnvironmentSatisfaction,1.0,4.0,0.6092,0.3538,Improve work environment: 1 → 4/4
+1111,2,JobSatisfaction,2.0,4.0,0.8527,0.1102,Improve job satisfaction: 2 → 4/4
+1111,3,EnvironmentSatisfaction,1.0,4.0,0.3271,0.6358,Improve work environment: 1 → 4/4
+1111,3,JobSatisfaction,2.0,4.0,0.3271,0.6358,Improve job satisfaction: 2 → 4/4
+1127,1,EnvironmentSatisfaction,1.0,4.0,0.4324,0.5426,Improve work environment: 1 → 4/4
+1127,2,YearsSinceLastPromotion,11.0,1.0,0.9442,0.0308,Promote employee (reset promotion clock to 0)
+1127,3,EnvironmentSatisfaction,1.0,4.0,0.2067,0.7683,Improve work environment: 1 → 4/4
+1127,3,YearsSinceLastPromotion,11.0,1.0,0.2067,0.7683,Promote employee (reset promotion clock to 0)
+1156,1,TrainingTimesLastYear,0.0,6.0,0.5966,0.3599,Increase training sessions: 0 → 6/year
+1156,2,DistanceFromHome,8.0,1.0,0.6572,0.2993,Offer remote/hybrid work (commute: 8 → 1 miles)
+1156,3,TrainingTimesLastYear,0.0,6.0,0.1666,0.7899,Increase training sessions: 0 → 6/year
+1156,3,DistanceFromHome,8.0,1.0,0.1666,0.7899,Offer remote/hybrid work (commute: 8 → 1 miles)
+1157,1,JobSatisfaction,1.0,4.0,0.2119,0.6075,Improve job satisfaction: 1 → 4/4
+1157,2,StockOptionLevel,0.0,2.0,0.3573,0.4621,Grant stock options (Level 0 → 2)
+1157,3,JobSatisfaction,1.0,4.0,0.0645,0.7549,Improve job satisfaction: 1 → 4/4
+1157,3,StockOptionLevel,0.0,2.0,0.0645,0.7549,Grant stock options (Level 0 → 2)
+1160,1,DistanceFromHome,15.0,1.0,0.3634,0.5431,Offer remote/hybrid work (commute: 15 → 1 miles)
+1160,2,WorkLifeBalance,2.0,3.0,0.5151,0.3914,Improve work-life balance: 2 → 3/4
+1160,3,DistanceFromHome,15.0,1.0,0.156,0.7505,Offer remote/hybrid work (commute: 15 → 1 miles)
+1160,3,WorkLifeBalance,2.0,3.0,0.156,0.7505,Improve work-life balance: 2 → 3/4
+1165,1,WorkLifeBalance,1.0,3.0,0.3004,0.6239,Improve work-life balance: 1 → 3/4
+1165,2,DistanceFromHome,23.0,1.0,0.6725,0.2517,Offer remote/hybrid work (commute: 23 → 1 miles)
+1165,3,WorkLifeBalance,1.0,3.0,0.1446,0.7796,Improve work-life balance: 1 → 3/4
+1165,3,DistanceFromHome,23.0,1.0,0.1446,0.7796,Offer remote/hybrid work (commute: 23 → 1 miles)
+1167,1,JobSatisfaction,1.0,4.0,0.6723,0.2847,Improve job satisfaction: 1 → 4/4
+1167,2,DistanceFromHome,12.0,1.0,0.7389,0.2181,Offer remote/hybrid work (commute: 12 → 1 miles)
+1167,3,JobSatisfaction,1.0,4.0,0.2999,0.6571,Improve job satisfaction: 1 → 4/4
+1167,3,DistanceFromHome,12.0,1.0,0.2999,0.6571,Offer remote/hybrid work (commute: 12 → 1 miles)
+1175,1,DistanceFromHome,12.0,1.0,0.7884,0.1884,Offer remote/hybrid work (commute: 12 → 1 miles)
+1175,2,StockOptionLevel,0.0,2.0,0.8425,0.1343,Grant stock options (Level 0 → 2)
+1175,3,DistanceFromHome,12.0,1.0,0.3718,0.605,Offer remote/hybrid work (commute: 12 → 1 miles)
+1175,3,StockOptionLevel,0.0,2.0,0.3718,0.605,Grant stock options (Level 0 → 2)
+1188,1,EnvironmentSatisfaction,1.0,4.0,0.8988,0.0921,Improve work environment: 1 → 4/4
+1188,2,DistanceFromHome,9.0,1.0,0.9083,0.0826,Offer remote/hybrid work (commute: 9 → 1 miles)
+1188,3,EnvironmentSatisfaction,1.0,4.0,0.5645,0.4264,Improve work environment: 1 → 4/4
+1188,3,DistanceFromHome,9.0,1.0,0.5645,0.4264,Offer remote/hybrid work (commute: 9 → 1 miles)
+1200,1,JobSatisfaction,3.0,4.0,0.5504,0.3829,Improve job satisfaction: 3 → 4/4
+1200,2,DistanceFromHome,10.0,1.0,0.7039,0.2295,Offer remote/hybrid work (commute: 10 → 1 miles)
+1200,3,JobSatisfaction,3.0,4.0,0.183,0.7504,Improve job satisfaction: 3 → 4/4
+1200,3,DistanceFromHome,10.0,1.0,0.183,0.7504,Offer remote/hybrid work (commute: 10 → 1 miles)
+1210,1,JobSatisfaction,1.0,4.0,0.114,0.6296,Improve job satisfaction: 1 → 4/4
+1210,2,DistanceFromHome,5.0,1.0,0.4317,0.312,Offer remote/hybrid work (commute: 5 → 1 miles)
+1210,3,JobSatisfaction,1.0,4.0,0.0508,0.6928,Improve job satisfaction: 1 → 4/4
+1210,3,DistanceFromHome,5.0,1.0,0.0508,0.6928,Offer remote/hybrid work (commute: 5 → 1 miles)
+1219,1,DistanceFromHome,17.0,1.0,0.8241,0.1628,Offer remote/hybrid work (commute: 17 → 1 miles)
+1219,2,WorkLifeBalance,1.0,3.0,0.8497,0.1372,Improve work-life balance: 1 → 3/4
+1219,3,DistanceFromHome,17.0,1.0,0.5057,0.4812,Offer remote/hybrid work (commute: 17 → 1 miles)
+1219,3,WorkLifeBalance,1.0,3.0,0.5057,0.4812,Improve work-life balance: 1 → 3/4
+1248,1,JobSatisfaction,2.0,4.0,0.977,0.0208,Improve job satisfaction: 2 → 4/4
+1248,2,TrainingTimesLastYear,2.0,6.0,0.978,0.0198,Increase training sessions: 2 → 6/year
+1248,3,JobSatisfaction,2.0,4.0,0.9157,0.0821,Improve job satisfaction: 2 → 4/4
+1248,3,TrainingTimesLastYear,2.0,6.0,0.9157,0.0821,Increase training sessions: 2 → 6/year
+1277,1,EnvironmentSatisfaction,1.0,4.0,0.6965,0.2673,Improve work environment: 1 → 4/4
+1277,2,JobSatisfaction,2.0,4.0,0.7549,0.2089,Improve job satisfaction: 2 → 4/4
+1277,3,EnvironmentSatisfaction,1.0,4.0,0.2072,0.7566,Improve work environment: 1 → 4/4
+1277,3,JobSatisfaction,2.0,4.0,0.2072,0.7566,Improve job satisfaction: 2 → 4/4
+1279,1,DistanceFromHome,10.0,1.0,0.6695,0.304,Offer remote/hybrid work (commute: 10 → 1 miles)
+1279,2,JobSatisfaction,3.0,4.0,0.8138,0.1597,Improve job satisfaction: 3 → 4/4
+1279,3,DistanceFromHome,10.0,1.0,0.2932,0.6803,Offer remote/hybrid work (commute: 10 → 1 miles)
+1279,3,JobSatisfaction,3.0,4.0,0.2932,0.6803,Improve job satisfaction: 3 → 4/4
+1295,1,EnvironmentSatisfaction,1.0,4.0,0.154,0.7849,Improve work environment: 1 → 4/4
+1295,2,DistanceFromHome,15.0,1.0,0.5549,0.384,Offer remote/hybrid work (commute: 15 → 1 miles)
+1295,3,EnvironmentSatisfaction,1.0,4.0,0.0219,0.9169,Improve work environment: 1 → 4/4
+1295,3,DistanceFromHome,15.0,1.0,0.0219,0.9169,Offer remote/hybrid work (commute: 15 → 1 miles)
+1299,1,OverTime,1.0,0.0,0.6997,0.2478,Remove overtime requirement
+1299,2,DistanceFromHome,7.0,1.0,0.8153,0.1323,Offer remote/hybrid work (commute: 7 → 1 miles)
+1299,3,OverTime,1.0,0.0,0.4008,0.5468,Remove overtime requirement
+1299,3,DistanceFromHome,7.0,1.0,0.4008,0.5468,Offer remote/hybrid work (commute: 7 → 1 miles)
+1309,1,JobSatisfaction,3.0,4.0,0.4795,0.4308,Improve job satisfaction: 3 → 4/4
+1309,2,DistanceFromHome,7.0,1.0,0.5994,0.3108,Offer remote/hybrid work (commute: 7 → 1 miles)
+1309,3,JobSatisfaction,3.0,4.0,0.1311,0.7792,Improve job satisfaction: 3 → 4/4
+1309,3,DistanceFromHome,7.0,1.0,0.1311,0.7792,Offer remote/hybrid work (commute: 7 → 1 miles)
+1310,1,JobSatisfaction,1.0,4.0,0.0568,0.8817,Improve job satisfaction: 1 → 4/4
+1310,2,TrainingTimesLastYear,2.0,6.0,0.4879,0.4505,Increase training sessions: 2 → 6/year
+1310,3,JobSatisfaction,1.0,4.0,0.0076,0.9309,Improve job satisfaction: 1 → 4/4
+1310,3,TrainingTimesLastYear,2.0,6.0,0.0076,0.9309,Increase training sessions: 2 → 6/year
+1318,1,DistanceFromHome,25.0,1.0,0.1926,0.5819,Offer remote/hybrid work (commute: 25 → 1 miles)
+1318,2,JobSatisfaction,2.0,4.0,0.2844,0.4902,Improve job satisfaction: 2 → 4/4
+1318,3,DistanceFromHome,25.0,1.0,0.0239,0.7506,Offer remote/hybrid work (commute: 25 → 1 miles)
+1318,3,JobSatisfaction,2.0,4.0,0.0239,0.7506,Improve job satisfaction: 2 → 4/4
+1319,1,StockOptionLevel,0.0,1.0,0.9591,0.0342,Grant stock options (Level 0 → 1)
+1319,2,JobSatisfaction,2.0,4.0,0.9659,0.0274,Improve job satisfaction: 2 → 4/4
+1319,3,StockOptionLevel,0.0,1.0,0.859,0.1344,Grant stock options (Level 0 → 1)
+1319,3,JobSatisfaction,2.0,4.0,0.859,0.1344,Improve job satisfaction: 2 → 4/4
+1331,1,OverTime,1.0,0.0,0.7936,0.1719,Remove overtime requirement
+1331,2,JobSatisfaction,2.0,4.0,0.8401,0.1253,Improve job satisfaction: 2 → 4/4
+1331,3,OverTime,1.0,0.0,0.3508,0.6147,Remove overtime requirement
+1331,3,JobSatisfaction,2.0,4.0,0.3508,0.6147,Improve job satisfaction: 2 → 4/4
+1360,1,WorkLifeBalance,2.0,3.0,0.7005,0.2594,Improve work-life balance: 2 → 3/4
+1360,2,JobSatisfaction,1.0,4.0,0.7043,0.2556,Improve job satisfaction: 1 → 4/4
+1360,3,WorkLifeBalance,2.0,3.0,0.2434,0.7165,Improve work-life balance: 2 → 3/4
+1360,3,JobSatisfaction,1.0,4.0,0.2434,0.7165,Improve job satisfaction: 1 → 4/4
+1372,1,DistanceFromHome,13.0,1.0,0.7498,0.23,Offer remote/hybrid work (commute: 13 → 1 miles)
+1372,2,TrainingTimesLastYear,2.0,6.0,0.9172,0.0627,Increase training sessions: 2 → 6/year
+1372,3,DistanceFromHome,13.0,1.0,0.5734,0.4064,Offer remote/hybrid work (commute: 13 → 1 miles)
+1372,3,TrainingTimesLastYear,2.0,6.0,0.5734,0.4064,Increase training sessions: 2 → 6/year
+1379,1,StockOptionLevel,0.0,2.0,0.8191,0.138,Grant stock options (Level 0 → 2)
+1379,2,MonthlyIncome,2785.0,8379.0,0.8819,0.0753,"Salary raise: $2,785 → $8,379/month (+201%)"
+1379,3,StockOptionLevel,0.0,2.0,0.6397,0.3174,Grant stock options (Level 0 → 2)
+1379,3,MonthlyIncome,2785.0,8379.0,0.6397,0.3174,"Salary raise: $2,785 → $8,379/month (+201%)"
+1380,1,DistanceFromHome,18.0,1.0,0.1972,0.7601,Offer remote/hybrid work (commute: 18 → 1 miles)
+1380,2,TrainingTimesLastYear,0.0,6.0,0.7235,0.2338,Increase training sessions: 0 → 6/year
+1380,3,DistanceFromHome,18.0,1.0,0.0431,0.9142,Offer remote/hybrid work (commute: 18 → 1 miles)
+1380,3,TrainingTimesLastYear,0.0,6.0,0.0431,0.9142,Increase training sessions: 0 → 6/year
+1391,1,JobSatisfaction,2.0,4.0,0.1941,0.3567,Improve job satisfaction: 2 → 4/4
+1391,2,EnvironmentSatisfaction,2.0,4.0,0.3008,0.25,Improve work environment: 2 → 4/4
+1391,3,JobSatisfaction,2.0,4.0,0.1005,0.4503,Improve job satisfaction: 2 → 4/4
+1391,3,EnvironmentSatisfaction,2.0,4.0,0.1005,0.4503,Improve work environment: 2 → 4/4
+1405,1,DistanceFromHome,17.0,1.0,0.6207,0.3288,Offer remote/hybrid work (commute: 17 → 1 miles)
+1405,2,OverTime,1.0,0.0,0.6599,0.2896,Remove overtime requirement
+1405,3,DistanceFromHome,17.0,1.0,0.1709,0.7785,Offer remote/hybrid work (commute: 17 → 1 miles)
+1405,3,OverTime,1.0,0.0,0.1709,0.7785,Remove overtime requirement
+1420,1,JobSatisfaction,1.0,4.0,0.3033,0.6728,Improve job satisfaction: 1 → 4/4
+1420,2,EnvironmentSatisfaction,1.0,4.0,0.6618,0.3143,Improve work environment: 1 → 4/4
+1420,3,JobSatisfaction,1.0,4.0,0.0506,0.9255,Improve job satisfaction: 1 → 4/4
+1420,3,EnvironmentSatisfaction,1.0,4.0,0.0506,0.9255,Improve work environment: 1 → 4/4
+1421,1,DistanceFromHome,14.0,1.0,0.8266,0.1589,Offer remote/hybrid work (commute: 14 → 1 miles)
+1421,2,TrainingTimesLastYear,1.0,6.0,0.8874,0.0981,Increase training sessions: 1 → 6/year
+1421,3,DistanceFromHome,14.0,1.0,0.6039,0.3816,Offer remote/hybrid work (commute: 14 → 1 miles)
+1421,3,TrainingTimesLastYear,1.0,6.0,0.6039,0.3816,Increase training sessions: 1 → 6/year
+1433,1,JobSatisfaction,2.0,4.0,0.9406,0.0505,Improve job satisfaction: 2 → 4/4
+1433,2,EnvironmentSatisfaction,1.0,4.0,0.9463,0.0449,Improve work environment: 1 → 4/4
+1433,3,JobSatisfaction,2.0,4.0,0.8498,0.1414,Improve job satisfaction: 2 → 4/4
+1433,3,EnvironmentSatisfaction,1.0,4.0,0.8498,0.1414,Improve work environment: 1 → 4/4
+1439,1,JobSatisfaction,1.0,4.0,0.0739,0.6718,Improve job satisfaction: 1 → 4/4
+1439,2,StockOptionLevel,0.0,2.0,0.2342,0.5115,Grant stock options (Level 0 → 2)
+1439,3,JobSatisfaction,1.0,4.0,0.0347,0.711,Improve job satisfaction: 1 → 4/4
+1439,3,StockOptionLevel,0.0,2.0,0.0347,0.711,Grant stock options (Level 0 → 2)
+1457,1,EnvironmentSatisfaction,1.0,4.0,0.5805,0.367,Improve work environment: 1 → 4/4
+1457,2,TrainingTimesLastYear,1.0,6.0,0.7326,0.2148,Increase training sessions: 1 → 6/year
+1457,3,EnvironmentSatisfaction,1.0,4.0,0.1913,0.7562,Improve work environment: 1 → 4/4
+1457,3,TrainingTimesLastYear,1.0,6.0,0.1913,0.7562,Increase training sessions: 1 → 6/year
+1458,1,JobSatisfaction,1.0,4.0,0.3208,0.6648,Improve job satisfaction: 1 → 4/4
+1458,2,EnvironmentSatisfaction,1.0,4.0,0.7514,0.2342,Improve work environment: 1 → 4/4
+1458,3,JobSatisfaction,1.0,4.0,0.039,0.9467,Improve job satisfaction: 1 → 4/4
+1458,3,EnvironmentSatisfaction,1.0,4.0,0.039,0.9467,Improve work environment: 1 → 4/4
+1459,1,JobSatisfaction,2.0,4.0,0.4547,0.5082,Improve job satisfaction: 2 → 4/4
+1459,2,TrainingTimesLastYear,2.0,6.0,0.8633,0.0996,Increase training sessions: 2 → 6/year
+1459,3,JobSatisfaction,2.0,4.0,0.2758,0.6871,Improve job satisfaction: 2 → 4/4
+1459,3,TrainingTimesLastYear,2.0,6.0,0.2758,0.6871,Increase training sessions: 2 → 6/year
+1464,1,OverTime,1.0,0.0,0.9255,0.0601,Remove overtime requirement
+1464,2,WorkLifeBalance,1.0,3.0,0.94,0.0456,Improve work-life balance: 1 → 3/4
+1464,3,OverTime,1.0,0.0,0.6333,0.3523,Remove overtime requirement
+1464,3,WorkLifeBalance,1.0,3.0,0.6333,0.3523,Improve work-life balance: 1 → 3/4
+1467,1,TrainingTimesLastYear,0.0,6.0,0.3812,0.5505,Increase training sessions: 0 → 6/year
+1467,2,DistanceFromHome,9.0,1.0,0.442,0.4897,Offer remote/hybrid work (commute: 9 → 1 miles)
+1467,3,TrainingTimesLastYear,0.0,6.0,0.0852,0.8465,Increase training sessions: 0 → 6/year
+1467,3,DistanceFromHome,9.0,1.0,0.0852,0.8465,Offer remote/hybrid work (commute: 9 → 1 miles)
+1486,1,EnvironmentSatisfaction,1.0,4.0,0.4967,0.462,Improve work environment: 1 → 4/4
+1486,2,JobSatisfaction,3.0,4.0,0.9127,0.046,Improve job satisfaction: 3 → 4/4
+1486,3,EnvironmentSatisfaction,1.0,4.0,0.3176,0.6412,Improve work environment: 1 → 4/4
+1486,3,JobSatisfaction,3.0,4.0,0.3176,0.6412,Improve job satisfaction: 3 → 4/4
+1487,1,JobSatisfaction,2.0,4.0,0.8838,0.1113,Improve job satisfaction: 2 → 4/4
+1487,2,DistanceFromHome,13.0,1.0,0.9767,0.0183,Offer remote/hybrid work (commute: 13 → 1 miles)
+1487,3,JobSatisfaction,2.0,4.0,0.7005,0.2946,Improve job satisfaction: 2 → 4/4
+1487,3,DistanceFromHome,13.0,1.0,0.7005,0.2946,Offer remote/hybrid work (commute: 13 → 1 miles)
+1489,1,DistanceFromHome,24.0,1.0,0.3894,0.5767,Offer remote/hybrid work (commute: 24 → 1 miles)
+1489,2,EnvironmentSatisfaction,1.0,4.0,0.7154,0.2508,Improve work environment: 1 → 4/4
+1489,3,DistanceFromHome,24.0,1.0,0.0827,0.8834,Offer remote/hybrid work (commute: 24 → 1 miles)
+1489,3,EnvironmentSatisfaction,1.0,4.0,0.0827,0.8834,Improve work environment: 1 → 4/4
+1494,1,JobSatisfaction,1.0,4.0,0.9829,0.0154,Improve job satisfaction: 1 → 4/4
+1494,2,DistanceFromHome,9.0,1.0,0.9836,0.0146,Offer remote/hybrid work (commute: 9 → 1 miles)
+1494,3,JobSatisfaction,1.0,4.0,0.8886,0.1097,Improve job satisfaction: 1 → 4/4
+1494,3,DistanceFromHome,9.0,1.0,0.8886,0.1097,Offer remote/hybrid work (commute: 9 → 1 miles)
+1495,1,DistanceFromHome,13.0,1.0,0.5532,0.3308,Offer remote/hybrid work (commute: 13 → 1 miles)
+1495,2,JobSatisfaction,2.0,4.0,0.6087,0.2753,Improve job satisfaction: 2 → 4/4
+1495,3,DistanceFromHome,13.0,1.0,0.1836,0.7005,Offer remote/hybrid work (commute: 13 → 1 miles)
+1495,3,JobSatisfaction,2.0,4.0,0.1836,0.7005,Improve job satisfaction: 2 → 4/4
+1504,1,JobSatisfaction,1.0,4.0,0.9787,0.0186,Improve job satisfaction: 1 → 4/4
+1504,2,StockOptionLevel,0.0,2.0,0.9835,0.0138,Grant stock options (Level 0 → 2)
+1504,3,JobSatisfaction,1.0,4.0,0.927,0.0703,Improve job satisfaction: 1 → 4/4
+1504,3,StockOptionLevel,0.0,2.0,0.927,0.0703,Grant stock options (Level 0 → 2)
+1522,1,JobSatisfaction,1.0,4.0,0.472,0.4925,Improve job satisfaction: 1 → 4/4
+1522,2,EnvironmentSatisfaction,1.0,4.0,0.6687,0.2958,Improve work environment: 1 → 4/4
+1522,3,JobSatisfaction,1.0,4.0,0.1387,0.8258,Improve job satisfaction: 1 → 4/4
+1522,3,EnvironmentSatisfaction,1.0,4.0,0.1387,0.8258,Improve work environment: 1 → 4/4
+1534,1,JobSatisfaction,1.0,4.0,0.3848,0.5735,Improve job satisfaction: 1 → 4/4
+1534,2,WorkLifeBalance,1.0,3.0,0.5507,0.4076,Improve work-life balance: 1 → 3/4
+1534,3,JobSatisfaction,1.0,4.0,0.0528,0.9055,Improve job satisfaction: 1 → 4/4
+1534,3,WorkLifeBalance,1.0,3.0,0.0528,0.9055,Improve work-life balance: 1 → 3/4
+1537,1,JobSatisfaction,3.0,4.0,0.7135,0.2512,Improve job satisfaction: 3 → 4/4
+1537,2,WorkLifeBalance,1.0,3.0,0.726,0.2387,Improve work-life balance: 1 → 3/4
+1537,3,JobSatisfaction,3.0,4.0,0.2688,0.696,Improve job satisfaction: 3 → 4/4
+1537,3,WorkLifeBalance,1.0,3.0,0.2688,0.696,Improve work-life balance: 1 → 3/4
+1562,1,EnvironmentSatisfaction,2.0,4.0,0.6536,0.2827,Improve work environment: 2 → 4/4
+1562,2,JobSatisfaction,1.0,4.0,0.7622,0.1741,Improve job satisfaction: 1 → 4/4
+1562,3,EnvironmentSatisfaction,2.0,4.0,0.3668,0.5694,Improve work environment: 2 → 4/4
+1562,3,JobSatisfaction,1.0,4.0,0.3668,0.5694,Improve job satisfaction: 1 → 4/4
+1569,1,EnvironmentSatisfaction,1.0,4.0,0.9032,0.0884,Improve work environment: 1 → 4/4
+1569,2,MonthlyIncome,2074.0,4919.0,0.9526,0.039,"Salary raise: $2,074 → $4,919/month (+137%)"
+1569,3,EnvironmentSatisfaction,1.0,4.0,0.4467,0.5449,Improve work environment: 1 → 4/4
+1569,3,MonthlyIncome,2074.0,4919.0,0.4467,0.5449,"Salary raise: $2,074 → $4,919/month (+137%)"
+1573,1,JobSatisfaction,2.0,4.0,0.5849,0.3525,Improve job satisfaction: 2 → 4/4
+1573,2,TrainingTimesLastYear,2.0,6.0,0.7617,0.1757,Increase training sessions: 2 → 6/year
+1573,3,JobSatisfaction,2.0,4.0,0.3528,0.5846,Improve job satisfaction: 2 → 4/4
+1573,3,TrainingTimesLastYear,2.0,6.0,0.3528,0.5846,Increase training sessions: 2 → 6/year
+1604,1,DistanceFromHome,24.0,1.0,0.8729,0.1151,Offer remote/hybrid work (commute: 24 → 1 miles)
+1604,2,OverTime,1.0,0.0,0.9047,0.0833,Remove overtime requirement
+1604,3,DistanceFromHome,24.0,1.0,0.5226,0.4653,Offer remote/hybrid work (commute: 24 → 1 miles)
+1604,3,OverTime,1.0,0.0,0.5226,0.4653,Remove overtime requirement
+1624,1,StockOptionLevel,0.0,2.0,0.9735,0.021,Grant stock options (Level 0 → 2)
+1624,2,OverTime,1.0,0.0,0.9742,0.0203,Remove overtime requirement
+1624,3,StockOptionLevel,0.0,2.0,0.8759,0.1185,Grant stock options (Level 0 → 2)
+1624,3,OverTime,1.0,0.0,0.8759,0.1185,Remove overtime requirement
+1639,1,JobSatisfaction,1.0,4.0,0.3017,0.6407,Improve job satisfaction: 1 → 4/4
+1639,2,StockOptionLevel,0.0,2.0,0.6707,0.2716,Grant stock options (Level 0 → 2)
+1639,3,JobSatisfaction,1.0,4.0,0.1193,0.823,Improve job satisfaction: 1 → 4/4
+1639,3,StockOptionLevel,0.0,2.0,0.1193,0.823,Grant stock options (Level 0 → 2)
+1645,1,EnvironmentSatisfaction,1.0,4.0,0.6692,0.3113,Improve work environment: 1 → 4/4
+1645,2,DistanceFromHome,15.0,1.0,0.8602,0.1203,Offer remote/hybrid work (commute: 15 → 1 miles)
+1645,3,EnvironmentSatisfaction,1.0,4.0,0.3197,0.6608,Improve work environment: 1 → 4/4
+1645,3,DistanceFromHome,15.0,1.0,0.3197,0.6608,Offer remote/hybrid work (commute: 15 → 1 miles)
+1649,1,JobSatisfaction,1.0,4.0,0.791,0.1956,Improve job satisfaction: 1 → 4/4
+1649,2,StockOptionLevel,0.0,3.0,0.9395,0.0471,Grant stock options (Level 0 → 3)
+1649,3,JobSatisfaction,1.0,4.0,0.5729,0.4137,Improve job satisfaction: 1 → 4/4
+1649,3,StockOptionLevel,0.0,3.0,0.5729,0.4137,Grant stock options (Level 0 → 3)
+1684,1,DistanceFromHome,8.0,1.0,0.7762,0.2009,Offer remote/hybrid work (commute: 8 → 1 miles)
+1684,2,JobSatisfaction,3.0,4.0,0.8908,0.0864,Improve job satisfaction: 3 → 4/4
+1684,3,DistanceFromHome,8.0,1.0,0.4411,0.5361,Offer remote/hybrid work (commute: 8 → 1 miles)
+1684,3,JobSatisfaction,3.0,4.0,0.4411,0.5361,Improve job satisfaction: 3 → 4/4
+1692,1,JobSatisfaction,2.0,4.0,0.8239,0.1544,Improve job satisfaction: 2 → 4/4
+1692,2,TrainingTimesLastYear,2.0,6.0,0.8758,0.1025,Increase training sessions: 2 → 6/year
+1692,3,JobSatisfaction,2.0,4.0,0.516,0.4623,Improve job satisfaction: 2 → 4/4
+1692,3,TrainingTimesLastYear,2.0,6.0,0.516,0.4623,Increase training sessions: 2 → 6/year
+1702,1,OverTime,1.0,0.0,0.3589,0.5726,Remove overtime requirement
+1702,2,MonthlyIncome,2275.0,4919.0,0.5749,0.3566,"Salary raise: $2,275 → $4,919/month (+116%)"
+1702,3,OverTime,1.0,0.0,0.1514,0.7801,Remove overtime requirement
+1702,3,MonthlyIncome,2275.0,4919.0,0.1514,0.7801,"Salary raise: $2,275 → $4,919/month (+116%)"
+1714,1,DistanceFromHome,22.0,1.0,0.746,0.2273,Offer remote/hybrid work (commute: 22 → 1 miles)
+1714,2,MonthlyIncome,1555.0,8379.0,0.8717,0.1017,"Salary raise: $1,555 → $8,379/month (+439%)"
+1714,3,DistanceFromHome,22.0,1.0,0.4752,0.4982,Offer remote/hybrid work (commute: 22 → 1 miles)
+1714,3,MonthlyIncome,1555.0,8379.0,0.4752,0.4982,"Salary raise: $1,555 → $8,379/month (+439%)"
+1716,1,WorkLifeBalance,1.0,4.0,0.7945,0.1916,Improve work-life balance: 1 → 4/4
+1716,2,StockOptionLevel,0.0,1.0,0.9565,0.0296,Grant stock options (Level 0 → 1)
+1716,3,WorkLifeBalance,1.0,4.0,0.6412,0.3449,Improve work-life balance: 1 → 4/4
+1716,3,StockOptionLevel,0.0,1.0,0.6412,0.3449,Grant stock options (Level 0 → 1)
+1720,1,DistanceFromHome,10.0,1.0,0.0956,0.461,Offer remote/hybrid work (commute: 10 → 1 miles)
+1720,2,JobSatisfaction,3.0,4.0,0.2012,0.3554,Improve job satisfaction: 3 → 4/4
+1720,3,DistanceFromHome,10.0,1.0,0.0338,0.5228,Offer remote/hybrid work (commute: 10 → 1 miles)
+1720,3,JobSatisfaction,3.0,4.0,0.0338,0.5228,Improve job satisfaction: 3 → 4/4
+1734,1,JobSatisfaction,2.0,4.0,0.8414,0.1544,Improve job satisfaction: 2 → 4/4
+1734,2,EnvironmentSatisfaction,1.0,4.0,0.8927,0.1032,Improve work environment: 1 → 4/4
+1734,3,JobSatisfaction,2.0,4.0,0.2335,0.7623,Improve job satisfaction: 2 → 4/4
+1734,3,EnvironmentSatisfaction,1.0,4.0,0.2335,0.7623,Improve work environment: 1 → 4/4
+1735,1,JobSatisfaction,2.0,4.0,0.3424,0.4948,Improve job satisfaction: 2 → 4/4
+1735,2,DistanceFromHome,4.0,1.0,0.3836,0.4537,Offer remote/hybrid work (commute: 4 → 1 miles)
+1735,3,JobSatisfaction,2.0,4.0,0.0759,0.7613,Improve job satisfaction: 2 → 4/4
+1735,3,DistanceFromHome,4.0,1.0,0.0759,0.7613,Offer remote/hybrid work (commute: 4 → 1 miles)
+1739,1,WorkLifeBalance,1.0,3.0,0.0892,0.5377,Improve work-life balance: 1 → 3/4
+1739,2,DistanceFromHome,19.0,1.0,0.1891,0.4378,Offer remote/hybrid work (commute: 19 → 1 miles)
+1739,3,WorkLifeBalance,1.0,3.0,0.0302,0.5968,Improve work-life balance: 1 → 3/4
+1739,3,DistanceFromHome,19.0,1.0,0.0302,0.5968,Offer remote/hybrid work (commute: 19 → 1 miles)
+1747,1,DistanceFromHome,8.0,1.0,0.7563,0.2216,Offer remote/hybrid work (commute: 8 → 1 miles)
+1747,2,WorkLifeBalance,2.0,3.0,0.8538,0.1241,Improve work-life balance: 2 → 3/4
+1747,3,DistanceFromHome,8.0,1.0,0.4133,0.5646,Offer remote/hybrid work (commute: 8 → 1 miles)
+1747,3,WorkLifeBalance,2.0,3.0,0.4133,0.5646,Improve work-life balance: 2 → 3/4
+1752,1,EnvironmentSatisfaction,2.0,4.0,0.8004,0.1784,Improve work environment: 2 → 4/4
+1752,2,JobSatisfaction,2.0,4.0,0.8105,0.1683,Improve job satisfaction: 2 → 4/4
+1752,3,EnvironmentSatisfaction,2.0,4.0,0.5238,0.455,Improve work environment: 2 → 4/4
+1752,3,JobSatisfaction,2.0,4.0,0.5238,0.455,Improve job satisfaction: 2 → 4/4
+1758,1,DistanceFromHome,16.0,1.0,0.9669,0.0321,Offer remote/hybrid work (commute: 16 → 1 miles)
+1758,2,JobSatisfaction,1.0,4.0,0.9672,0.0317,Improve job satisfaction: 1 → 4/4
+1758,3,DistanceFromHome,16.0,1.0,0.5292,0.4698,Offer remote/hybrid work (commute: 16 → 1 miles)
+1758,3,JobSatisfaction,1.0,4.0,0.5292,0.4698,Improve job satisfaction: 1 → 4/4
+1761,1,DistanceFromHome,16.0,1.0,0.4908,0.4619,Offer remote/hybrid work (commute: 16 → 1 miles)
+1761,2,EnvironmentSatisfaction,1.0,4.0,0.6257,0.3269,Improve work environment: 1 → 4/4
+1761,3,DistanceFromHome,16.0,1.0,0.1139,0.8388,Offer remote/hybrid work (commute: 16 → 1 miles)
+1761,3,EnvironmentSatisfaction,1.0,4.0,0.1139,0.8388,Improve work environment: 1 → 4/4
+1767,1,MonthlyIncome,2437.0,13775.6,0.7735,0.2063,"Salary raise: $2,437 → $13,776/month (+465%)"
+1767,2,DistanceFromHome,17.0,1.0,0.8854,0.0945,Offer remote/hybrid work (commute: 17 → 1 miles)
+1767,3,MonthlyIncome,2437.0,13775.6,0.4344,0.5454,"Salary raise: $2,437 → $13,776/month (+465%)"
+1767,3,DistanceFromHome,17.0,1.0,0.4344,0.5454,Offer remote/hybrid work (commute: 17 → 1 miles)
+1780,1,JobSatisfaction,2.0,4.0,0.7497,0.2122,Improve job satisfaction: 2 → 4/4
+1780,2,TrainingTimesLastYear,3.0,6.0,0.8128,0.1491,Increase training sessions: 3 → 6/year
+1780,3,JobSatisfaction,2.0,4.0,0.4072,0.5547,Improve job satisfaction: 2 → 4/4
+1780,3,TrainingTimesLastYear,3.0,6.0,0.4072,0.5547,Increase training sessions: 3 → 6/year
+1783,1,OverTime,1.0,0.0,0.9137,0.0729,Remove overtime requirement
+1783,2,DistanceFromHome,8.0,1.0,0.9411,0.0455,Offer remote/hybrid work (commute: 8 → 1 miles)
+1783,3,OverTime,1.0,0.0,0.7285,0.2581,Remove overtime requirement
+1783,3,DistanceFromHome,8.0,1.0,0.7285,0.2581,Offer remote/hybrid work (commute: 8 → 1 miles)
+1792,1,MonthlyIncome,2342.0,4919.0,0.5531,0.3677,"Salary raise: $2,342 → $4,919/month (+110%)"
+1792,2,JobSatisfaction,2.0,4.0,0.6898,0.2309,Improve job satisfaction: 2 → 4/4
+1792,3,MonthlyIncome,2342.0,4919.0,0.2053,0.7155,"Salary raise: $2,342 → $4,919/month (+110%)"
+1792,3,JobSatisfaction,2.0,4.0,0.2053,0.7155,Improve job satisfaction: 2 → 4/4
+1797,1,DistanceFromHome,27.0,1.0,0.2599,0.6687,Offer remote/hybrid work (commute: 27 → 1 miles)
+1797,2,YearsSinceLastPromotion,7.0,0.0,0.7501,0.1785,Promote employee (reset promotion clock to 0)
+1797,3,DistanceFromHome,27.0,1.0,0.0748,0.8538,Offer remote/hybrid work (commute: 27 → 1 miles)
+1797,3,YearsSinceLastPromotion,7.0,0.0,0.0748,0.8538,Promote employee (reset promotion clock to 0)
+1807,1,JobSatisfaction,1.0,4.0,0.239,0.6799,Improve job satisfaction: 1 → 4/4
+1807,2,DistanceFromHome,9.0,1.0,0.2901,0.6287,Offer remote/hybrid work (commute: 9 → 1 miles)
+1807,3,JobSatisfaction,1.0,4.0,0.0245,0.8944,Improve job satisfaction: 1 → 4/4
+1807,3,DistanceFromHome,9.0,1.0,0.0245,0.8944,Offer remote/hybrid work (commute: 9 → 1 miles)
+1809,1,JobSatisfaction,1.0,4.0,0.1774,0.7795,Improve job satisfaction: 1 → 4/4
+1809,2,DistanceFromHome,10.0,1.0,0.4783,0.4787,Offer remote/hybrid work (commute: 10 → 1 miles)
+1809,3,JobSatisfaction,1.0,4.0,0.017,0.94,Improve job satisfaction: 1 → 4/4
+1809,3,DistanceFromHome,10.0,1.0,0.017,0.94,Offer remote/hybrid work (commute: 10 → 1 miles)
+1818,1,DistanceFromHome,20.0,1.0,0.1523,0.4304,Offer remote/hybrid work (commute: 20 → 1 miles)
+1818,2,OverTime,1.0,0.0,0.2076,0.3751,Remove overtime requirement
+1818,3,DistanceFromHome,20.0,1.0,0.0405,0.5422,Offer remote/hybrid work (commute: 20 → 1 miles)
+1818,3,OverTime,1.0,0.0,0.0405,0.5422,Remove overtime requirement
+1821,1,DistanceFromHome,21.0,1.0,0.4925,0.4534,Offer remote/hybrid work (commute: 21 → 1 miles)
+1821,2,TrainingTimesLastYear,2.0,6.0,0.6654,0.2806,Increase training sessions: 2 → 6/year
+1821,3,DistanceFromHome,21.0,1.0,0.1445,0.8014,Offer remote/hybrid work (commute: 21 → 1 miles)
+1821,3,TrainingTimesLastYear,2.0,6.0,0.1445,0.8014,Increase training sessions: 2 → 6/year
+1839,1,DistanceFromHome,14.0,1.0,0.6234,0.3167,Offer remote/hybrid work (commute: 14 → 1 miles)
+1839,2,StockOptionLevel,0.0,3.0,0.7241,0.216,Grant stock options (Level 0 → 3)
+1839,3,DistanceFromHome,14.0,1.0,0.2033,0.7368,Offer remote/hybrid work (commute: 14 → 1 miles)
+1839,3,StockOptionLevel,0.0,3.0,0.2033,0.7368,Grant stock options (Level 0 → 3)
+1842,1,JobSatisfaction,1.0,4.0,0.3437,0.6281,Improve job satisfaction: 1 → 4/4
+1842,2,DistanceFromHome,18.0,1.0,0.5317,0.44,Offer remote/hybrid work (commute: 18 → 1 miles)
+1842,3,JobSatisfaction,1.0,4.0,0.0207,0.9511,Improve job satisfaction: 1 → 4/4
+1842,3,DistanceFromHome,18.0,1.0,0.0207,0.9511,Offer remote/hybrid work (commute: 18 → 1 miles)
+1844,1,EnvironmentSatisfaction,1.0,4.0,0.9558,0.0373,Improve work environment: 1 → 4/4
+1844,2,OverTime,1.0,0.0,0.9652,0.028,Remove overtime requirement
+1844,3,EnvironmentSatisfaction,1.0,4.0,0.8031,0.1901,Improve work environment: 1 → 4/4
+1844,3,OverTime,1.0,0.0,0.8031,0.1901,Remove overtime requirement
+1862,1,WorkLifeBalance,2.0,4.0,0.9347,0.0557,Improve work-life balance: 2 → 4/4
+1862,2,JobSatisfaction,2.0,4.0,0.9364,0.054,Improve job satisfaction: 2 → 4/4
+1862,3,WorkLifeBalance,2.0,4.0,0.6359,0.3545,Improve work-life balance: 2 → 4/4
+1862,3,JobSatisfaction,2.0,4.0,0.6359,0.3545,Improve job satisfaction: 2 → 4/4
+1868,1,DistanceFromHome,24.0,1.0,0.8883,0.1029,Offer remote/hybrid work (commute: 24 → 1 miles)
+1868,2,MonthlyIncome,2439.0,4919.0,0.9635,0.0277,"Salary raise: $2,439 → $4,919/month (+102%)"
+1868,3,DistanceFromHome,24.0,1.0,0.6028,0.3884,Offer remote/hybrid work (commute: 24 → 1 miles)
+1868,3,MonthlyIncome,2439.0,4919.0,0.6028,0.3884,"Salary raise: $2,439 → $4,919/month (+102%)"
+1869,1,TrainingTimesLastYear,2.0,6.0,0.5602,0.352,Increase training sessions: 2 → 6/year
+1869,2,DistanceFromHome,10.0,1.0,0.6074,0.3048,Offer remote/hybrid work (commute: 10 → 1 miles)
+1869,3,TrainingTimesLastYear,2.0,6.0,0.2115,0.7007,Increase training sessions: 2 → 6/year
+1869,3,DistanceFromHome,10.0,1.0,0.2115,0.7007,Offer remote/hybrid work (commute: 10 → 1 miles)
+1876,1,StockOptionLevel,0.0,2.0,0.8888,0.0785,Grant stock options (Level 0 → 2)
+1876,2,DistanceFromHome,9.0,1.0,0.8898,0.0774,Offer remote/hybrid work (commute: 9 → 1 miles)
+1876,3,StockOptionLevel,0.0,2.0,0.6511,0.3161,Grant stock options (Level 0 → 2)
+1876,3,DistanceFromHome,9.0,1.0,0.6511,0.3161,Offer remote/hybrid work (commute: 9 → 1 miles)
+1878,1,OverTime,1.0,0.0,0.9102,0.0829,Remove overtime requirement
+1878,2,TrainingTimesLastYear,2.0,6.0,0.9443,0.0488,Increase training sessions: 2 → 6/year
+1878,3,OverTime,1.0,0.0,0.5661,0.4269,Remove overtime requirement
+1878,3,TrainingTimesLastYear,2.0,6.0,0.5661,0.4269,Increase training sessions: 2 → 6/year
+1893,1,JobSatisfaction,3.0,4.0,0.3785,0.3303,Improve job satisfaction: 3 → 4/4
+1893,2,OverTime,1.0,0.0,0.4142,0.2945,Remove overtime requirement
+1893,3,JobSatisfaction,3.0,4.0,0.1392,0.5696,Improve job satisfaction: 3 → 4/4
+1893,3,OverTime,1.0,0.0,0.1392,0.5696,Remove overtime requirement
+1905,1,DistanceFromHome,16.0,1.0,0.7001,0.2694,Offer remote/hybrid work (commute: 16 → 1 miles)
+1905,2,MonthlyIncome,2307.0,4919.0,0.7629,0.2065,"Salary raise: $2,307 → $4,919/month (+113%)"
+1905,3,DistanceFromHome,16.0,1.0,0.2167,0.7527,Offer remote/hybrid work (commute: 16 → 1 miles)
+1905,3,MonthlyIncome,2307.0,4919.0,0.2167,0.7527,"Salary raise: $2,307 → $4,919/month (+113%)"
+1907,1,EnvironmentSatisfaction,1.0,4.0,0.3986,0.5445,Improve work environment: 1 → 4/4
+1907,2,DistanceFromHome,24.0,1.0,0.6447,0.2984,Offer remote/hybrid work (commute: 24 → 1 miles)
+1907,3,EnvironmentSatisfaction,1.0,4.0,0.0521,0.891,Improve work environment: 1 → 4/4
+1907,3,DistanceFromHome,24.0,1.0,0.0521,0.891,Offer remote/hybrid work (commute: 24 → 1 miles)
+1928,1,DistanceFromHome,24.0,1.0,0.8712,0.1164,Offer remote/hybrid work (commute: 24 → 1 miles)
+1928,2,JobSatisfaction,1.0,4.0,0.9167,0.0709,Improve job satisfaction: 1 → 4/4
+1928,3,DistanceFromHome,24.0,1.0,0.5988,0.3888,Offer remote/hybrid work (commute: 24 → 1 miles)
+1928,3,JobSatisfaction,1.0,4.0,0.5988,0.3888,Improve job satisfaction: 1 → 4/4
+1933,1,TrainingTimesLastYear,0.0,6.0,0.7339,0.2492,Increase training sessions: 0 → 6/year
+1933,2,DistanceFromHome,13.0,1.0,0.8599,0.1232,Offer remote/hybrid work (commute: 13 → 1 miles)
+1933,3,TrainingTimesLastYear,0.0,6.0,0.4227,0.5604,Increase training sessions: 0 → 6/year
+1933,3,DistanceFromHome,13.0,1.0,0.4227,0.5604,Offer remote/hybrid work (commute: 13 → 1 miles)
+1939,1,JobSatisfaction,3.0,4.0,0.9154,0.0746,Improve job satisfaction: 3 → 4/4
+1939,2,OverTime,1.0,0.0,0.9377,0.0524,Remove overtime requirement
+1939,3,JobSatisfaction,3.0,4.0,0.6181,0.3719,Improve job satisfaction: 3 → 4/4
+1939,3,OverTime,1.0,0.0,0.6181,0.3719,Remove overtime requirement
+1944,1,JobSatisfaction,2.0,4.0,0.964,0.0342,Improve job satisfaction: 2 → 4/4
+1944,2,EnvironmentSatisfaction,1.0,4.0,0.9825,0.0158,Improve work environment: 1 → 4/4
+1944,3,JobSatisfaction,2.0,4.0,0.8445,0.1537,Improve job satisfaction: 2 → 4/4
+1944,3,EnvironmentSatisfaction,1.0,4.0,0.8445,0.1537,Improve work environment: 1 → 4/4
+1960,1,DistanceFromHome,17.0,1.0,0.6406,0.3329,Offer remote/hybrid work (commute: 17 → 1 miles)
+1960,2,WorkLifeBalance,2.0,3.0,0.8172,0.1564,Improve work-life balance: 2 → 3/4
+1960,3,DistanceFromHome,17.0,1.0,0.273,0.7006,Offer remote/hybrid work (commute: 17 → 1 miles)
+1960,3,WorkLifeBalance,2.0,3.0,0.273,0.7006,Improve work-life balance: 2 → 3/4
+1961,1,JobSatisfaction,1.0,4.0,0.3916,0.5767,Improve job satisfaction: 1 → 4/4
+1961,2,EnvironmentSatisfaction,1.0,4.0,0.6978,0.2705,Improve work environment: 1 → 4/4
+1961,3,JobSatisfaction,1.0,4.0,0.0886,0.8797,Improve job satisfaction: 1 → 4/4
+1961,3,EnvironmentSatisfaction,1.0,4.0,0.0886,0.8797,Improve work environment: 1 → 4/4
+1967,1,DistanceFromHome,26.0,1.0,0.4417,0.5121,Offer remote/hybrid work (commute: 26 → 1 miles)
+1967,2,EnvironmentSatisfaction,1.0,4.0,0.5467,0.407,Improve work environment: 1 → 4/4
+1967,3,DistanceFromHome,26.0,1.0,0.089,0.8648,Offer remote/hybrid work (commute: 26 → 1 miles)
+1967,3,EnvironmentSatisfaction,1.0,4.0,0.089,0.8648,Improve work environment: 1 → 4/4
+1968,1,DistanceFromHome,24.0,1.0,0.9122,0.084,Offer remote/hybrid work (commute: 24 → 1 miles)
+1968,2,JobSatisfaction,1.0,4.0,0.9199,0.0764,Improve job satisfaction: 1 → 4/4
+1968,3,DistanceFromHome,24.0,1.0,0.4249,0.5713,Offer remote/hybrid work (commute: 24 → 1 miles)
+1968,3,JobSatisfaction,1.0,4.0,0.4249,0.5713,Improve job satisfaction: 1 → 4/4
+1974,1,MonthlyIncome,1129.0,4919.0,0.37,0.5433,"Salary raise: $1,129 → $4,919/month (+336%)"
+1974,2,OverTime,1.0,0.0,0.8048,0.1086,Remove overtime requirement
+1974,3,MonthlyIncome,1129.0,4919.0,0.2843,0.6291,"Salary raise: $1,129 → $4,919/month (+336%)"
+1974,3,OverTime,1.0,0.0,0.2843,0.6291,Remove overtime requirement
+2023,1,JobSatisfaction,1.0,4.0,0.9274,0.0653,Improve job satisfaction: 1 → 4/4
+2023,2,DistanceFromHome,9.0,1.0,0.9367,0.056,Offer remote/hybrid work (commute: 9 → 1 miles)
+2023,3,JobSatisfaction,1.0,4.0,0.6605,0.3321,Improve job satisfaction: 1 → 4/4
+2023,3,DistanceFromHome,9.0,1.0,0.6605,0.3321,Offer remote/hybrid work (commute: 9 → 1 miles)
+2032,1,WorkLifeBalance,1.0,3.0,0.3462,0.6133,Improve work-life balance: 1 → 3/4
+2032,2,MonthlyIncome,2339.0,13775.6,0.8102,0.1493,"Salary raise: $2,339 → $13,776/month (+489%)"
+2032,3,WorkLifeBalance,1.0,3.0,0.2347,0.7248,Improve work-life balance: 1 → 3/4
+2032,3,MonthlyIncome,2339.0,13775.6,0.2347,0.7248,"Salary raise: $2,339 → $13,776/month (+489%)"
+2044,1,JobSatisfaction,3.0,4.0,0.7067,0.2487,Improve job satisfaction: 3 → 4/4
+2044,2,EnvironmentSatisfaction,2.0,4.0,0.8396,0.1158,Improve work environment: 2 → 4/4
+2044,3,JobSatisfaction,3.0,4.0,0.4009,0.5546,Improve job satisfaction: 3 → 4/4
+2044,3,EnvironmentSatisfaction,2.0,4.0,0.4009,0.5546,Improve work environment: 2 → 4/4
+2055,1,DistanceFromHome,28.0,1.0,0.4948,0.4492,Offer remote/hybrid work (commute: 28 → 1 miles)
+2055,2,JobSatisfaction,1.0,4.0,0.5715,0.3725,Improve job satisfaction: 1 → 4/4
+2055,3,DistanceFromHome,28.0,1.0,0.1048,0.8392,Offer remote/hybrid work (commute: 28 → 1 miles)
+2055,3,JobSatisfaction,1.0,4.0,0.1048,0.8392,Improve job satisfaction: 1 → 4/4
