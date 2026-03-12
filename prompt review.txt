@@ -1,0 +1,5 @@
+everything is ok, expect the fact that : "pre-computed attrition prediction from csv".
+
+actually you have to infer the "attrition risk" and other shap, dice by inferring from the deployed model in huggingface through FastAPI, not pre-computed .
+
+and you can edit the frontend files as needed to accurately place the fetched results from huggingface in the frontend.
